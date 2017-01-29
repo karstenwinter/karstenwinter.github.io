@@ -12,15 +12,18 @@ The same works for a wide list of symbols. Here are two examples:
 fact(n) = PROD [i <- 1:n] i
 ```
 will be transformed into
+
 ```
 fact(n) = ∏ [i ← 1:n] i
 ```
 
 And
+
 ```
 omega =/= psi DOT pi ^2 IFF omega EQUIV A _2 OR EXISTS x IN NN : x DIV omega GE 42
 ```
 will be transformed into
+
 ```
 ω ≠ ψ · π² ⇔ ω ≡ A₂ ∨ ∃ x ∈ ℕ: x ÷ ω ≥ 42
 ```
