@@ -35,12 +35,6 @@ Please also check out my Blog [Xtendasy](http://xtendasy.tumblr.com) for article
 
 ## Flash programs
 
-[RGB clock](https://broxp.lima-city.de/flash/rgb-clock) can you read it? Can you explain it? Would you wear it?
+[RGB clock](https://broxp.lima-city.de/flash/rgb-clock) Can you read it? Can you explain it? Would you wear it?
 
 [Blur effect](https://broxp.lima-city.de/flash/oblivion-blur) that is simple but interesting.
-
-## Text adventures
-
-[XmlAdventurer](xmladventurer.md) is an XML-based DSL for console text adventures that comes with a short example world.
-
-[Illium](illium.md) is a small text adventures written in Scala and set on a planet of [Mass Effect](https://en.wikipedia.org/wiki/Mass_Effect).
