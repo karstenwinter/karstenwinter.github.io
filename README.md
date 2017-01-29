@@ -25,17 +25,17 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [GraphTool](graphtool.md) is an editor written in C# using WPF for graph-like structures with SVG export.
 
-´´´
+```
 TODO Add F#, XNA, Unity projects
-´´´
+```
 
 ## JVM Programs
 
 [MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
 
-´´´
+```
 TODO Add Scala, Xtend projects
-´´´
+```
 
 ## ActionScript / Flash games
 
