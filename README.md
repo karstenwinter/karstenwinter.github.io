@@ -45,7 +45,7 @@ TODO Add Scala, Xtend projects
 
 [Shooter](https://broxp.lima-city.de/flash/shooter) is a top down shooter with waves of AI enemies with various guns and some levels from [UT3](https://en.wikipedia.org/wiki/Unreal_Tournament_3).
 
-[Block Runner](https://broxp.lima-city.de/flash/block-runner) is a fast top down sky scraper platform game.
+[Block Runner](https://broxp.lima-city.de/flash/block-runner) is a fast top down skyscraper platformer game.
 
 [Jump and Craft](https://broxp.lima-city.de/flash/craft) a mining game prototype inspired by [SteamWorld Dig](https://en.wikipedia.org/wiki/SteamWorld_Dig).
 
@@ -53,6 +53,6 @@ TODO Add Scala, Xtend projects
 
 ## Actionscript / Flash programs
 
-[RGB clock](https://broxp.lima-city.de/flash/rgb-clock) Can you read it? Can you explain it? Would you wear it?
+[RGB clock](https://broxp.lima-city.de/flash/rgb-clock): Can you read it? Can you explain it? Would you wear it?
 
 [A blur effect](https://broxp.lima-city.de/flash/oblivion-blur) using layers that is simple but interesting.
