@@ -21,13 +21,21 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [MtgGen](mtggen.md) is a configurable random magic card generator.
 
-## WPF / C# / .NET Programs
+## .NET Programs
 
-[GraphTool](graphtool.md) is a editor for graph-like structures with SVG export.
+[GraphTool](graphtool.md) is an editor written in C# using WPF for graph-like structures with SVG export.
 
-## JavaFX / Xtend / JVM Programs
+´´´
+TODO Add F#, XNA, Unity projects
+´´´
 
-[MathEd](mathed.md) simplifies input of mathematical symbols.
+## JVM Programs
+
+[MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
+
+´´´
+TODO Add Scala, Xtend projects
+´´´
 
 ## ActionScript / Flash games
 
