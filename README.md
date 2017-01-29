@@ -1,25 +1,35 @@
 ## Welcome to my humble Website
-Thanks for stopping by! You might be in interested in these topics and projects.
+Thanks for stopping by! You might be in interested in my profile and these topics / projects.
 
-Please also check out my Blog [Xtendasy](http://xtendasy.tumblr.com) for articles. This site is a list of projects.
+## About me:
+
+I studied computer science in Hamburg (BSc) and Kiel (MSc) focusing on functional, object-oriented and multi-paradigm programming languages. You may contact me using my [Github profile](https://github.com/broxp).
+
+Thinking about the "best" way to solve programming tasks has always fascinated me. I highly appreciate declarative object-oriented approaches like [Xtend](http://www.eclipse.org/xtend).
+
+Please also check out my programming dedicated Blog [Xtendasy](http://xtendasy.tumblr.com) for articles on that.
+
+Guitar music is one of my beloved topics and [I play guitar myself](https://soundcloud.com/broxp).
+
+I also enjoy improvisation theatre being an improv actor myself in a small group in Kiel. Radio plays are also a form of art I highly appreciate.
+
+Moreover, I play card/board games, as well as video games (both of which I like to create myself from time to time).
 
 ## Card games
 
-[The Faction Conflict](https://broxp.lima-city.de/factions) is a prototype for a scifi-themed trading card game written in AngularJS/bootstrap with starship battle, crew members, and upgrades for your ship.
+[The Faction Conflict](factions.md) is a prototype for a scifi-themed trading card game.
 
-[MtgGen](https://broxp.lima-city.de/mtg/index.html?seed=05&times=35&output=html) is a configurable random magic card generator that features MSE export.
+[MtgGen](mtggen.md) is a configurable random magic card generator.
 
-## Programs
+## WPF / C# / .NET Programs
 
-### WPF / C# / .NET
+[GraphTool](graphtool.md) is a editor for graph-like structures with SVG export.
 
-[GraphTool](graphtool.md) is a graph editor with SVG exportexport that also supports petri nets and automata.
-
-### JavaFX / Xtend / JVM
+## JavaFX / Xtend / JVM Programs
 
 [MathEd](mathed.md) simplifies input of mathematical symbols.
 
-## Flash games
+## ActionScript / Flash games
 
 [Sherlock](https://broxp.lima-city.de/flash/rpg) is an RPG prototype featuring the main characters from [Sherlock](https://en.wikipedia.org/wiki/Sherlock_(TV_series)).
 
@@ -33,7 +43,7 @@ Please also check out my Blog [Xtendasy](http://xtendasy.tumblr.com) for article
 
 [Puzzle](https://broxp.lima-city.de/flash/inuyasha) a simple puzzle game with drag and drop.
 
-## Flash programs
+## Actionscript / Flash programs
 
 [RGB clock](https://broxp.lima-city.de/flash/rgb-clock) Can you read it? Can you explain it? Would you wear it?
 
