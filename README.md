@@ -3,7 +3,7 @@ Thanks for stopping by! You might be in interested in my profile and these topic
 
 ## About me:
 
-I studied computer science in Hamburg (BSc) and Kiel (MSc) focusing on functional, object-oriented and multi-paradigm programming languages. You may contact me using my [Github profile](https://github.com/broxp).
+I studied computer science in Hamburg (BSc) and Kiel (MSc) focusing on functional, object-oriented and multi-paradigm programming languages. You may contact me using ```brox dot p at web dot de``` (replacing ```dot -> .``` and ```at -> @```).
 
 Thinking about the "best" way to solve programming tasks has always fascinated me. I highly appreciate declarative object-oriented approaches like [Xtend](http://www.eclipse.org/xtend).
 
