@@ -20,11 +20,11 @@ fact(n) = ∏ [i ← 1:n] i
 And
 
 ```
-omega =/= psi DOT pi ^2 IFF omega EQUIV A _2 OR EXISTS x IN NN : x DIV omega GE 42
+omega =/= psi DOT pi ^2 IFF omega EQUIV A _2 OR EXISTS x IN NN : x GE 42
 ```
 will be transformed into
 
 ```
-ω ≠ ψ · π² ⇔ ω ≡ A₂ ∨ ∃ x ∈ ℕ: x ÷ ω ≥ 42
+ω ≠ ψ · π² ⇔ ω ≡ A₂ ∨ ∃ x ∈ ℕ: x ≥ 42
 ```
 Note that you have to delete the spaces before your sub/superscripts.
