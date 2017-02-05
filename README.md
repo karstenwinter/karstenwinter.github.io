@@ -21,7 +21,11 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [MtgGen](mtggen.md) is a random magic card generator.
 
-## .NET Programs
+## Ruby programs
+
+[Match3](match3/index.html) is a minimal console based [Bejeweled](https://en.wikipedia.org/wiki/Bejeweled) game written in ruby, running in your browser using [Opal](http://opalrb.org).
+
+## .NET programs
 
 [GraphTool](graphtool.md) is an editor written in C# using WPF for graph-like structures with SVG export.
 
@@ -29,7 +33,7 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 TODO Add F#, XNA, Unity projects
 ```
 
-## JVM Programs
+## JVM programs
 
 [MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
 
