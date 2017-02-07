@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html style="position: relative; min-height: 100%;">
   <head>
     <meta charset="utf-8">
     <title>ruby app</title>  
-    <script src="js/jquery.min.js"></script>
-    <script src="js/opal.min.js"></script>
-    <script src="js/opal-parser.min.js"></script>
-    <script src="js/native.min.js"></script>
-    <script src="js/opal-jquery-0.4.2.js"></script>
-    <script src="js/opal-browser-0.2.0.js"></script>
+  </head>
+  <body style="margin-bottom: 60px;">
+    <pre id="load-progress" class="content">loading...</pre>
+
+    <div class="col-lg-6" style="position: absolute; bottom: 0px; height: 60px;">
+      <div class="input-group">
+        <input type="text" class="input form-control" placeholder="..." style="width: 300px;">
+        <span class="input-group-btn">
+          <button class="ok btn btn-secondary" type="button">OK</button>
+        </span>
+      </div>
+    </div>
+
+    <script src="fx/jquery.min.js"></script>
+    <script type="text/javascript">$("#load-progress").html("loading bootstrap...")</script>
+    <link type="stylesheet" rel="fx/bootstrap.min.css"></link>
+    <script type="text/javascript">$("#load-progress").html("loading opal...")</script>
+    <script src="fx/opal.min.js"></script>
+    <script type="text/javascript">$("#load-progress").html("loading opal jquery...")</script>
+    <script src="fx/opal-jquery-0.4.2.js"></script>
+    <script type="text/javascript">$("#load-progress").html("loading opal parser...")</script>
+    <script src="fx/opal-parser.min.js"></script>
+    <script type="text/javascript">$("#load-progress").html("starting opal parser...")</script>
     <script type="text/javascript">Opal.load('opal-parser')</script>  
+    <script type="text/javascript">$("#load-progress").html("evaluating ruby...")</script>
     <script type="text/ruby">
 class Program
   def initialize()
@@ -397,12 +415,5 @@ Document.ready? do
   prog.input_done(input_elem.value)
 end
     </script>
-  </head>
-  <body>
-    <pre class="content">
-loading jquery and opal...
-    </pre>
-    <input class="input" type="text" />
-    <input class="ok" type="submit" />
   </body>
 </html>
