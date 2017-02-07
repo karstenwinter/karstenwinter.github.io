@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html style="position: relative; min-height: 100%;">
+  <head>
+    <meta charset="utf-8">
+    <title>ruby app</title>  
+  </head>
+  <body style="margin-bottom: 350px;">
+    <pre id="load-progress" class="content">loading jquery...</pre>
+
+    <div id="input-area" class="col-lg-6" style="position: absolute; bottom: 0px; height: 350px; display: none;">
+        <pre id="doc" style="border-left: 2px solid black; width: 200px; height: 25px;">(select a class name to show its methods)</pre>
+        <div id="input" style="width: 500px; height: 300px;">class Test
+end</div>
+    </div>
+    <script src="fx/jquery.min.js"></script>
+    <script type="text/javascript">$("#load-progress").html("loading bootstrap...")</script>
+    <link type="stylesheet" rel="fx/bootstrap.min.css"></link>
+    <script type="text/javascript">$("#load-progress").html("loading opal...")</script>
+    <script src="fx/opal.min.js"></script>
+    <script type="text/javascript">$("#load-progress").html("loading opal jquery...")</script>
+    <script src="fx/opal-jquery-0.4.2.js"></script>
+    <script type="text/javascript">$("#load-progress").html("loading opal parser...")</script>
+    <script src="fx/opal-parser.min.js"></script>
+    <script type="text/javascript">$("#load-progress").html("loading ace code editor...")</script>
+    <script src="fx/ace/ace.js" type="text/javascript"></script>
+    <script>
+        var editor = ace.edit("input");
+        editor.getSession().setMode("ace/mode/ruby");
+        $("#input-area").show();
+    </script>
+    <script type="text/javascript">$("#load-progress").html("starting opal parser...")</script>
+    <script type="text/javascript">Opal.load('opal-parser')</script>  
+    <script type="text/javascript">$("#load-progress").html("evaluating ruby...")</script>
+    <script type="text/ruby">
+class Program
+  def initialize()
+    @next = ""
+    @output = ""
+    @input = ""
+    @ok = true
+  end
+
+  def refresh()
+    Element['.content'].html = @output
+  end
+
+  def puts(*args)
+    res = ""
+    for i in args
+      res += i.to_s
+    end
+    @output += "\n" + res
+
+    refresh()
+    #Kernel.puts(*args)
+  end
+
+  def gets()
+    @ok = false
+    #@input = Kernel.gets
+  end
+
+  def clear_screen()
+    # @output = ""
+    # refresh()
+    # puts("\n" * 50)
+  end
+
+  def main()
+    puts("Welcome to the ruby shell!\n")
+    puts("Press Control+Enter to eval your code.\n")
+    puts("Select a class name with your keyboard to show its methods.\n")
+    puts("Have fun!\n")
+    gets
+    @next = "main"
+  end
+
+  def use_input()
+    Element['#input'].focus()
+    `window.scrollTo(0, document.body.scrollHeight)`
+    # $window.to(0, Element['body'][0].scroll_height)
+  end
+
+  def selected(value)
+    if (Object.const_defined?(value) rescue false)
+      clazz = (Object.const_get(value) rescue nil)
+      Element['#doc'].html = "a#{clazz}.#{clazz.instance_methods(false)}\n#{clazz}.#{clazz.methods(false)}"
+    end
+  end
+
+  def input_done(value)
+    @input = value
+    @ok = true
+    @output += "> " + @input + "\n"
+    refresh()
+    state = "-> "
+    res = begin
+      eval(value)
+    rescue Exception => e
+      state = ""
+      e
+    end
+    puts("#{state}#{res.class} #{res}\n")
+    use_input()
+  end
+
+  def method_missing(proc, *args)
+    puts("Missing: #{proc} #{args}")
+    raise("Missing: " + proc)
+  end
+end
+
+Document.ready? do
+  prog = Program.new()
+  input_elem = Element['#input']
+  input_elem.on(:keyup) do |event|
+    if(event.key_code == 13 && event.ctrl_key)
+      prog.input_done(`editor.session.getValue()`)
+    else
+      prog.selected(`editor.session.getTextRange(editor.getSelectionRange())`)
+    end
+  end
+  Element['.ok'].on(:click) do |event|
+    prog.input_done(input_elem.value)
+  end
+
+  prog.main()
+end
+    </script>
+  </body>
+</html>
