@@ -23,7 +23,9 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 ## Ruby programs
 
-[Match3](match3/index.html) is a minimal console based [Bejeweled](https://en.wikipedia.org/wiki/Bejeweled) game written in ruby, running in your browser using [Opal](http://opalrb.org).
+[A ruby shell](pattern/index.html) is a small ruby programming environment with a [REPL](https://en.wikipedia.org/wiki/REPL) with syntax highlighting and integrated documentation, running in your browser using [Opal](http://opalrb.org).
+
+[Match3](match3/index.html) is a minimal console based [Bejeweled](https://en.wikipedia.org/wiki/Bejeweled) clone written in ruby, running in your browser using [Opal](http://opalrb.org).
 
 ## .NET programs
 
