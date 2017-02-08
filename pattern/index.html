@@ -8,9 +8,14 @@
     <pre id="load-progress" class="content">loading jquery...</pre>
 
     <div id="input-area" class="col-lg-6" style="position: absolute; bottom: 0px; height: 350px; display: none;">
-        <pre id="doc" style="border-left: 2px solid black; width: 200px; height: 25px;">(select a class name to show its methods)</pre>
-        <div id="input" style="width: 500px; height: 300px;">class Test
-end</div>
+        <!--<pre id="doc" style="border-left: 2px solid black; width: 200px; height: 25px;">(select a class name to show its methods)</pre>-->
+        <div id="input" style="width: 500px; height: 300px;">class Pattern
+  def initialize()
+
+  end
+end
+
+Pattern.new</div>
     </div>
     <script src="fx/jquery.min.js"></script>
     <script type="text/javascript">$("#load-progress").html("loading bootstrap...")</script>
@@ -67,10 +72,50 @@ class Program
   end
 
   def main()
-    puts("Welcome to the ruby shell!\n")
-    puts("Press Control+Enter to eval your code.\n")
-    puts("Select a class name with your keyboard to show its methods.\n")
-    puts("Have fun!\n")
+    puts("Welcome to the ruby shell, improve your OO skills!\n")
+    puts("Press Control+Enter or Shift+Enter to eval your code.\n")
+    puts("Have fun implementing the GoF patterns in a few lines of ruby code.\n")
+    puts("Creational\n")
+    puts("\n")
+    puts("Creational patterns are ones that create objects for you, rather than having you instantiate objects directly.\n")
+    puts("This gives your program more flexibility in deciding which objects need to be created for a given case.\n")
+    puts("\n")
+    puts("Abstract factory pattern groups object factories that have a common theme.\n")
+    puts("Builder pattern constructs complex objects by separating construction and representation.\n")
+    puts("Factory method pattern creates objects without specifying the exact class to create.\n")
+    puts("Prototype pattern creates objects by cloning an existing object.\n")
+    puts("Singleton pattern restricts object creation for a class to only one instance.\n")
+    puts("\n")
+    puts("\n")
+    puts("Structural\n")
+    puts("\n")
+    puts("These concern class and object composition.\n")
+    puts("They use inheritance to compose interfaces and define ways to compose objects to obtain new functionality.\n")
+    puts("\n")
+    puts("Adapter allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.\n")
+    puts("Bridge decouples an abstraction from its implementation so that the two can vary independently.\n")
+    puts("Composite composes zero-or-more similar objects so that they can be manipulated as one object.\n")
+    puts("Decorator dynamically adds/overrides behaviour in an existing method of an object.\n")
+    puts("Facade provides a simplified interface to a large body of code.\n")
+    puts("Flyweight reduces the cost of creating and manipulating a large number of similar objects.\n")
+    puts("Proxy provides a placeholder for another object to control access, reduce cost, and reduce complexity.\n")
+    puts("\n")
+    puts("\n")
+    puts("Behavioral\n")
+    puts("\n")
+    puts("Most of these design patterns are specifically concerned with communication between objects.\n")
+    puts("\n")
+    puts("Chain of responsibility delegates commands to a chain of processing objects.\n")
+    puts("Command creates objects which encapsulate actions and parameters.\n")
+    puts("Interpreter implements a specialized language.\n")
+    puts("Iterator accesses the elements of an object sequentially without exposing its underlying representation.\n")
+    puts("Mediator allows loose coupling between classes by being the only class that has detailed knowledge of their methods.\n")
+    puts("Memento provides the ability to restore an object to its previous state (undo).\n")
+    puts("Observer is a publish/subscribe pattern which allows a number of observer objects to see an event.\n")
+    puts("State allows an object to alter its behavior when its internal state changes.\n")
+    puts("Strategy allows one of a family of algorithms to be selected on-the-fly at runtime.\n")
+    puts("Template method defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.\n")
+    puts("Visitor separates an algorithm from an object structure by moving the hierarchy of methods into one object.\n")
     gets
     @next = "main"
   end
@@ -82,10 +127,10 @@ class Program
   end
 
   def selected(value)
-    if (Object.const_defined?(value) rescue false)
-      clazz = (Object.const_get(value) rescue nil)
-      Element['#doc'].html = "a#{clazz}.#{clazz.instance_methods(false)}\n#{clazz}.#{clazz.methods(false)}"
-    end
+    #if (Object.const_defined?(value) rescue false)
+    #  clazz = (Object.const_get(value) rescue nil)
+    #  Element['#doc'].html = "a#{clazz}.#{clazz.instance_methods(false)}\n#{clazz}.#{clazz.methods(false)}"
+    #end
   end
 
   def input_done(value)
@@ -114,16 +159,12 @@ Document.ready? do
   prog = Program.new()
   input_elem = Element['#input']
   input_elem.on(:keyup) do |event|
-    if(event.key_code == 13 && event.ctrl_key)
+    if(event.key_code == 13 && (event.ctrl_key || event.shift_key))
       prog.input_done(`editor.session.getValue()`)
     else
-      prog.selected(`editor.session.getTextRange(editor.getSelectionRange())`)
+      # prog.selected(`editor.session.getTextRange(editor.getSelectionRange())`)
     end
   end
-  Element['.ok'].on(:click) do |event|
-    prog.input_done(input_elem.value)
-  end
-
   prog.main()
 end
     </script>
