@@ -21,4 +21,10 @@ class Robber
   end
 end
 
-[Robber.new("Jack"), Robber.new("Doe")]
+raise unless
+  Robber.new("Jack").to_s ==
+    "Jack of the prairie"
+
+raise unless    
+  Robber.new("Doe").to_s ==
+    "Doe of the prairie"

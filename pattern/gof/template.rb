@@ -16,4 +16,6 @@ class Cowboy < Man
   end
 end
 
-Cowboy.new.fight
+raise unless
+  Cowboy.new.fight ==
+    "Cowboy Frank steps up to his opponent, draws his gun and then shoots."

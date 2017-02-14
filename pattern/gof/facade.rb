@@ -40,20 +40,31 @@ class Saloon
     elsif customer.money >= item.price
       item.quantity -= 1
       customer.money -= item.price
-      Item.new(item.name, item.price, 1)
+      single = Item.new(item.name, item.price, 1)
+      "Sure, #{single}."
     else
       "You can't afford that. It costs #{item.price}$."
     end
   end
 end
 
-inv = Inventory.new(Item.new("whisky", 10, 1), Item.new("beer", 2, 2))
+inv = Inventory.new(
+  Item.new("whisky", 10, 1),
+  Item.new("beer", 2, 2))
 saloon = Saloon.new(inv)
 customer = Customer.new(14)
-"
-  #{saloon.order("whisky", customer)}
-  #{saloon.order("peanuts", customer)}
-  #{saloon.order("beer", customer)}
-  #{saloon.order("beer", customer)}
-  #{saloon.order("beer", customer)}
-"
+
+lines =
+  [saloon.order("whisky", customer),
+   saloon.order("peanuts", customer),
+   saloon.order("beer", customer),
+   saloon.order("beer", customer),
+   saloon.order("beer", customer)]
+
+raise unless
+  lines  ==
+    ["Sure, 1 whisky (10$).",
+     "We don't have peanuts.",
+     "Sure, 1 beer (2$).",
+     "Sure, 1 beer (2$).",
+     "We don't have beer."]

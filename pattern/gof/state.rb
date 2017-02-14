@@ -24,6 +24,11 @@ class Repaired < State
 end
 
 st = Rolling.new
-(0..10).map do
+states = (1..6).map do
     st = st.next_state
+    st.to_s
 end
+
+raise unless
+  states ==
+    ["Broken", "Fixed", "Repaired", "Rolling (moving)", "Broken", "Fixed"]

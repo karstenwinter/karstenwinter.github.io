@@ -15,11 +15,12 @@ class Story
     @actor = actor
   end
   def to_s()
-    "
-    Once upon a time, there was #{@actor.name},
-	  and everybody knew: #{@actor.pronoun} favourite meal was #{@actor.meal}.
-    "
+    "Once upon a time, there was #{@actor.name},
+and everybody knew: #{@actor.pronoun} favourite meal was #{@actor.meal}."
   end
 end
 
-Story.new(Cowboy.new)
+raise unless
+  Story.new(Cowboy.new).to_s ==
+    "Once upon a time, there was Cowboy Alan,
+and everybody knew: his favourite meal was soup."

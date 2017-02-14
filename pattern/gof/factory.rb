@@ -1,7 +1,13 @@
 class Robber
+  def to_s()
+    "Robber"    
+  end
 end
 
 class Cowboy
+  def to_s()
+    "Cowboy"    
+  end
 end
 
 class Robbers
@@ -28,4 +34,6 @@ end
 ol_hideout = House.new(Robbers.new)
 saloon = House.new(Cowboys.new)
 
-"#{ol_hideout.inhabitant.class} vs #{saloon.inhabitant.class}"
+raise unless
+  "#{ol_hideout.inhabitant} vs #{saloon.inhabitant}" ==
+    "Robber vs Cowboy"

@@ -1,5 +1,10 @@
 class Robber
-  def to_s() "Robber \##{hash}" end
+  def initialize(num)
+      @num = num
+  end
+  def to_s()
+    "Robber \##{@num}"
+  end
 end
 
 class Inspection
@@ -16,7 +21,14 @@ class Inspection
   end
 end
 
-i = Inspection.new([Robber.new, Robber.new, Robber.new])
+insp = []
+i = Inspection.new([Robber.new(1), Robber.new(2), Robber.new(3)])
 while i.move_next
-	puts("Sherrif inspects #{i.item}")
+  insp << ("Sherrif inspects #{i.item}")
 end
+
+insp unless
+  insp ==
+    ["Sherrif inspects Robber #1",
+     "Sherrif inspects Robber #2",
+     "Sherrif inspects Robber #3"]

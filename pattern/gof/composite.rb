@@ -15,5 +15,10 @@ class Gang
   end
 end
 
-gang = Gang.new(Robber.new, Robber.new, Robber.new)
-gang.bullets
+bob = Robber.new
+gang = Gang.new(bob, Robber.new, Robber.new)
+raise unless
+  bob.bullets == 2
+  
+raise unless
+  gang.bullets == 6

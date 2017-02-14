@@ -8,13 +8,20 @@ class Shooter
 end
 
 class Cowboy
-	def drawAndShoot() "Cowboy shoots" end
+  def drawAndShoot() "Cowboy shoots" end
 end
 
 class Robber
-	def shoot() "Robber shoots" end
+  def shoot() "Robber shoots" end
 end
 
 cowboy = Shooter.new(Cowboy.new)
 robber = Robber.new
-"#{robber.shoot}, #{cowboy.shoot}"
+
+raise unless
+  robber.shoot.to_s ==
+  "Robber shoots"
+  
+raise unless
+  cowboy.shoot.to_s ==
+  "Cowboy shoots"

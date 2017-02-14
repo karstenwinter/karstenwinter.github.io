@@ -32,8 +32,9 @@ end
 bad_bob = Person.new("Bad Bob")
 mayor = Person.new("Mayor")
 lawyer = Lawyer.new(mayor, bad_bob)
-[
-    "Protocol:",
-    bad_bob.send("What did I do wrong? :("),
-    mayor.send("You shot my horse! >:(")
-].join("\n")
+raise unless
+  bad_bob.send("What did I do wrong? :(") ==
+    "Statement directed to Mayor: What did I do wrong? :("
+raise unless 
+  mayor.send("You shot my horse! >:(") ==
+    "Statement directed to Bad Bob: You shot my horse! >:("

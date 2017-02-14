@@ -5,9 +5,15 @@ class Caravan
     end
     @horse = horse
   end
+  def to_s()
+      "a caravan with #{@horse}"
+  end
 end
 
 class Horse
+  def to_s()
+      "a horse"
+  end
 end
 
 class Caravans
@@ -17,4 +23,6 @@ class Caravans
   end
 end
 
-Caravans.new.build
+raise unless
+  Caravans.new.build.to_s ==
+    "a caravan with a horse"

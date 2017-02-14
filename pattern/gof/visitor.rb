@@ -23,7 +23,10 @@ class Tax
   end
 end
 
-v = Tax.new
-[Cowboy.new, Robber.new, BankDirector.new].map do |g|
-    g.accept(v)
+tax = Tax.new
+taxes = [Cowboy.new, Robber.new, BankDirector.new].map do |man|
+    man.accept(tax)
 end
+raise unless
+  taxes ==
+    [2, 0, 10]

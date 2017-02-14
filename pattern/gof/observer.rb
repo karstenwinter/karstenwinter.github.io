@@ -24,10 +24,12 @@ class Listener
   end
 end
 
-
 mayor = Mayor.new("Old Mike")
 citizen = Listener.new
 mayor.add_listener(citizen)
 mayor.say("My folks...")
 mayor.say("Jack and his gang came to town yesterday...")
-citizen.said
+raise unless
+  citizen.said ==
+    ["Old Mike said: My folks...",
+     "Old Mike said: Jack and his gang came to town yesterday..."]

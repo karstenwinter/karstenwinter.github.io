@@ -15,4 +15,7 @@ end
 
 bad = Gun.new
 good = Repaired.new(bad)
-"Gun deals #{bad.damage} damage, after repairing #{good.damage}"
+text = "Gun deals #{bad.damage} damage, after repairing #{good.damage}."
+raise unless
+  text ==
+    "Gun deals 4 damage, after repairing 6."

@@ -1,6 +1,10 @@
 class Robber
-  def walk() "The robber walks to the bank." end
-  def rob() "The robber robbs the place he's at." end
+  def walk()
+    "The robber walks to the bank."
+  end
+  def rob()
+    "The robber robbs the place he's at."
+  end
 end
 
 class Boss
@@ -15,6 +19,13 @@ end
 
 boss = Boss.new
 joe = Robber.new
-["walk", "ask", "rob"].map do |command|
-	boss.command(joe, command)
-end
+
+raise unless
+  boss.command(joe, "walk") ==
+    "The robber walks to the bank."
+raise unless
+  boss.command(joe, "ask") ==
+    "The robber doesn't know how to ask."
+raise unless
+  boss.command(joe,  "rob") ==
+    "The robber robbs the place he's at."
