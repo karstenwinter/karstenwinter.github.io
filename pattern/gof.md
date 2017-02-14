@@ -1,6 +1,6 @@
 ## Gang of Four Patterns
 
-The following description is taken from [Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns). You can find a simple implementation for each one in Ruby. You may execute them in your IDE or [here](../index.html).
+The following description is taken from [Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns). You can find a simple implementation for each one in Ruby. You may execute them in your IDE or [here](index.html).
 
 ### Creational
 
