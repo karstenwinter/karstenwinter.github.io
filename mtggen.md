@@ -7,4 +7,3 @@ and can be configured in the following ways:
 - Type selection (creature/land/...)
 - Era selection (include old effects like rampage and the like)
  
-[Try it online](https://broxp.lima-city.de/mtg/index.html?seed=5&times=35&output=html)
