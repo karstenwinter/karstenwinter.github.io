@@ -28,3 +28,5 @@ will be transformed into
 ω ≠ ψ · π² ⇔ ω ≡ A₂ ∨ ∃ x ∈ ℕ: x ≥ 42
 ```
 Note that you have to delete the spaces before your sub/superscripts.
+
+[Download the jar file!](https://broxp.lima-city.de/bin/mathed.jar)

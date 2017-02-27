@@ -5,7 +5,7 @@ Thanks for stopping by! You might be in interested in my profile and these topic
 
 I studied computer science in Hamburg (BSc) and Kiel (MSc) focusing on functional, object-oriented and multi-paradigm programming languages. You may contact me using ```brox dot p at web dot de``` (replacing ```dot -> .``` and ```at -> @```).
 
-Thinking about the "best" way to solve programming tasks has always fascinated me. I highly appreciate declarative object-oriented approaches like [Xtend](http://www.eclipse.org/xtend).
+Thinking about the "best" way to solve programming tasks has always fascinated me. I highly appreciate declarative object-oriented approaches like [Xtend](https://en.wikipedia.org/wiki/Xtend).
 
 Please also check out my programming dedicated Blog [Xtendasy](http://xtendasy.tumblr.com) for articles.
 
@@ -25,15 +25,13 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [Ruby shell](ruby-shell.md) is a small ruby programming environment with a [REPL](https://en.wikipedia.org/wiki/REPL) with syntax highlighting and integrated documentation, running in your browser using [Opal](http://opalrb.org).
 
-[Match3](ruby-match3.md) is a minimal console based [Bejeweled](https://en.wikipedia.org/wiki/Bejeweled) clone written in ruby, running in your browser using [Opal](http://opalrb.org).
+[Match3](ruby-match3.md) is a minimal console based [Bejeweled](https://en.wikipedia.org/wiki/Bejeweled) clone written in ruby, running in your browser using Opal.
 
 ## .NET programs
 
 [Angry Nerd](angry-nerd.md) is a 2D platformer game written in C# using the Unity engine that features a generated levels and is cross-platform (Desktop, Browser, Mobile).
 
 [Control Mindstorms](control-mindstorms.md) is an F# program that can read sensors of and send commands to the Mindstorms EV3.
-
-[Angry Nerd](angry-nerd.md) is a 2D platformer game written in C# using the Unity engine that features a generated levels and is cross-platform (Desktop, Browser, Mobile).
 
 [uRiddle](uriddle.md) is a puzzle game written in C# using [Silverlight](https://en.wikipedia.org/wiki/Microsoft_Silverlight) inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
 
