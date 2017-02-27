@@ -33,7 +33,9 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [Control Mindstorms](control-mindstorms.md) is an F# program that can read sensors of and send commands to the Mindstorms EV3.
 
-[uRiddle](uriddle.md) is a puzzle game written in C# using [Silverlight](https://en.wikipedia.org/wiki/Microsoft_Silverlight) inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
+[uRiddle](uriddle.md) is a puzzle game written in C# using [Silverlight](https://en.wikipedia.org/wiki/Microsoft_Silverlight) inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium) that features a level editor.
+
+[Silver City](silver-city.md) is a small editor for [SimCity 2000](https://en.wikipedia.org/wiki/SimCity_2000) cities written in C# using Silverlight.
 
 [Flatmania](flatmania.md) is a 2D driving game written in C# using [XNA](https://en.wikipedia.org/wiki/Microsoft_XNA that features a powerful physics engine and externally defined levels.
 
