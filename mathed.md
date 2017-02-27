@@ -29,4 +29,4 @@ will be transformed into
 ```
 Note that you have to delete the spaces before your sub/superscripts.
 
-[Download the jar file!](https://broxp.lima-city.de/bin/mathed.png)
+[Download the jar file!](https://broxp.lima-city.de/bin/mathed.jpg)
