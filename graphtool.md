@@ -4,4 +4,4 @@ This WPF program can create and edit graph like structures (nodes and edges, inc
 
 It features an SVG export, so you can polish the result and include it in your assignments (that's what I did).
 
-![Graph tool](img/graphtool.png)
+![Graph tool](bin/graphtool.png)
