@@ -1,0 +1,9 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../xsl/book.xsl'?>
+<book title='Einkaufsliste' icon='iconnote.png'>
+<div>Äpfel</div>
+<div>Zwiebeln</div>
+<div>Schmalz</div>
+<div>Käse</div>
+<div>Milch</div>
+</book>

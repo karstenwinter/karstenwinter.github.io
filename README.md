@@ -21,8 +21,8 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [MtgGen](mtggen.md) is a random magic card generator.
 
-[Ca$h Flow](cf.md) is a nerd store simulator inspired my [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
- 
+[Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
+
 ## Ruby programs
 
 [Ruby shell](ruby-shell.md) is a small ruby programming environment with a [REPL](https://en.wikipedia.org/wiki/REPL) with syntax highlighting and integrated documentation, running in your browser using [Opal](http://opalrb.org).

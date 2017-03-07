@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
+<buch name="Telvannis Schatzkammer" preis="0" gewicht="2.00">
+<p>
+<br />Dieses Buch enthält peinlich genaue Aufzeichnungen über den Handel und die Geschäfte, die über die telvannische Schatzkammer abgewickelt wurden, sowie ein Verzeichnis des derzeitigen Inventars.<br />
+</p>
+</buch>

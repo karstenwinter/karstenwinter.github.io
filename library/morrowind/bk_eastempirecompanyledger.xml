@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
+<buch name="Konto der Handelsgesellschaft" preis="0" gewicht="2.00">
+<p>
+<br />Dieses Kontobuch enthält eine Auflistung der Gegenstände, die von der hiesigen in Vvardenfell ansässigen Handelsgesellschaft des östlichen Kaiserreichs ge- und verkauft wurden.<br />
+</p>
+</buch>

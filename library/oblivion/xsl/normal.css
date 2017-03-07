@@ -1,0 +1,35 @@
+﻿body {text-align: left; font-family: 'Oblivion', 'Sylfaen', 'Georgia', 'Times New Roman', serif; font-size: 12pt;
+margin: 0px; background-color: black; background-image: url('../pic/background.png'); background-attachment: fixed;
+background-position: 50% 0%; background-repeat: repeat-y; color: black;}
+img {padding-left: 30%;}
+img.icon {margin-left: 10px; border: none;}
+img#i {margin: 10px; border: none;}
+center img {margin: 0px;}
+span.c {font-size: 145%; float: left; text-align: right; margin-left: -20pt; color: rgb(155, 23, 24); width: 40px; height: 10px;}
+h2 {font-size: 25pt; line-height: 26px; border: none; font-variant: small-caps; display: block; width: 896px; height: 64px;
+background-position: 100% 0%; background-repeat: no-repeat;}
+td.main div {text-align: justify; font: 20pt 'Oblivion' serif; margin-bottom: 12px;}
+a {color: rgb(0, 64, 36); text-decoration: none;}
+a:hover {color: rgb(0, 134, 36);}
+table.content {border: none; width: 1000px;}
+td.main {font-size: 12pt; width: 100%; padding: 0px 30px 0px 30px;}
+td.side {font-size: 11pt; font-family: 'Sylfaen', 'Georgia', 'Times New Roman', serif; text-align: center; padding: 0px 30px 0px 30px;}
+td.banner {background-image: url('../pic/bib.jpg'); width: 896px; height: 124px;
+background-position: 50% 0%; background-repeat: no-repeat;}
+h5  {line-height: 16px;}
+/* Allgemeine Formatierung */
+td {text-align: left;}
+div p[align='center'] {text-align: center;}
+a {color: rgb(150,10,10); text-decoration: none;}
+a[href='leer.xml'] {color: gray; text-decoration: none;}
+a[href='leer.xml']:hover {color: gray; text-decoration: none;}
+a:hover {color: rgb(255,10,10); text-decoration: underline;}
+span.link {font-size: 155%;}
+q {quotes: "„" "“";}
+ol {list-style-type: upper-roman;}
+table.headline th,table.headline td {color: black; background-image: none;}
+a img{border: none;}
+hr {display: block; margin: 5px; background-image: url('../../bilder/hr650.png');
+height: 16px; width: 650px; border: none;}
+ul {list-style-type: square; padding: 0px 0px 0px 25px; margin: 0px;}
+ul.side li a {display: block; width: 8.4em;}

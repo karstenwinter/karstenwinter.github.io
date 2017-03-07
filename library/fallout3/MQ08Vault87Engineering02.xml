@@ -1,0 +1,10 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='note.xsl'?>
+<note title="[MQ08Vault87Engineering02]">
+<p>Wartungscode: RL04 Rot</p>
+<p>Problem: Spannungsspitzen im Reaktor, sektorielle Stromausfälle</p>
+<p>Techniker: Daniel Koster</p>
+<p></p>
+<p>Reparaturnotizen:</p>
+<p>In den letzten 5 Wochen traten wiederholt Unterbrechungen im Stromnetz auf. Ganze Sektoren waren etwa 1-6 Minuten lang ohne Strom, bevor die normale Versorgung wieder eintrat. Ich habe Überwachungsmesser installiert und konnte das Problem auf plötzliche massive Spannungsspitzen im Hauptreaktor zurückführen. Meine erste Befürchtung war eine Fehlfunktion im Reaktor, aber es stellte sich heraus, dass es am massiven Stromverbrauch im Versuchsbereich lag. Was auch immer die dort einsetzen, es überschreitet die Grenzwerte für den Energieverbrauch um ein Vielfaches. Ich habe das Problem vorübergehend gelöst, indem der Backup-Reaktor bei Bedarf zugeschaltet wird, doch das ist keine dauerhafte Lösung. Aber ich habe keine andere Wahl, bis ich herausgefunden, was da drüben los ist.</p>
+</note>

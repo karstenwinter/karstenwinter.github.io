@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
+<buch name="ABC für Barbaren" preis="25" gewicht="2.00">
+<p>
+<br /><img src="pic/barbarian_a_atronachstorm.png"  width="128 " height="256" /><br /><br />A wie Atronach.<br /><br /><img src="pic/barbarian_b_bunglerbane.png"  width="256 " height="256" /><br /><br />B wie Brettpilz.<br /><br /><img src="pic/barbarian_c_comberry.png"  width="256" height="256" /><br /><br />C wie Cohmbeere.<br /><br />
+</p>
+</buch>

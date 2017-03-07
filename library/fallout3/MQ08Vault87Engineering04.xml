@@ -1,0 +1,10 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='note.xsl'?>
+<note title="[MQ08Vault87Engineering04]">
+<p>Wartungscode: RL00 Grün</p>
+<p>Problem: Falsche Farbe des Tapioka-Puddings</p>
+<p>Techniker: Daniel Koster</p>
+<p></p>
+<p>Reparaturnotizen:</p>
+<p>Das Lebensmittelrekonstituierungssystem der Kantine gab das Dessert für Montag Abend, Tapioka-Pudding, in einer komischen orange leuchtenden Farbe aus. Das war eine einfache Reparatur. Die Farbmatrix interpretierte die Instruktionen vom Hauptprozessor nicht korrekt, was zur falschen Ausgabe führte. Nachdem die Schnittstelle ausgetauscht wurde, gibt die Maschine den Pudding nun im richtigen Farbton aus. Wenn nur alle meine Reparaturen so simpel wären.</p>
+</note>

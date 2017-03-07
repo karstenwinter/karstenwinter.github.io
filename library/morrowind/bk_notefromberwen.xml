@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
+<buch name="Nachricht von Berwen" preis="1" gewicht="0.10">
+<p>
+<br />Werter Herr,<br /><br />Ihre Bestellung eines einzelnen Bettes habe ich erhalten und umgehend bei meinem Lieferanten in Sadrith Mora um Lieferung gebeten. Vorausgesetzt es gibt keinen Überfall, sollte es alsbald in den nächsten vierzehn Tagen ankommen. Ich hoffe, Ihr findet Gefallen an Eurem neuen Wohnsitz in Vos, und sollte ich Euch außerdem behilflich sein können, so zaudert nicht, es mich wissen zu lassen.<br /><br />Berwen<br />
+</p>
+</buch>

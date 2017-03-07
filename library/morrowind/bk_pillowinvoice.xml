@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
+<buch name="Rechnung" preis="0" gewicht="0.20">
+<p>
+<br />Kaiserlicher Bettzeug-Lieferant<br />Rechnung<br /><br />Für unverzügliche Lieferung an:<br /><br />Drarayne Thelas<br />aus Balmora in Vvardenfell<br /><br />40 Kopfkissen<br /><br />Verschickt am: 8ten Tag des Morgensterns, 426A<br />
+</p>
+</buch>

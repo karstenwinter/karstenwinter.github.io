@@ -1,0 +1,29 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../xsl/book.xsl'?>
+<book title='Diebes-Gilde'>
+<div><ul>
+<li><a href="../tg/TG00MysteriousNote.xml">Geheimnisvolle Notiz</a></li>
+<li><a href="../tg/TG01AmantiusDiary.xml">Amantius Allectus' Tagebuch</a></li>
+<li><a href="../tg/TG01GrayFoxWantedPoster.xml">Steckbrief</a></li>
+<li><a href="../tg/TG02TaxRecord.xml">St.unt. f. d. Haf.vie.</a></li>
+<li><a href="../tg/TG04ElderScrollsHistory.xml">Vergött. d. Eld. Scro.</a></li>
+<li><a href="../tg/TG05GrayFoxNote.xml">Notiz des Graufuchses</a></li>
+<li><a href="../tg/TG05HrormirsNotes.xml">Lied v. Hrormir Fragm.</a></li>
+<li><a href="../tg/TG05MagesNote.xml">Notiz von Ontus Vanin</a></li>
+<li><a href="../tg/TG06LostHistoriesOfTamriel.xml">Verschollene Geschichten von Tamriel</a></li>
+<li><a href="../tg/TG07ForgedListCandidates.xml">Gefälschte Kandidatenliste</a></li>
+<li><a href="../tg/TG07LexsNewOrders.xml">Befehlsüberbringung</a></li>
+<li><a href="../tg/TG07ListOfCandidates.xml">Kandidatenliste</a></li>
+<li><a href="../tg/TG07SealedForgedList.xml">Versieg. gefäl.Kand.l.</a></li>
+<li><a href="../tg/TG08BlindPriests.xml">Pension der Ahnenmotte</a></li>
+<li><a href="../tg/TG08InvestigateGrayCowl.xml">Anw.: die Graue Kutte</a></li>
+<li><a href="../tg/TG10JakbenDiary.xml">Tagebuch von Jak Springferse</a></li>
+<li><a href="../tg/TG10JakbenFamilyHistory.xml">Stammbaum von Imbel</a></li>
+<li><a href="../tg/TG11ElderScroll.xml">Schriftrolle der Alten</a></li>
+<li><a href="../tg/TG11HeistPlan.xml">Planung für den Großen Raubüberfall</a></li>
+<li><a href="../tg/TG11LexsNewOrders.xml">Überstellungsbefehl</a></li>
+<li><a href="../tg/TG11LostHistoriesOfTamriel.xml">Verschollene Geschichten von Tamriel</a></li>
+<li><a href="../tg/TG11TaxRecord.xml">St.unt. des Haf.vie.</a></li>
+</ul>
+</div>
+</book>

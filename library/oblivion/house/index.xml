@@ -1,0 +1,49 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../xsl/book.xsl'?>
+<book title='Haus-Ausbaustufen'>
+<div>
+<ul>
+<li><a href="../house/HouseBravilDiningAreaReceipt.xml">Haus - Esszi.bereich</a></li>
+<li><a href="../house/HouseBravilKitchenAreaReceipt.xml">Haus - Küchenbereich</a></li>
+<li><a href="../house/HouseBravilPaintingsReceipt.xml">Haus - Wanddekoration</a></li>
+<li><a href="../house/HouseBravilRacksReceipt.xml">Haus- Regalsortiment</a></li>
+<li><a href="../house/HouseBravilReadingAreaReceipt.xml">Haus - Lesebereich</a></li>
+<li><a href="../house/HouseBravilStorageAreaReceipt.xml">Haus - Lagerbereich</a></li>
+<li><a href="../house/HouseBrumaBedroomAreaReceipt.xml">Haus - Schlafz.bereich</a></li>
+<li><a href="../house/HouseBrumaDiningAreaReceipt.xml">Haus - Esszi.bereich</a></li>
+<li><a href="../house/HouseChorrolStudyAreaReceipt.xml">Haus - Studierbereich</a></li>
+<li><a href="../house/HouseChorrolSuiteAreaReceipt.xml">Haus - Suite-Bereich</a></li>
+<li><a href="../house/HouseChorrolWallHangL1Receipt.xml">Haus - Untere Wanddekoration</a></li>
+<li><a href="../house/HouseChorrolWallHangL2Receipt.xml">Haus - Mittlere Wanddekoration</a></li>
+<li><a href="../house/HouseChorrolWallHangL3Receipt.xml">Haus - Obere Wanddekoration</a></li>
+<li><a href="../house/HouseICDiningAreaReceipt.xml">Haus - Esszi.bereich</a></li>
+<li><a href="../house/HouseICFireplaceAreaReceipt.xml">Haus - Sitzbereich</a></li>
+<li><a href="../house/HouseICKitchenAreaReceipt.xml">Haus - Küchenbereich</a></li>
+<li><a href="../house/HouseICPaintingsReceipt.xml">Haus - Wanddekoration</a></li>
+<li><a href="../house/HouseICStorageAreaReceipt.xml">Haus - Lagerbereich</a></li>
+<li><a href="../house/HouseLeyawiinBedroomAreaReceipt.xml">Haus - Schlafz.bereich</a></li>
+<li><a href="../house/HouseLeyawiinDiningAreaReceipt.xml">Haus - Esszi.bereich</a></li>
+<li><a href="../house/HouseLeyawiinKitchenAreaReceipt.xml">Haus - Küchenbereich</a></li>
+<li><a href="../house/HouseLeyawiinReadingAreaReceipt.xml">Haus - Lesebereich</a></li>
+<li><a href="../house/HouseLeyawiinStorageAreaReceipt.xml">Haus - Lagerbereich</a></li>
+<li><a href="../house/HouseLeyawiinStudyAreaReceipt.xml">Haus - Studierbereich</a></li>
+<li><a href="../house/HouseLeyawiinWallHangReceipt.xml">Haus - Wanddekoration</a></li>
+<li><a href="../house/HouseSkingradBalconyAreaReceipt.xml">Haus - Balkonbereich</a></li>
+<li><a href="../house/HouseSkingradBalconyUpgradeReceipt.xml">Haus - Balkonerweit.</a></li>
+<li><a href="../house/HouseSkingradBedroomAreaReceipt.xml">Haus - Schlafz.bereich</a></li>
+<li><a href="../house/HouseSkingradDenAreaReceipt.xml">Haus - Wohnbereich</a></li>
+<li><a href="../house/HouseSkingradDiningAreaReceipt.xml">Haus - Esszi.bereich</a></li>
+<li><a href="../house/HouseSkingradDisplayCaseUpgradeReceipt.xml">Haus - Schauk.-Erw.</a></li>
+<li><a href="../house/HouseSkingradKitchenAreaReceipt.xml">Haus - Küchenbereich</a></li>
+<li><a href="../house/HouseSkingradOldNote.xml">Längst vergessene Notiz</a></li>
+<li><a href="../house/HouseSkingradServantsQuartersReceipt.xml">Haus - Bedienstetenqu.</a></li>
+<li><a href="../house/HouseSkingradSittingAreaL2Receipt.xml">Haus - Oberer Sitzbereich</a></li>
+<li><a href="../house/HouseSkingradSittingAreaReceipt.xml">Haus - Sitzbereich</a></li>
+<li><a href="../house/HouseSkingradStorageAreaReceipt.xml">Haus - Lagerbereich</a></li>
+<li><a href="../house/HouseSkingradStudyAreaReceipt.xml">Haus - Studierbereich</a></li>
+<li><a href="../house/HouseSkingradUpperHallAreaReceipt.xml">Haus - Oberer Hallenbereich</a></li>
+<li><a href="../house/HouseSkingradWallHangL1Receipt.xml">Haus - Untere Wanddekoration</a></li>
+<li><a href="../house/HouseSkingradWallHangL2Receipt.xml">Haus - Obere Wanddekoration</a></li>
+</ul>
+</div>
+</book>

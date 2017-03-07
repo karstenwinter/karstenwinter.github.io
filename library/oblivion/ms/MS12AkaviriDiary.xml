@@ -1,0 +1,7 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../xsl/book.xsl'?>
+<book title='Tagebuch des Boten' icon='iconbook13.png'>
+<div>[Das Buch ist in einer Sprache verfasst, die Ihr nicht kennt.]</div>
+<div><img src="../pic/ms12akaviridiary01.png" width="490" height="650" alt="" /></div>
+<div><img src="../pic/ms12akaviridiary02.png" width="490" height="650" alt="" /></div>
+</book>

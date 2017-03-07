@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
+<buch name="Anleitung zum Fischspießen" preis="5" gewicht="2.00">
+<p>
+<br />[In diesem Buch findet man alle Informationen zu Fischsspießen. Die Seiten sind aber dermaßen mit Soße bekleckert, dass es unmöglich ist, auch nur eine von ihnen zu lesen.]<br />
+</p>
+</buch>

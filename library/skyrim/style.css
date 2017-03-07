@@ -1,0 +1,6 @@
+﻿body {font-family: "MPlantin", "MinionPro-It", "Sylfaen", "Palatino Linotype", "Pescadero", "Calligraphic 421 BT", serif; color: orange; background-color: black;}
+font {font-family: "Cataneo BT", "Andy", sans; color: #D0A040; font-size: 120%;}
+body div {width: 960px;}
+div p:first-child {text-align: left; padding-left: 50px; font-style: italic; font-size: 170%; color: yellow; background-image: url("ico.png"); background-position: 12px 100px; background-repeat: no-repeat; text-shadow: 3px 3px 5px orange;}
+div.title {font-size: 300%; text-shadow: 5px 5px 12px red;}
+p {margin-bottom: 2px; text-align: justify; font-size: 15pt;}

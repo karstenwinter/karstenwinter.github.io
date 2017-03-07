@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
+<buch name="Brief von Ocato" preis="0" gewicht="0.20">
+<p>
+<br />An den verehrten Erzmagier Trebonius Artorius, Gildenmeister von Vvardenfell:<br /><br />Sobald Ihr diesen Brief erhaltet, werdet Ihr von Eurem Posten zurücktreten und den Titel des Erzmagiers an [Spieler] abtreten. Von diesem Tag an wird sich [Spieler] mit allen Angelegenheiten der Gilde in Vvardenfell befassen. Ihr könnt den Titel des Erzmagiers behalten, werdet Euch jedoch aus der aktiven Beteiligung an Gilden-Angelegenheiten zurückziehen.<br /><br />Im Namen des Kaisers,<br /><br />Ocato<br />
+</p>
+</buch>

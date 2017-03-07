@@ -1,0 +1,26 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../xsl/book.xsl'?>
+<book title='Kämpfer- und Magiergilde'>
+<div>
+<ul>
+<li><a href="../mg/FGD01BrenusAstisJournal.xml">Brenus Astis' Tagebuch</a></li>
+<li><a href="../mg/FGD06ViranusJournal.xml">Ein blutiges Tagebuch</a></li>
+</ul>
+<hr />
+<ul>
+<li><a href="../mg/LostBoyCavern001.xml">Zerknitt. Stück Papier</a></li>
+<li><a href="../mg/LostBoyCaverns000.xml">Verwittertes Tagebuch</a></li>
+<li><a href="../mg/LostBoyCaverns002.xml">Zerknitt. Stück Papier</a></li>
+<li><a href="../mg/LostBoyCaverns003.xml">Gefaltete Seite</a></li>
+<li><a href="../mg/LostBoyCaverns004.xml">Brief an die Magiergilde</a></li>
+<li><a href="../mg/LostBoyCaverns005.xml">Brief an die Magiergilde</a></li>
+<li><a href="../mg/LostBoyCaverns006.xml">Brief an die Magiergilde</a></li>
+<li><a href="../mg/MG05FingersScroll.xml">Earanas Notizen</a></li>
+<li><a href="../mg/MG06ManualSpellcraft.xml">Zaubereihandbuch</a></li>
+<li><a href="../mg/MG10AyleidReference.xml">Ayleiden-Referenztext</a></li>
+<li><a href="../mg/MG11NecromancersMoon.xml">Totenbeschwörer-Mond</a></li>
+<li><a href="../mg/MG11Note.xml">Hastig gekritzelte Notiz</a></li>
+<li><a href="../mg/MG11SoulGemNote.xml">Handgeschriebene Notiz</a></li>
+</ul>
+</div>
+</book>

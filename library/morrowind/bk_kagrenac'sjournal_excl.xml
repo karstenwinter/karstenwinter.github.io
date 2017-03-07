@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
+<buch name="Kagrenacs Tagebuch" preis="400" gewicht="2.00">
+<p>
+<br />Kagrenacs Tagebuch<br /><br />[Der Inhalt dieses handgeschriebenen Tagebuchs ist in einer fremden Schrift und unbekannten Sprache verfasst. Es enthält viele komplexe und stark mit Zahlen und eigenartigen Symbolen kommentierte Diagramme. Die Titelseite ist jedoch eindeutig in Aldmerisch gehalten: 'Kagrenacs Tagebücher'.]<br />
+</p>
+</buch>

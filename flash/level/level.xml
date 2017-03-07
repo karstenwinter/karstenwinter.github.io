@@ -1,0 +1,6 @@
+<LevelListe>
+<Level Name="UT3-Deck" Datei="Deck.swf" Overlay="Deck.png" Beschreibung="Eine klassische UT-Deathmatch-Karte. Es gibt viele Ecken und Winkel zum Verstecke, der Startpunkt ist in der Mitte." />
+<Level Name="UT3-HeatRay" Datei="HeatRay.swf" Beschreibung="Eine Deathmatch-Karte aus UT3. Es gibt kaum Verstecke, der Startpunkt ist in der Mitte." />
+<Level Name="UT3-Stranded" Datei="Stranded.swf" Overlay="Stranded.png" Beschreibung="Eine Ronin-Warfare-Karte aus UT3. Es gibt 3 Spawner und relativ viele Hindernisse auf der Karte." />
+<Level Name="UT3-Sanctuary" Datei="Sanctuary.swf" Beschreibung="Eine Necris-Deathmatch-Karte aus UT3. Es gibt 3 Spawner und relativ viele Hindernisse auf der Karte." />
+</LevelListe>

@@ -1,0 +1,29 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../xsl/book.xsl'?>
+<book title='Dunkle Bruderschaft'>
+<div>
+<ul>
+<li><a href="../dark/Dark04BodyNotes.xml">Hauptm. Montrose Notiz</a></li>
+<li><a href="../dark/Dark09SuicideNote.xml">Selbstmordnotiz</a></li>
+<li><a href="../dark/Dark10SpecialCeledaenJournal.xml">Der Weg der Transzendenz</a></li>
+<li><a href="../dark/Dark11List.xml">Draconis Geschenkeli.</a></li>
+<li><a href="../dark/Dark17Diary.xml">Tagebuch eines Verräters</a></li>
+<li><a href="../dark/DarkAlvalSchedule.xml">Alval Uvanis Zeitplan</a></li>
+<li><a href="../dark/DarkClaudiusHouseNote.xml">Öff. Bekanntmach.</a></li>
+<li><a href="../dark/DarkJournalClaudius.xml">Tagebuch des Claudius</a></li>
+<li><a href="../dark/DarkLachanceNote.xml">Versiegelte Nachricht</a></li>
+<li><a href="../dark/DarkLachanceOrders0.xml">Befehlsübergabepunkt #3</a></li>
+<li><a href="../dark/DarkLachanceOrders1.xml">Befehlsübergabepunkt #4</a></li>
+<li><a href="../dark/DarkLachanceOrders2.xml">Befehlsübergabepunkt #5</a></li>
+<li><a href="../dark/DarkLachanceOrders3.xml">Befehlsübergabepunkt #6</a></li>
+<li><a href="../dark/DarkLachanceOrders4.xml">Befehlsübergabepunkt #7</a></li>
+<li><a href="../dark/DarkLachanceOrdersBarrel.xml">Befehlsübergabepunkt #8</a></li>
+<li><a href="../dark/DarkLachanceOrdersChorrol.xml">Befehlsübergabepunkt #2</a></li>
+<li><a href="../dark/DarkLachanceOrdersFirst.xml">Befehlsübergabepunkt #1</a></li>
+<li><a href="../dark/DarkLachanceOrdersSealed.xml">Befehle von Lucien Lachance</a></li>
+<li><a href="../dark/DarkOcheevaTelaendrilNote.xml">Telaen. Ocheeva-Notiz</a></li>
+<li><a href="../dark/DarkScrollRufio.xml">Rufios Geist beschwör.</a></li>
+<li><a href="../dark/DarkVicenteNote.xml">Vicentes Notiz</a></li>
+</ul>
+</div>
+</book>

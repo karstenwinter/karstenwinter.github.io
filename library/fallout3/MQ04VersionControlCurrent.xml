@@ -1,0 +1,12 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='note.xsl'?>
+<note title="[MQ04VersionControlCurrent]">
+<p>Version 3.2.0005</p>
+<p></p>
+<p>*Für Pod 0001 gewährte Ausnahmen</p>
+<p>*Manuelles Überschreiben für Pods deaktiviert. Fernzugriff gestattet (Benutzer S. Braun besitzt die Berechtigung).</p>
+<p>*Neuraleingaben zum Umgehen des Speicherzeigriffs für einzelne Benutzer aktualisiert.</p>
+<p>*Code für Vault-Wartungsroboter geändert. Die Zulassung weiterer Aktualisierungen bedarf einer Authentifizierung durch S. Braun.</p>
+<p>*Benutzer UNBEKANNT – Zugriff gewährt.</p>
+<p>*Benutzer UNBEKANNT – durch S. Braun geändert.</p>
+</note>

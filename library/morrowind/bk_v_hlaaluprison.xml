@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
+<buch name="Gefangenenliste" preis="1" gewicht="0.05">
+<p>
+<br />Derzeit in den Hlaalu-Gefängnissen Inhaftierte:<br /><br />Frelene Acques, zum Verhör festgehalten<br /><br />Ralyn Farothran, festgehalten wegen versuchter Bestechung an einem Adligen aus dem Hause Hlaalu <br /><br />
+</p>
+</buch>

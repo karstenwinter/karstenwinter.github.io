@@ -1,0 +1,34 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='note.xsl'?>
+<note title="[MQ08Vault87MedicalRecords03]">
+<p>An alle Mitarbeiter beim Krankenregister</p>
+<p></p>
+<p>Unten finden Sie eine Auflistung der überarbeiteten Definitionen für die Todesursachencodes. Bitte aktualisieren Sie alle Daten entsprechend, um die Bearbeitungszeiten zu verkürzen. Beachten Sie, dass gewaltsamer Tod/Selbstmord in diesen Akten NIE berücksichtigt werden. Diese Todesarten müssen laut Vault-Tec-Anweisung mit dem Code A008 unter Unfalltod geführt werden.</p>
+<p></p>
+<p>Natürliche Todesursache</p>
+<p>N001 - Mikrobielle Wirkstoffe</p>
+<p>N002 - Radioaktive Wirkstoffe</p>
+<p>N003 - Schadstoffe</p>
+<p>N004 - Allergische Reaktionen</p>
+<p>N005 - Herzerkrankung/Ischämie</p>
+<p>N006 - Zerebrovaskuläre Erkrankung</p>
+<p>N007 - Bronchitis/Emphysem/Asthma</p>
+<p>N008 - Lebererkrankung/Zirrhose</p>
+<p>N009 - Krebs-Kategorien Typ I</p>
+<p>N010 - Krebs-Kategorien Typ II</p>
+<p>N011 - Unerwartetes Organsversagen</p>
+<p>N012 - Hohes Alter</p>
+<p></p>
+<p>Unfalltod</p>
+<p>A001 - Massive Strahlenüberbelastung</p>
+<p>A002 - Massive Giftstoffüberbelastung</p>
+<p>A003 - Elektrischer Schock</p>
+<p>A004 - Zertrümmerung/Schwerer Gegenstand</p>
+<p>A005 - Aufzugspanne</p>
+<p>A006 - Ertrinken</p>
+<p>A007 - Versehentliche Waffenentladung</p>
+<p>A008 - Syndrom des sofortigen Todes</p>
+<p></p>
+<p>Sonstige</p>
+<p>UD000 - Nicht definiert/Nicht erklärbar (Meldung an Aufseher)</p>
+</note>

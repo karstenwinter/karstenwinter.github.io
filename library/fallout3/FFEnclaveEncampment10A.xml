@@ -1,0 +1,14 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='note.xsl'?>
+<note title="Inventar der gelieferten Waffen">
+<p>Waffe:         Typ:      Seriennummer:        </p>
+<p>------------------------------------</p>
+<p>Kampfmesser        SS       GSS01</p>
+<p>10-mm-Pistole      SA       GSA01</p>
+<p>Schlagring         CF       GCF01</p>
+<p>Schlagring         CF       GCF02</p>
+<p>Kampfmesser        SS       GSS02</p>
+<p>Kaliber-32-Pistole SA       GSA02</p>
+<p>Küchenmesser       SS       GSS03</p>
+<p>Brett mit Nagel    LP       GLP01</p>
+</note>

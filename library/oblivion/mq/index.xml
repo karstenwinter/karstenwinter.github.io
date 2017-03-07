@@ -1,0 +1,19 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../xsl/book.xsl'?>
+<book title='Haupt-Aufgabe'>
+<div>
+<ul>
+<li><a href="../mq/MQ02CrumpledPinerLetter01.xml">Zerknittertes Stück Papier</a></li>
+<li><a href="../mq/MQ02CrumpledPinerLetter02.xml">Zerknittertes Stück Papier</a></li>
+<li><a href="../mq/MQ02CrumpledPinerLetter03.xml">Zerknittertes Stück Papier</a></li>
+<li><a href="../mq/MQ02FinishedPinerLetter.xml">Brief an Mutter</a></li>
+<li><a href="../mq/MQ05CommentariesV1.xml">Mystische Morgenröte I</a></li>
+<li><a href="../mq/MQ05CommentariesV2.xml">Mystische Morgenröte II</a></li>
+<li><a href="../mq/MQ05CommentariesV3.xml">Mystische Morgenröte III</a></li>
+<li><a href="../mq/MQ05CommentariesV4.xml">Mystische Morgenröte IV</a></li>
+<li><a href="../mq/MQ05GwinasNote.xml">Notiz von Gwinas</a></li>
+<li><a href="../mq/MQ06MysteriumXarxes.xml">Mysterium Xarxes'</a></li>
+<li><a href="../mq/MQ07BrumaEnemyPlans.xml">Jearls Befehle</a></li>
+</ul>
+</div>
+</book>

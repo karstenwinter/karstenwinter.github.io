@@ -1,0 +1,19 @@
+﻿body {font-size: 10pt; margin: 0px; padding: 0px; background-color: white; color: black;}
+img {margin-left: 20%;}
+img.icon {margin-left: 10px; border: none;}
+img#i {margin: 10px; border: none;}
+center img {margin: 0px;}
+span.c {font-size: 145%; float: left; text-align: right; margin-left: -20pt; color: rgb(155, 23, 24); width: 40px; height: 10px;}
+td.main div {text-align: justify; font: 12pt 'Sylfaen', 'Georgia' serif; margin-bottom: 4px;}
+a {color: silver; text-decoration: none;}
+table.content {border: none; width: 100%;}
+td.banner,td.side,ul.side {display: none;}
+h2  {line-height: 20px; font-variant: small-caps; display: block; font-size: 17pt; border: none;
+font-variant: small-caps; display: block;}
+q {quotes: "„" "“";}
+ol {list-style-type: upper-roman;}
+table.headline th,table.headline td {color: black; background-image: none;}
+a img{border: none;}
+hr {display: block; margin: 5px; background-image: url('../../bilder/hr650.png');
+height: 16px; width: 650px; border: none;}
+ul {list-style-type: square; padding: 0px 0px 0px 25px; margin: 0px;}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
+<buch name="Nachricht für Magier" preis="1" gewicht="0.10">
+<p>
+<br />Magier:<br /><br />Bitte seid vorsichtig beim Verwenden von Feuerzaubern während der Bewachung der Sklaven unten in der Mine. Häufig sind entzündliche Gase vorhanden und, wie der Vorfall letzte Woche gezeigt hat, kann selbst eine kleine Flamme eine ungeheure Explosion auslösen. Wir wissen nicht, ob Keseena jemals das Stück Fell wiederbekommen wird.<br /><br />- Stlennius<br />
+</p>
+</buch>

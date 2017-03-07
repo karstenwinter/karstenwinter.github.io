@@ -1,0 +1,9 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../xsl/book.xsl'?>
+<book title='Einkaufsliste' icon='iconnote.png'>
+<div>Blutgras</div>
+<div>Harrada</div>
+<div>Hut eines echten Zunderschwamms</div>
+<div>Eisenholznüsse</div>
+<div>Hundsrute</div>
+</book>

@@ -1,0 +1,9 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../xsl/book.xsl'?>
+<book title='Einkaufsliste' icon='iconnote.png'>
+<div>Süßkartoffeln</div>
+<div>Kartoffeln</div>
+<div>Mohrrüben</div>
+<div>Obst (irgendwelches)</div>
+<div>1 halber Laib Brot</div>
+</book>
