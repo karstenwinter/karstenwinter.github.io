@@ -1,7 +1,0 @@
-﻿<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
-<buch name="Lagerhausbericht" preis="0" gewicht="2.00">
-<p>
-<br />Dies scheinen die Aufzeichnungen über eingehende und ausgehende Lieferungen zu sein. Sie enthalten auch Daten und Handelspartner.<br />
-</p>
-</buch>

@@ -1,7 +1,0 @@
-﻿<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
-<buch name="Göttliche Metaphysik" preis="1000" gewicht="4.00">
-<p>
-<br /><img src="pic/divinemetaphysics_text1.png"  width="256 " height="256" /><br /><br /><img src="pic/divinemetaphysics.png"  width="256 " height="256" /><br /><br /><img src="pic/divinemetaphysics_text2.png"  width="256 " height="256" /><br /><br />
-</p>
-</buch>

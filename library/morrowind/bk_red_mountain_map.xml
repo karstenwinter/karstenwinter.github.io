@@ -1,7 +1,0 @@
-﻿<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
-<buch name="Karte des Roten Berges" preis="0" gewicht="0.20">
-<p>
-<br />Kriegswappenträger-Karte des Roten Berges<br /><br /><br /><br />Zitadelle von Vemynal: Nordwesten<br />Zitadelle von Tureynulal: Nordosten<br />Zitadelle von Dagoth: Mitte<br />Zitadelle von Endusal: Südwesten<br />Zitadelle von Odrosal: Südosten<br />Geisterpforte: Süden<br /><br /><br /><img src="pic/redmountain_377_253.png"  width="377 " height="253" /><br /><br />
-</p>
-</buch>

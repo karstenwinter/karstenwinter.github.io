@@ -1,7 +1,0 @@
-﻿<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
-<buch name="Lieferschein" preis="1" gewicht="0.10">
-<p>
-<br />[Auf diesem Zettel sind die Details einer Versendung von Standardvorräten wie Getränke, Nahrungsmittel und Möbel an das Handelshaus Varo vermerkt. Ein Eintrag, der besonders auffällt, ist die Lieferung von drei Kisten Käse, die zu Beginn der Woche geliefert wurden.]<br />
-</p>
-</buch>
