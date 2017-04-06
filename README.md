@@ -1,4 +1,4 @@
-## Welcome to my humble Website
+﻿## Welcome to my humble Website
 Thanks for stopping by! You might be in interested in my profile and these topics / projects.
 
 ## About me
@@ -24,6 +24,8 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 [Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
 
 ## Ruby programs
+
+[Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
 
 [Ruby shell](ruby-shell.md) is a small ruby programming environment with a [REPL](https://en.wikipedia.org/wiki/REPL) with syntax highlighting and integrated documentation, running in your browser using [Opal](http://opalrb.org).
 
