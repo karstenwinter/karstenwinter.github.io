@@ -1,0 +1,63 @@
+.keyword {
+    background-color: #fa8
+}
+.type {
+    background-color: #a81
+}
+.field {
+    background-color: #6a6
+}
+.string {
+    background-color: #5f5
+}
+.number {
+    background-color: #77a
+}
+.test {
+    background-color: #a7a;
+}
+.comment {
+    background-color: #dfd;
+}
+.error {
+    background-color: #f22;
+}
+.output {
+    font-family: Consolas, Lucida Console, Courier New, monospace;
+    font-size: 12pt;
+    color: gray;
+    margin: none;
+    border: none;
+    background: transparent;
+	word-wrap: normal;
+	white-space: pre-wrap;
+}
+.output-highlight {
+    position: absolute;
+    left: -8px;
+    top: -9px;
+    width: 100%;
+}
+.editor {
+    font-family: Consolas, Lucida Console, Courier New, monospace;
+	word-wrap: normal;
+    color: black;
+    width: 100%;
+    min-height: 100%;
+	overflow: hidden;
+	resize: none;
+    font-size: 12pt;
+    margin: none;
+    border: none;
+    background: transparent;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+/* http://stackoverflow.com/questions/28152175/a-wavy-underline-in-css?answertab=active#tab-top
+.err {
+    display: inline-block;
+    position:relative;
+    background: url("data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAA‌​AABAADAEACBZQjmIAFAD‌​s=") bottom repeat-x;
+}
+*/

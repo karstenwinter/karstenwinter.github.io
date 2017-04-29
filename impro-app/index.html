@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="ImproController">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html charset=utf-8">
+			<title>{{title}}</title>
+			<link rel="stylesheet" href="bootstrap.css" />
+			<link rel="stylesheet" href="style.css" />
+			<script src="angular.js"></script>
+			<script src="script.js"></script>
+		</head>
+		<body>
+			<div>
+				<div class="col-xs-3">
+					<h5><a href="#" ng-click="menu('root')">{{title}}</a></h5>			
+					<ul class="list-group" ng-show="hasMenu('root')" ng-repeat="type in types">
+						<li class="list-group-item list-group-item-warning" ng-click="menu(type)">
+							<a href="#">
+								{{plural(type)}}
+							</a>
+							<span class="label label-default pull-right">
+								{{items(type).length}}
+							</span>
+						</li>
+						<li class="list-group-item" ng-show="hasMenu(type)" ng-repeat="item in items(type)">
+							<span ng-hide="current != item">
+								&#x203A; 
+							</span>
+							<span ng-hide="current == item">	
+								&#x2022;
+							</span>
+							<a href="#" ng-click="setCurrent(type, item)">{{item.name}} {{item.type == 'Charakter' ? "("+item.job+")" : ""}}</a>
+							<span class="pull-right" ng-hide="current == item || !canEdit(type)">
+								<a href="#" class="btn btn-default btn-sm" ng-click="itemSelect(type, item)">
+									<span class="sym">...</span>
+								</a>
+								<a href="#" class="btn btn-default btn-sm" ng-show="itemSel == item" ng-click="removeItem(type, item)">
+									<span class="sym">&ndash;</span>
+								</a>
+							</span>
+						</li>
+						<li class="list-group-item" ng-show="hasMenu(type) && canEdit(type)" ng-click="addNew(type)">
+							<a href="#">{{newName(type)}}</a>
+						</li>
+					</ul>			
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-warning" ng-click="menu('seed')">
+							<a href="#">Zufalls-Startwert</a>
+						</li>
+						<li class="list-group-item" ng-show="hasMenu('seed')">
+							
+							<input class="form-control" ng-model="initSeed"></input>
+						<a href="#" class="btn btn-default" ng-click="init(initSeed)">
+							Zurücksetzen
+						</a>
+						</a>
+						</li>
+					</ul>
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-warning" ng-click="about()">
+							<a href="#">Über diese App</a>
+						</li>
+						<li class="list-group-item" ng-show="showAbout">
+							<div>Hiermit können Vorgaben für Improvisationstheater-Stücke generiert werden.</div>
+							<div>Der Fokus liegt auf dem Hörspiel-Genre, weshalb tonliche Untermalung angeboten wird. Diese App verwendet Angular JS and Bootstrap.</div>
+							<div>Vorgaben werden zufällig generiert, dennoch lässt sich eine Session wiederherstellen, die sich gleich verhält, d.h. bei gleichen Clicks die gleichen Werte generiert.</div>
+							<div>Dazu muss man sich den Seed merken und kann diesen als Zufalls-Startwert eingeben.</div>
+						</li>
+					</ul>
+					 
+				</div>
+				<div class="col-xs-9">
+					<div style="padding: 1em">
+						<div class="panel panel-default form-group" ng-show="current.type != 'Effekt'">
+							<div class="panel-{{c[3]}}"
+									ng-show="current.type == 'Charakter'
+									|| (current.type == 'Story' && (c[0] == 'name' || c[0] == 'content'))
+									|| (current.type == 'Umgebung' && (c[0] == 'name' || c[0] == 'content'))"
+									ng-repeat="c in [['name', 'Name', 'r', 'heading'], ['job', 'Job', 'r', 'body'], ['prop', 'Eigenschaft', '', 'body'], ['content', 'Inhalt', 'r', 'body']]">
+								<span class="btn label label-default"
+										ng-repeat="w in [['Neue', false], ['Zusätzliche', true]]"
+										ng-click="changeItem(current, c[0], w[1])"
+										style="margin-right: 2pt">
+									{{w[0]}}{{c[2]}} {{c[1]}}
+								</span>
+								<input class="form-control" type="text" ng-model="current[c[0]]"></input>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default form-group" ng-show="current.type == 'Effekt'">
+						<div class="panel-heading">
+							{{current.name}}
+						</div>
+						<div class="panel-body">
+							<span class=" label label-default">
+								Aktiv für
+							</span>
+							<div ng-repeat="character in characters">
+								<label class="btn btn-default">
+									<input type="checkbox"
+											ng-click="selection(current, character)"
+											ng-checked="current.characters.indexOf(character) >= 0"> </input>{{character.name}}
+								</label>
+							</div>
+							<span class=" label label-default">
+								Optionen
+							</span>
+							<div>
+								<a href="#" class="btn btn-default" ng-click="selectionMode(current, 'all')">Alle</a>
+							</div>
+							<div>
+								<a href="#" class="btn btn-default" ng-click="selectionMode(current, 'invert')">Invertieren</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
