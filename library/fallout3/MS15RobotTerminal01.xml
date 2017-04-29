@@ -1,7 +1,0 @@
-﻿<?xml version='1.0'?>
-<?xml-stylesheet type='text/xsl' href='note.xsl'?>
-<note title="[MS15RobotTerminal01]">
-<p>Die Einheit mit der Bezeichnung BGWIN009 'Button Gwinnett' leidet an einem Systemspeicherleck. Ich musste die Kern-CPU der Einheit letzten Monat mehrmals leeren, da sie ihre Befehle und Direktiven durcheinander bringt. Die Neuinszenierungs-Unterprogramme der Einheit stehen im Konflikt mit ihren Reiseleiter-Unterprogrammen, was zu widersprüchlichen Handlungen führt und die Besucher unserer Galerien verschreckt. Empfehle Abschaltung dieser Einheit und Austausch des zentralen Kerns.</p>
-<p></p>
-<p>P. Brantseg – Robotikteam</p>
-</note>

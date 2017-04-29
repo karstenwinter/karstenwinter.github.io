@@ -1,5 +1,0 @@
-﻿<?xml version='1.0'?>
-<?xml-stylesheet type='text/xsl' href='note.xsl'?>
-<note title="[MS15PodBackupTerminal01]">
-<p>Die BACK001 Backup-Protektron-Einheit wurde hauptsächlich als Notersatz für alle anderen Protektron-Einheiten konzipiert. Stellen Sie im Falle einer Fehlfunktion sicher, dass sich die defekte Einheit in ihrem Pod befindet, und verwenden Sie dieses System, um ihre Routinen aufs Backup herunterzuladen. Diese Einheit wurde außerdem mit standardmäßigen Reiseleiterassistenz-Unterprogrammen und begrenzten Sicherheitssubroutinen ausgestattet.</p>
-</note>

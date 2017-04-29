@@ -1,7 +1,0 @@
-﻿<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
-<buch name="Eierbestellung" preis="1" gewicht="0.10">
-<p>
-<br />Dieses Blatt ist eine Bestellliste aus ganz Morrowind über Kwaama-Eier von Theranas Hof.<br />
-</p>
-</buch>

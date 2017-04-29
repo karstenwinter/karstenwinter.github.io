@@ -1,7 +1,0 @@
-﻿<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
-<buch name="Hauptbuch der Hlaalu-Gewölbe" preis="0" gewicht="2.00">
-<p>
-<br />Dieses Buch enthält die pedantische Aufzeichnung aller Transaktionen sowie des gesamten Handelsverkehrs der Hlaalu-Tresorräume sowie eine aktuelle Auflistung des gegenwärtigen Warenbestands.<br />
-</p>
-</buch>

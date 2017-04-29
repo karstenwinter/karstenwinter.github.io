@@ -1,7 +1,0 @@
-﻿<?xml version='1.0'?>
-<?xml-stylesheet type='text/xsl' href='note.xsl'?>
-<note title="[MS15RobotTerminal02]">
-<p>TRT007, einer unserer automatisierten Geschütztürme, fährt sich ständig in der Grundstellungsposition fest. Weder reagiert er korrekt auf die Kalibrierung, noch verfolgt er seine Ziele richtig. Ursache dessen ist wahrscheinlich ein Ausrichtungsfehler zwischen Zielverfolgungsmatrix und dem Zielerfassungslaser (ein häufiges Problem bei all unseren automatisierten Geschütztürmen). Empfehle Austausch der Zielverfolgungsmatrix.</p>
-<p></p>
-<p>P. Brantseg – Robotikteam</p>
-</note>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html charset=utf-8">
+			<title>Ruby IDE</title>
+			<link rel="stylesheet" href="bootstrap.css" />
+			<link rel="stylesheet" href="style.css" />
+			<script src="angular.js"></script>
+			<script src="ruby-ide.js"></script>
+			<script src="opal.min.js"></script>
+			<script src="opal-parser.min.js"></script>
+		</head>
+		<body>
+		<div ng-controller="IdeController">
+			<pre id="output" class="output output-highlight"></pre>
+			<textarea id="editor" class="editor" ng-model="file.content"></textarea>
+			<div class="panel panel-default pull-right form-group col-xs-4">
+				<a class="btn btn-default btn-sm" ng-click="menu()">Classes ({{files.length}})</a>
+				<a class="btn btn-default btn-sm" ng-click="about()">About</a>
+				<a class="btn btn-success btn-sm" ng-show="hasMenu" ng-click="addNew()"><span class="sym">+</span></a>
+				<br />
+				<div ng-show="hasMenu" ng-repeat="item in files">
+					<a class="btn btn-default" ng-hide="file == item" ng-click="setCurrent(item)"><span class="sym">&#x2022;</span> {{item.name}}</a>
+					<input class="form-control" type="text" ng-model="file.name" ng-show="file == item"></input>
+					<a class="btn btn-default btn-sm" ng-hide="file == item" ng-click="fileSelect(item)"><span class="sym">...</span></a>
+					<a class="btn btn-danger btn-sm" ng-show="fileSel == item" ng-click="removeItem(item)"><span class="sym">&ndash;</span></a>
+					<a class="btn btn-info btn-sm" ng-show="file == item" ng-click="evalItem(item)"><span class="sym">&#x25ba;</span></a>
+					
+				</div>
+				<div class="panel panel-default" ng-show="output != ''">
+					<div class="panel-heading"><h4 ng-bind="outputName"></h4></div>
+					<div class="panel-body">
+						<pre id="output-error" class="output output-error" ng-bind="output"></pre>
+					</div>
+				</div>
+				<div class="panel panel-default" ng-show="showAbout">
+					<div class="panel-heading"><h4>Ruby IDE</h4></div>
+					<div class="panel-body">This is a browser based IDE for Ruby using Angular JS and OPAL.</div>
+				</div>
+			</div>
+		</div>
+		</body>
+	</html>

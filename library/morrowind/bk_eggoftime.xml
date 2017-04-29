@@ -1,7 +1,0 @@
-﻿<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="buch.xsl"?>
-<buch name="Das Ei der Zeit" preis="1000" gewicht="4.00">
-<p>
-<br /><img src="pic/eggoftime_illust1.png"  width="256" height="256" /><br /><br /><img src="pic/eggoftime_illust2.png"  width="256" height="256" /><br /><br /><img src="pic/eggoftime_illust3.png"  width="256" height="256" /><br /><br /><img src="pic/eggoftime_illust4.png"  width="256" height="256" /><br /><br />
-</p>
-</buch>

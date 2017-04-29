@@ -1,4 +1,4 @@
-## Welcome to my humble Website
+﻿## Welcome to my humble Website
 Thanks for stopping by! You might be in interested in my profile and these topics / projects.
 
 ## About me
@@ -25,6 +25,8 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 ## Ruby programs
 
+[Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
+
 [Ruby shell](ruby-shell.md) is a small ruby programming environment with a [REPL](https://en.wikipedia.org/wiki/REPL) with syntax highlighting and integrated documentation, running in your browser using [Opal](http://opalrb.org).
 
 [Match3](ruby-match3.md) is a minimal console based [Bejeweled](https://en.wikipedia.org/wiki/Bejeweled) clone written in ruby, running in your browser using Opal.
@@ -39,7 +41,7 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [Silver City](silver-city.md) is a small editor for [SimCity 2000](https://en.wikipedia.org/wiki/SimCity_2000) cities written in C# using Silverlight.
 
-[Flatmania](flatmania.md) is a 2D driving game written in C# using [XNA](https://en.wikipedia.org/wiki/Microsoft_XNA that features a powerful physics engine and externally defined levels.
+[Flatmania](flatmania.md) is a 2D driving game written in C# using [XNA](https://en.wikipedia.org/wiki/Microsoft_XNA) that features a powerful physics engine and externally defined levels.
 
 [GraphTool](graphtool.md) is an editor written in C# using [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) for graph-like structures with SVG export.
 
