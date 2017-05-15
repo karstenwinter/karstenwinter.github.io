@@ -55,9 +55,9 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 [Active annotations](active-annotations.md) can be used in Xtend for seamless metaprogramming. Check out that page for details and examples.
 
 [Illium](illium.md) is a console-based text adventure tool written in Scala and set in the [Mass Effect](https://en.wikipedia.org/wiki/Mass_Effect) universe.
--->
 
 [MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
+-->
 
 ## ActionScript / Flash games
 
