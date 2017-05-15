@@ -31,29 +31,33 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [Match3](ruby-match3.md) is a minimal console based [Bejeweled](https://en.wikipedia.org/wiki/Bejeweled) clone written in ruby, running in your browser using Opal.
 
-## .NET programs
 
+## .NET programs
+<!--
 [Angry Nerd](angry-nerd.md) is a 2D platformer game written in C# using the Unity engine that features a generated levels and is cross-platform (Desktop, Browser, Mobile).
 
 [Control Mindstorms](control-mindstorms.md) is an F# program that can read sensors of and send commands to the Mindstorms EV3.
+
+[Flatmania](flatmania.md) is a 2D driving game written in C# using [XNA](https://en.wikipedia.org/wiki/Microsoft_XNA) that features a powerful physics engine and externally defined levels.
+-->
 
 [uRiddle](uriddle.md) is a puzzle game written in C# using [Silverlight](https://en.wikipedia.org/wiki/Microsoft_Silverlight) inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium) that features a level editor.
 
 [Silver City](silver-city.md) is a small editor for [SimCity 2000](https://en.wikipedia.org/wiki/SimCity_2000) cities written in C# using Silverlight.
 
-[Flatmania](flatmania.md) is a 2D driving game written in C# using [XNA](https://en.wikipedia.org/wiki/Microsoft_XNA) that features a powerful physics engine and externally defined levels.
-
 [GraphTool](graphtool.md) is an editor written in C# using [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) for graph-like structures with SVG export.
 
 ## JVM programs
 
+<!--
 [Clean stacktrace](clean-stacktrace.md) is a small Xtend program that filters out irrelevant lines of a stacktrace that was previously loaded into the clipboard.
 
 [Active annotations](active-annotations.md) can be used in Xtend for seamless metaprogramming. Check out that page for details and examples.
 
-[MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
-
 [Illium](illium.md) is a console-based text adventure tool written in Scala and set in the [Mass Effect](https://en.wikipedia.org/wiki/Mass_Effect) universe.
+-->
+
+[MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
 
 ## ActionScript / Flash games
 
