@@ -47,9 +47,9 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [GraphTool](graphtool.md) is an editor written in C# using [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) for graph-like structures with SVG export.
 
+<!--
 ## JVM programs
 
-<!--
 [Clean stacktrace](clean-stacktrace.md) is a small Xtend program that filters out irrelevant lines of a stacktrace that was previously loaded into the clipboard.
 
 [Active annotations](active-annotations.md) can be used in Xtend for seamless metaprogramming. Check out that page for details and examples.
