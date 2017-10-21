@@ -1,5 +1,5 @@
 ## uRiddle
 
-This is a puzzle game written in C# using [Silverlight](https://en.wikipedia.org/wiki/Microsoft_Silverlight) inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
+This is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
 
-[Play it online!](https://broxp.lima-city.de/silver/uriddle)
+[Vier Github project](https://github.com/broxp/uRiddle)

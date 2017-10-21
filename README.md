@@ -7,7 +7,7 @@ Thanks for stopping by! You might be in interested in my profile and these topic
 
 I studied computer science in Hamburg (BSc) and Kiel (MSc) focusing on functional, object-oriented and multi-paradigm programming languages. You may contact me using ```brox dot p at web dot de``` (replacing ```dot -> .``` and ```at -> @```).
 
-Thinking about the "best" way to solve programming tasks has always fascinated me. I highly appreciate declarative object-oriented approaches like [Xtend](https://en.wikipedia.org/wiki/Xtend).
+Thinking about the "best" way to solve programming tasks has always fascinated me. I highly appreciate declarative object-oriented approaches like [Xtend](https://en.wikipedia.org/wiki/Xtend) and Scala.
 
 Please also check out my programming dedicated Blog [Xtendasy](http://xtendasy.tumblr.com) for articles.
 
@@ -19,7 +19,7 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 ## JavaScript programs
 
-[The Faction Conflict](factions.md) is a scifi-themed trading card game.
+[The Faction Conflict](factions.md) is a scifi-themed trading card game prototype.
 
 [MtgGen](mtggen.md) is a random magic card generator.
 
@@ -41,11 +41,11 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 [Control Mindstorms](control-mindstorms.md) is an F# program that can read sensors of and send commands to the Mindstorms EV3.
 
 [Flatmania](flatmania.md) is a 2D driving game written in C# using [XNA](https://en.wikipedia.org/wiki/Microsoft_XNA) that features a powerful physics engine and externally defined levels.
--->
-
-[uRiddle](uriddle.md) is a puzzle game written in C# using [Silverlight](https://en.wikipedia.org/wiki/Microsoft_Silverlight) inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium) that features a level editor.
 
 [Silver City](silver-city.md) is a small editor for [SimCity 2000](https://en.wikipedia.org/wiki/SimCity_2000) cities written in C# using Silverlight.
+-->
+
+[uRiddle](uriddle.md) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
 
 [GraphTool](graphtool.md) is an editor written in C# using [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) for graph-like structures with SVG export.
 
