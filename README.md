@@ -113,7 +113,9 @@ Durchschnittsnote.......................................1,6
 
 ## Games
 
-- [uRiddle](uriddle.md) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
+- [uRiddle](https://github.com/karstenwinter/uRiddle) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
+- [uRiddleFX](https://github.com/karstenwinter/uRiddleFX) is the level editor for uRiddle written in Java FX.
+
 - [Zombie Puzzle Platformer](zombie-puzzle-platformer.md) is a short Unity puzzle game made in a GameJam.
 - [Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
 - [TanakaQuest](tanaka-quest) is a JRPG (role playing game in the japanese style of Final Fantasy/Pokemon) that features an alchemy system, questlog and day/night cycle.
