@@ -71,7 +71,7 @@ Algorithmen und Datenstrukturen.........................1,7
 Grundlagen von Datenbanken..............................1,0
 Praktikum Informatik (Bildverarbeitung).................1,0
 Diskrete Mathematik für Studierende der Informatik......2,3
-Analysis und Lineare Algebra für Stud. d. Informatik....2,0
+Analysis und Lineare Algebra für Stud. der Informatik...2,0
 Stochastik für Studierende der Informatik...............1,0
 Softwaretechnik.........................................1,0
 Projektmanagement.......................................2,0
