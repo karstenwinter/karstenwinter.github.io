@@ -1,13 +1,11 @@
 
-## karstenwinter: backend dev, frontend dev, game dev, game designer
-
 Thanks for stopping by! Your time is valuable, so I'll give a very quick overview of myself:
 
 ## About me
 
-Name: Karsten Winter
-Born:	18.05.1991, in Mannheim
-Mail:	brox.p@web.de
+- Name: Karsten Winter
+- Born:	18.05.1991, in Mannheim
+- Mail:	brox.p@web.de
 
 ## Experience
 
@@ -23,19 +21,13 @@ Jan 2016 → Jan 2018
 
 *java, xtend, maven, jenkins, sql*
 
-Entwicklung von Finanz-Software
-BPMN-Modellierung und -Entwicklung mit Camunda Engine
-Entwicklung mit Java, Xtend, MDSD, DSLs mit Xtext
-Datenbankprogrammierung mit Hibernate, Postgres und Oracle SQL
-Testgetriebene Entwicklung mit JUnit, Selenium
-Oberflächenentwicklung mit HTML/JS
-Jenkins-Konfiguration und Entwicklung von Jenkins-Jobs
-Verwendung von SVN, Git und Jira, Confluence
+Design and Implementation of finance software used to process fundings in regional banks in germany. Used BPMN with Camunda Engine, MDSD/DSL-development with Xtend and Xtext, Hibernate SQL development, test using JUnit+Selenium, DevOps with Jenkins.
 
 ### Student research assistant – University of Kiel, Germany
 Nov 2013 → Dec 2013
-curry, haskell, prolog, web, database
-Entwicklung einer Test-Suite für Curry (Haskell-Variante mit Logikprogrammierung)
+
+*curry, haskell, prolog, web, database*
+Development of a test suite for Curry (a Haskell variant with logic programming)
 
 
 ## Languages and Certificates
@@ -68,13 +60,13 @@ Allg. Grundlagen / Anwendungsfach Spanisch
  Wirtschaftsspanisch.................................2,7
  Sprachpraxis 2......................................3,2
  Academic Writing....................................3,0
-Masterarbeit..........................................1,3
+Masterarbeit.........................................1,3
 Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs
-Gesamtnote der Masterprüfung..........................1,6
+Gesamtnote der Masterprüfung.........................1,6
 
 ----
 
-Bachelor of Science – University of Hamburg.  2010 → 2013
+Bachelor of Science – University of Hamburg   2010 → 2013
 Softwareentwicklung I.................................1,0
 Softwareentwicklung II................................1,0
 Softwareentwicklung III - Funktionale Programmierung..1,0
@@ -96,21 +88,29 @@ Data Mining...........................................1,3
 Bachelorarbeit B.Sc. Informatik.......................1,3
 Deklarativ, wenn möglich; imperativ, wenn nötig
            - Deklarativer Programmierstil heute
-Durchschnittsnote.....................................1,37
+Durchschnittsnote.....................................1,3
 
-Abitur, Meinert-Johannsen-Schule Elmshorn.     2007 → 2010
-Durchschnittsnote.....................................1,60
+Abitur, Meinert-Johannsen-Schule Elmshorn     2007 → 2010
+Durchschnittsnote.....................................1,6
 
 </pre>
 
-Public Artifacts
+## Public Artifacts
 
-Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs        Oct 2015
+Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs
+
+Oct 2015
+
 https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf
+
 *java, xtend, xtext, android, dsls*
 
-Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute Oct 2013
+Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute
+
+Oct 2013
+
 http://deklarativ.wordpress.com/
+
 *c#, f#, scala*
 
 ## Readings
@@ -126,26 +126,16 @@ http://deklarativ.wordpress.com/
 - Learning Android – Marko Gargenta 
 - React Material‑UI Cookbook: Build Captivating User experiences using React and Material-UI
 
+## Hobbies
 
-### OLD
-## About me
+- [Guitar music](https://soundcloud.com/karstenwinter)
+- [Improv theatre](https://facebook.com/eukalyptussalat)
+- card games / board games
+- video games
 
-I studied computer science in Hamburg (BSc) and Kiel (MSc) focusing on functional, object-oriented and multi-paradigm programming languages.
+## Prototypes
 
-
-You may contact me using ```brox dot p at web dot de``` (replacing ```dot -> .``` and ```at -> @```).
-
-Thinking about the "best" way to solve programming tasks has always fascinated me. I highly appreciate declarative object-oriented approaches like [Xtend](https://en.wikipedia.org/wiki/Xtend) and Scala.
-
-Please also check out my programming dedicated Blog [Xtendasy](http://xtendasy.tumblr.com) for articles.
-
-Guitar music is one of my beloved topics and [I play guitar myself](https://soundcloud.com/broxp).
-
-I also enjoy improvisation theatre being an improv actor myself in a small group in Kiel. Radio plays are also a form of art I highly appreciate.
-
-Moreover, I play card/board games, as well as video games (both of which I like to create myself from time to time).
-
-## JavaScript programs
+### JavaScript programs
 
 [The Faction Conflict](factions.md) is a scifi-themed trading card game prototype.
 
@@ -153,7 +143,7 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
 
-## Ruby programs
+### Ruby programs
 
 [Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
 
@@ -161,9 +151,9 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [Match3](ruby-match3.md) is a minimal console based [Bejeweled](https://en.wikipedia.org/wiki/Bejeweled) clone written in ruby, running in your browser using Opal.
 
-
-## .NET programs
 <!--
+### .NET programs
+
 [Angry Nerd](angry-nerd.md) is a 2D platformer game written in C# using the Unity engine that features a generated levels and is cross-platform (Desktop, Browser, Mobile).
 
 [Control Mindstorms](control-mindstorms.md) is an F# program that can read sensors of and send commands to the Mindstorms EV3.
@@ -197,10 +187,13 @@ Moreover, I play card/board games, as well as video games (both of which I like 
 
 [Jump and Craft](jump-and-craft.md) a mining game prototype inspired by [SteamWorld Dig](https://en.wikipedia.org/wiki/SteamWorld_Dig).
 
+<!--
 [Puzzle](flash-puzzle.md) is a simple puzzle game with drag and drop.
+-->
 
 [Shooter](flash-shooter.md) is a top down shooter with waves of AI enemies with various guns and some levels from [UT3](https://en.wikipedia.org/wiki/Unreal_Tournament_3).
 
 [Block Runner](flash-block-runner.md) is a fast top down skyscraper platformer game inspired by [GTA 2](https://en.wikipedia.org/wiki/Grand_Theft_Auto_2) and [Mirror's Edge](https://en.wikipedia.org/wiki/Mirror’s_Edge).
-
+<!--
 [RGB clock](flash-clock.md): Can you read it? Can you explain it? Would you wear it?
+-->
