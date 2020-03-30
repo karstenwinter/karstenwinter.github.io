@@ -10,25 +10,19 @@ Thanks for stopping by! Your time is valuable, so I'll give a very quick overvie
 ## Experience
 
 ### Lead Software Engineer – snapp.ai 		 		
-Jan 2018 → May 2020
- 
-*scala, mysql, reactjs, javascript, html, typescript, nextjs, rest*
+Jan 2018 → May 2020 - *scala, mysql, reactjs, javascript, html, typescript, nextjs, rest*
 
 Design and Implementation of the Marketplace/Shop Backend and its Web Frontend. https://magemarket.com/
 
 ### Anwendungsentwickler – b+m Informatik AG
-Jan 2016 → Jan 2018
-
-*java, xtend, maven, jenkins, sql*
+Jan 2016 → Jan 2018 - *java, xtend, maven, jenkins, sql*
 
 Design and Implementation of finance software used to process fundings in regional banks in germany. Used BPMN with Camunda Engine, MDSD/DSL-development with Xtend and Xtext, Hibernate SQL development, test using JUnit+Selenium, DevOps with Jenkins.
 
 ### Student research assistant – University of Kiel, Germany
-Nov 2013 → Dec 2013
+Nov 2013 → Dec 2013 - *curry, haskell, prolog, web, database*
 
-*curry, haskell, prolog, web, database*
 Development of a test suite for Curry (a Haskell variant with logic programming)
-
 
 ## Languages and Certificates
 
@@ -68,7 +62,7 @@ Gesamtnote der Masterprüfung...........................1,6
 
 Bachelor of Science – University of Hamburg     2010 → 2013
 Softwareentwicklung I...................................1,0
-Softwareentwicklung II................................1,0
+Softwareentwicklung II..................................1,0
 Softwareentwicklung III - Funktionale Programmierung....1,0
 Softwareentwicklung III - Logikprogrammierung...........1,0
 Formale Grundlagen der Informatik I.....................1,3
@@ -98,8 +92,8 @@ Durchschnittsnote.......................................1,6
 
 ## Public Artifacts
 
-- [Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs (Oct 2015)](https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf) *java, xtend, xtext, android, dsls*
-- [Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute (Oct 2013)](http://deklarativ.wordpress.com/) *c#, f#, scala*
+- [Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs (Oct 2015)](https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf) - *java, xtend, xtext, android, dsls*
+- [Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute (Oct 2013)](http://deklarativ.wordpress.com/) - *c#, f#, scala*
 
 ## Readings
 
