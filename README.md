@@ -1,11 +1,145 @@
-﻿
-## Welcome to my humble Website
 
-Thanks for stopping by! You might be in interested in my profile and these topics / projects.
+## karstenwinter: backend dev, frontend dev, game dev, game designer
+
+Thanks for stopping by! Your time is valuable, so I'll give a very quick overview of myself:
 
 ## About me
 
-I studied computer science in Hamburg (BSc) and Kiel (MSc) focusing on functional, object-oriented and multi-paradigm programming languages. You may contact me using ```brox dot p at web dot de``` (replacing ```dot -> .``` and ```at -> @```).
+Name: Karsten Winter
+Born:	18.05.1991, in Mannheim
+Mail:	brox.p@web.de
+
+## Experience
+
+<div style="display: flex">
+
+<span>
+Lead Software Engineer – snapp.ai 		 		
+  </span>
+<span style="justify-content: flex-end">
+ Jan 2018 → Current </span>
+ </div>
+scala, mysql, reactjs, javascript, html, typescript, nextjs, rest
+Design and Implementation of the Marketplace/Shop Backend and its Web Frontend.
+https://magemarket.com/
+
+Anwendungsentwickler – b+m Informatik AG 			Jan 2016 → Jan 2018
+java, xtend, maven, jenkins
+Entwicklung von Finanz-Software
+BPMN-Modellierung und -Entwicklung mit Camunda Engine
+Entwicklung mit Java, Xtend, MDSD, DSLs mit Xtext
+Metaprogrammierung
+Datenbankprogrammierung mit Hibernate, Postgres und Oracle SQL
+Testgetriebene Entwicklung mit JUnit, Selenium
+Oberflächenentwicklung mit HTML/JS
+Jenkins-Konfiguration und Entwicklung von Jenkins-Jobs
+Verwendung von SVN, Git
+Verwendung von Jira, Confluence
+
+Student research assistant – University of Kiel, Germany 		Nov 2013 → Dec 2013
+curry, haskell, prolog, web, database
+Entwicklung einer Test-Suite für Curry (Haskell-Variante mit Logikprogrammierung)
+
+
+
+## Languages / Certificates
+German (Mother tongue)
+English (C1)
+Spanish (B2)
+Camunda Certified Engineer (BPMN)
+
+
+## Education
+
+<pre>
+
+<u>Master of Science – Universität Kiel</u> 				2013 → 2015
+curry, haskell, ruby, latex
+Vertiefende Theoretische Grundlagen
+ Synchrone Sprachen..................................3,7
+ Combinatorics on Words..............................2,0
+Vertiefende Informatik-Grundlagen
+ Prinzipien von Programmiersprachen..................2,7
+ Deklarative Programmiersprachen.....................1,0
+ Quantitative Methoden in Human-Computer Studies.....2,3
+Informatik der Systeme
+ Entscheidungsverfahren..............................1,7
+ Softwarearchitektur.................................1,7
+ Nebenläufige und verteilte Programmierung...........1,7
+Vertiefungsbereich
+ Übersetzerbau.......................................1,3
+ Masterprojekt Programmierspr. + Programmiersysteme..1,0
+ Masterseminar Programmierspr. + Programmiersysteme..1,0
+Allg. Grundlagen / Anwendungsfach Spanisch
+ Wirtschaftsspanisch.................................2,7
+ Sprachpraxis 2......................................3,2
+ Academic Writing....................................3,0
+Masterarbeit..........................................1,3
+ (Titel: „Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs“)
+Gesamtnote der Masterprüfung..........................1,6
+
+Bachelor of Science – University of Hamburg, Germany		 2010 → 2013
+java, c#, f#, scheme
+Softwareentwicklung I.................................1,0
+Softwareentwicklung II................................1,0
+Softwareentwicklung III - Funktionale Programmierung..1,0
+Softwareentwicklung III - Logikprogrammierung.........1,0
+Formale Grundlagen der Informatik I...................1,3
+Formale Grundlagen der Informatik II..................1,0
+Algorithmen und Datenstrukturen.......................1,7
+Grundlagen von Datenbanken............................1,0
+Praktikum Informatik (Bildverarbeitung)...............1,0
+Diskrete Mathematik für Studierende der Informatik....2,3
+Analysis und Lineare Algebra für Stud. d. Informatik..2,0
+Stochastik für Studierende der Informatik.............1,0
+Softwaretechnik.......................................1,0
+Projektmanagement.....................................2,0
+Interaktives Visuelles Computing......................1,0
+Datenbanken und Informationssysteme...................1,0
+Recht der Informationswirtschaft......................1,7
+Data Mining...........................................1,3
+Bachelorarbeit B.Sc. Informatik.......................1,3
+(Titel: „Deklarativ, wenn möglich; imperativ, wenn nötig
+         - Deklarativer Programmierstil heute“)
+Durchschnittsnote.....................................1,37
+
+Abitur, Meinert-Johannsen-Schule Elmshorn, Germany		2007 → 2010
+Durchschnittsnote.....................................1,60
+java, mysql
+
+Public Artifacts
+
+Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs 			        Oct 2015
+https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf
+java, xtend, xtext, android, dsls
+
+Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute    Oct 2013
+http://deklarativ.wordpress.com/
+c#, f#, scala
+
+Readings
+
+Clean Code: A Handbook of Agile Software Craftsmanship – Robert C. Martin
+The Clean Coder: A Code of Conduct for Professional Programmers – Robert C. Martin
+Real-World Functional Programming: With Examples in F# and C# – Tomas Petricek, Jon Skeet
+Scala in Depth – Joshua D. Suereth, Martin Odersky
+Structure and Interpretation of Computer Programs, Second Edition – Harold Abelson, GJ Sussman 
+Entwurfsmuster – Richard Helm, Ralph Johnson, John Vlissides, Erich Gamma
+Pattern-orientierte Software-Architektur  –  Frank Buschmann
+Refactoring: Wie Sie Das Design Vorhandener Software Verbessern 
+Learning Android – Marko Gargenta 
+React Material‑UI Cookbook: Build Captivating User experiences using React and Material-UI
+
+</pre>
+
+
+### OLD
+## About me
+
+I studied computer science in Hamburg (BSc) and Kiel (MSc) focusing on functional, object-oriented and multi-paradigm programming languages.
+
+
+You may contact me using ```brox dot p at web dot de``` (replacing ```dot -> .``` and ```at -> @```).
 
 Thinking about the "best" way to solve programming tasks has always fascinated me. I highly appreciate declarative object-oriented approaches like [Xtend](https://en.wikipedia.org/wiki/Xtend) and Scala.
 
