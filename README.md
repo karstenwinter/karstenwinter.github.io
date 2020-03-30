@@ -31,7 +31,7 @@ Development of a test suite for Curry (a Haskell variant with logic programming)
 ## Education
 
 <pre>
-Master of Science – University of Kiel           2013 → 2015
+Master of Science – University of Kiel          2013 → 2015
 Vertiefende Theoretische Grundlagen
  Combinatorics on Words.................................2,0
  Synchrone Sprachen.....................................3,7
@@ -109,21 +109,22 @@ Durchschnittsnote.......................................1,6
 
 - [Guitar music](https://soundcloud.com/karstenwinter)
 - [Improv theatre](https://facebook.com/eukalyptussalat)
-- card games / board games
-- video games
+- card games / board games / video games
 
-## Prototypes, Apps and Game
+## Games
 
-- [Zombie Puzzle Platformer](zombie-puzzle-platformer.md) is a short Unity puzzle game made in a GameJam.
-- [FranticSearch](franticsearch.md) is a fulltext search over all magic cards from 1993-2007 (Amonkhet)
-- [impro-app](impro-app.md) is a random character and story element generator.
-- [MtgGen](mtggen.md) is a random magic card generator.
 - [uRiddle](uriddle.md) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
-- [The Faction Conflict](factions.md) is a scifi-themed trading card game prototype.
+- [Zombie Puzzle Platformer](zombie-puzzle-platformer.md) is a short Unity puzzle game made in a GameJam.
 - [Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
-- [GraphTool](graphtool.md) is an editor written in C# using [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) for graph-like structures with SVG export.
-- [Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
 - [TanakaQuest](tanaka-quest) is a JRPG (role playing game in the japanese style of Final Fantasy/Pokemon) that features an alchemy system, questlog and day/night cycle.
+- [Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
+
+## Apps
+
+- [FranticSearch](franticsearch.md) is a fulltext search over all magic cards from 1993-2007 (Amonkhet)
+- [impro-app](impro-app.md) is a random character and story element generator, useful for improv theatre plays.
+- [MtgGen](mtggen.md) is a random magic card generator.
+- [The Faction Conflict](factions.md) is a scifi-themed trading card game prototype.
 
 Flash games from back in the days when I started programming:
 
