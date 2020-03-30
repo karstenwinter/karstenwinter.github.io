@@ -117,10 +117,11 @@ Durchschnittsnote.......................................1,6
 
 ## Prototypes
 
-- [The Faction Conflict](factions.md) is a scifi-themed trading card game prototype.
 - [MtgGen](mtggen.md) is a random magic card generator.
-- [Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
 - [uRiddle](uriddle.md) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
+- [impro-app](impro-app) is a random character and story element generator.
+- [The Faction Conflict](factions.md) is a scifi-themed trading card game prototype.
+- [Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
 - [GraphTool](graphtool.md) is an editor written in C# using [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) for graph-like structures with SVG export.
 - [Vvardenfell](vvardenfell.md) is a multiplayer world exploration flash game with day/night cycle set in the world of [Morrowind](https://en.wikipedia.org/wiki/The_Elder_Scrolls_III:_Morrowind).
 - [Sherlock](sherlock.md) is a flash RPG featuring the main characters from [Sherlock](https://en.wikipedia.org/wiki/Sherlock_(TV_series)).
@@ -129,7 +130,8 @@ Durchschnittsnote.......................................1,6
 - [Block Runner](flash-block-runner.md) is a flash fast top down skyscraper platformer game inspired by [GTA 2](https://en.wikipedia.org/wiki/Grand_Theft_Auto_2) and [Mirror's Edge](https://en.wikipedia.org/wiki/Mirror’s_Edge).
 
 
-<!--### Ruby programs
+<!--
+### Ruby programs
 
 [Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
 
@@ -137,7 +139,7 @@ Durchschnittsnote.......................................1,6
 
 [Match3](ruby-match3.md) is a minimal console based [Bejeweled](https://en.wikipedia.org/wiki/Bejeweled) clone written in ruby, running in your browser using Opal.
 
-### .NET programs
+ .NET programs
 
 [Angry Nerd](angry-nerd.md) is a 2D platformer game written in C# using the Unity engine that features a generated levels and is cross-platform (Desktop, Browser, Mobile).
 
@@ -146,8 +148,8 @@ Durchschnittsnote.......................................1,6
 [Flatmania](flatmania.md) is a 2D driving game written in C# using [XNA](https://en.wikipedia.org/wiki/Microsoft_XNA) that features a powerful physics engine and externally defined levels.
 
 [Silver City](silver-city.md) is a small editor for [SimCity 2000](https://en.wikipedia.org/wiki/SimCity_2000) cities written in C# using Silverlight.
--->
-## JVM programs
+
+ JVM programs
 
 [Clean stacktrace](clean-stacktrace.md) is a small Xtend program that filters out irrelevant lines of a stacktrace that was previously loaded into the clipboard.
 
@@ -156,7 +158,6 @@ Durchschnittsnote.......................................1,6
 [Illium](illium.md) is a console-based text adventure tool written in Scala and set in the [Mass Effect](https://en.wikipedia.org/wiki/Mass_Effect) universe.
 
 [MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
-
 
 [Puzzle](flash-puzzle.md) is a simple puzzle game with drag and drop.
 
