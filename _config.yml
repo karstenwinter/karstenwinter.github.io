@@ -1,6 +1,6 @@
-remote_theme: bernbalter/retlab
 title: karstenwinter
 tagline: 
 description: backend dev, frontend dev, game dev, game designer
-xytheme: jekyll-theme-midnight
+theme: jekyll-theme-midnight
+asdremote_theme: bernbalter/retlab
 xyremote_theme: kaeyleo/jekyll-theme-H2O
