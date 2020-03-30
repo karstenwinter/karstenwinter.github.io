@@ -9,18 +9,18 @@ Thanks for stopping by! Your time is valuable, so I'll give a very quick overvie
 
 ## Experience
 
-### Lead Software Engineer – snapp.ai 		 		
-Jan 2018 → May 2020 - *scala, mysql, reactjs, javascript, html, typescript, nextjs, rest*
+### Jan 2018 → May 2020: Lead Software Engineer – snapp.ai 		 		
+*scala, mysql, reactjs, javascript, html, typescript, nextjs, rest*
 
 Design and Implementation of the Marketplace/Shop Backend and its Web Frontend. https://magemarket.com/
 
-### Anwendungsentwickler – b+m Informatik AG
-Jan 2016 → Jan 2018 - *java, xtend, maven, jenkins, sql*
+### Jan 2016 → Jan 2018: Software Developer – b+m Informatik AG
+*java, xtend, maven, jenkins, sql*
 
 Design and Implementation of finance software used to process fundings in regional banks in germany. Used BPMN with Camunda Engine, MDSD/DSL-development with Xtend and Xtext, Hibernate SQL development, test using JUnit+Selenium, DevOps with Jenkins.
 
-### Student research assistant – University of Kiel, Germany
-Nov 2013 → Dec 2013 - *curry, haskell, prolog, web, database*
+### Nov 2013 → Dec 2013: Student research assistant – University of Kiel, Germany
+*curry, haskell, prolog, web, database*
 
 Development of a test suite for Curry (a Haskell variant with logic programming)
 
