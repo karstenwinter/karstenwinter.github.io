@@ -4,7 +4,7 @@ Thanks for stopping by! Your time is valuable, so I'll give a very quick overvie
 ## About me
 
 - Name: Karsten Winter
-- Born:	18.05.1991, in Mannheim
+- Born:	18.05.1991, in Mannheim, Germany
 - Mail:	brox.p@web.de
 
 ## Experience
@@ -40,78 +40,66 @@ Development of a test suite for Curry (a Haskell variant with logic programming)
 ## Education
 
 <pre>
-Master of Science – University of Kiel       2013 → 2015
+Master of Science – University of Kiel         2013 → 2015
 Vertiefende Theoretische Grundlagen
- Synchrone Sprachen..................................3,7
- Combinatorics on Words..............................2,0
+ Combinatorics on Words................................2,0
+ Synchrone Sprachen....................................3,7
 Vertiefende Informatik-Grundlagen
- Prinzipien von Programmiersprachen..................2,7
- Deklarative Programmiersprachen.....................1,0
- Quantitative Methoden in Human-Computer Studies.....2,3
+ Prinzipien von Programmiersprachen....................2,7
+ Deklarative Programmiersprachen.......................1,0
+ Quantitative Methoden in Human-Computer Studies.......2,3
 Informatik der Systeme
- Entscheidungsverfahren..............................1,7
- Softwarearchitektur.................................1,7
- Nebenläufige und verteilte Programmierung...........1,7
+ Entscheidungsverfahren................................1,7
+ Softwarearchitektur...................................1,7
+ Nebenläufige und verteilte Programmierung.............1,7
 Vertiefungsbereich
- Übersetzerbau.......................................1,3
- Masterprojekt Programmierspr. + Programmiersysteme..1,0
- Masterseminar Programmierspr. + Programmiersysteme..1,0
+ Übersetzerbau.........................................1,3
+ Masterprojekt Programmierspr. + Programmiersysteme....1,0
+ Masterseminar Programmierspr. + Programmiersysteme....1,0
 Allg. Grundlagen / Anwendungsfach Spanisch
- Wirtschaftsspanisch.................................2,7
- Sprachpraxis 2......................................3,2
- Academic Writing....................................3,0
-Masterarbeit.........................................1,3
+ Wirtschaftsspanisch...................................2,7
+ Sprachpraxis 2........................................3,2
+ Academic Writing......................................3,0
+Masterarbeit...........................................1,3
 Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs
-Gesamtnote der Masterprüfung.........................1,6
+Gesamtnote der Masterprüfung...........................1,6
 
 ----
 
-Bachelor of Science – University of Hamburg   2010 → 2013
-Softwareentwicklung I.................................1,0
+Bachelor of Science – University of Hamburg     2010 → 2013
+Softwareentwicklung I...................................1,0
 Softwareentwicklung II................................1,0
-Softwareentwicklung III - Funktionale Programmierung..1,0
-Softwareentwicklung III - Logikprogrammierung.........1,0
-Formale Grundlagen der Informatik I...................1,3
-Formale Grundlagen der Informatik II..................1,0
-Algorithmen und Datenstrukturen.......................1,7
-Grundlagen von Datenbanken............................1,0
-Praktikum Informatik (Bildverarbeitung)...............1,0
-Diskrete Mathematik für Studierende der Informatik....2,3
-Analysis und Lineare Algebra für Stud. d. Informatik..2,0
-Stochastik für Studierende der Informatik.............1,0
-Softwaretechnik.......................................1,0
-Projektmanagement.....................................2,0
-Interaktives Visuelles Computing......................1,0
-Datenbanken und Informationssysteme...................1,0
-Recht der Informationswirtschaft......................1,7
-Data Mining...........................................1,3
-Bachelorarbeit B.Sc. Informatik.......................1,3
+Softwareentwicklung III - Funktionale Programmierung....1,0
+Softwareentwicklung III - Logikprogrammierung...........1,0
+Formale Grundlagen der Informatik I.....................1,3
+Formale Grundlagen der Informatik II....................1,0
+Algorithmen und Datenstrukturen.........................1,7
+Grundlagen von Datenbanken..............................1,0
+Praktikum Informatik (Bildverarbeitung).................1,0
+Diskrete Mathematik für Studierende der Informatik......2,3
+Analysis und Lineare Algebra für Stud. d. Informatik....2,0
+Stochastik für Studierende der Informatik...............1,0
+Softwaretechnik.........................................1,0
+Projektmanagement.......................................2,0
+Interaktives Visuelles Computing........................1,0
+Datenbanken und Informationssysteme.....................1,0
+Recht der Informationswirtschaft........................1,7
+Data Mining.............................................1,3
+Bachelorarbeit B.Sc. Informatik.........................1,3
 Deklarativ, wenn möglich; imperativ, wenn nötig
            - Deklarativer Programmierstil heute
-Durchschnittsnote.....................................1,3
+Durchschnittsnote.......................................1,3
 
-Abitur, Meinert-Johannsen-Schule Elmshorn     2007 → 2010
-Durchschnittsnote.....................................1,6
+Abitur, Meinert-Johannsen-Schule Elmshorn       2007 → 2010
+Vertiefungsbereich: Datenverarbeitung, Englisch
+Durchschnittsnote.......................................1,6
 
 </pre>
 
 ## Public Artifacts
 
-Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs
-
-Oct 2015
-
-https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf
-
-*java, xtend, xtext, android, dsls*
-
-Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute
-
-Oct 2013
-
-http://deklarativ.wordpress.com/
-
-*c#, f#, scala*
+- [Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs (Oct 2015)](https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf) *java, xtend, xtext, android, dsls*
+- [Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute (Oct 2013)](http://deklarativ.wordpress.com/) *c#, f#, scala*
 
 ## Readings
 
@@ -121,7 +109,7 @@ http://deklarativ.wordpress.com/
 - Scala in Depth – Joshua D. Suereth, Martin Odersky
 - Structure and Interpretation of Computer Programs, Second Edition – Harold Abelson, GJ Sussman 
 - Entwurfsmuster – Richard Helm, Ralph Johnson, John Vlissides, Erich Gamma
-- Pattern-orientierte Software-Architektur  –  Frank Buschmann
+- Pattern-orientierte Software-Architektur – Frank Buschmann
 - Refactoring: Wie Sie Das Design Vorhandener Software Verbessern 
 - Learning Android – Marko Gargenta 
 - React Material‑UI Cookbook: Build Captivating User experiences using React and Material-UI
