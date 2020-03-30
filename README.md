@@ -89,7 +89,7 @@ Durchschnittsnote.......................................1,6
 
 ## Public Artifacts
 
-- [Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs (Oct 2015)](https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf) - *java, xtend, xtext, android, dsls* (german only, english title: Development of platform independant GUI applications with DSLs)
+- [Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs (Oct 2015)](https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf) - *java, xtend, xtext, android, dsls* (german only, english title: Development of platform Independent GUI applications with DSLs)
 - [Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute (Oct 2013)](http://deklarativ.wordpress.com/) - *c#, f#, scala* (german only, english title: Declarative, if possible; imperative, if needed - declarative programming style today)
 
 ## Readings
