@@ -122,8 +122,7 @@ Durchschnittsnote.......................................1,6
 - [Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
 - [GraphTool](graphtool.md) is an editor written in C# using [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) for graph-like structures with SVG export.
 - [Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
-- [MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
-- [TanakaQuest](tanaka-quest.md) is a JRPG (role playing game in the japanese style of Final Fantasy/Pokemon) that features an alchemy system, questlog and day/night cycle.
+- [TanakaQuest](tanaka-quest) is a JRPG (role playing game in the japanese style of Final Fantasy/Pokemon) that features an alchemy system, questlog and day/night cycle.
 
 Flash games from back in the days when I started programming:
 
@@ -135,6 +134,9 @@ Flash games from back in the days when I started programming:
 
 
 <!--
+
+- [MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
+
 ### Ruby programs
 
 
