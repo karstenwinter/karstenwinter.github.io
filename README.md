@@ -36,8 +36,8 @@ Vertiefende Theoretische Grundlagen
  Combinatorics on Words.................................2,0
  Synchrone Sprachen.....................................3,7
 Vertiefende Informatik-Grundlagen
- Prinzipien von Programmiersprachen.....................2,7
  Deklarative Programmiersprachen........................1,0
+ Prinzipien von Programmiersprachen.....................2,7
  Quantitative Methoden in Human-Computer Studies........2,3
 Informatik der Systeme
  Entscheidungsverfahren.................................1,7
@@ -112,8 +112,9 @@ Durchschnittsnote.......................................1,6
 - card games / board games
 - video games
 
-## Prototypes/Apps
+## Prototypes, Apps and Game
 
+- [Zombie Puzzle Platformer](zombie-puzzle-platformer.md) is a short Unity puzzle game made in a GameJam.
 - [FranticSearch](franticsearch.md) is a fulltext search over all magic cards from 1993-2007 (Amonkhet)
 - [impro-app](impro-app.md) is a random character and story element generator.
 - [MtgGen](mtggen.md) is a random magic card generator.
