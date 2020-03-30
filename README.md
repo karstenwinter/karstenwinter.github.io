@@ -1,6 +1,3 @@
-
-Thanks for stopping by! Your time is valuable, so I'll give a very quick overview of myself:
-
 ## About me
 
 - Name: Karsten Winter
@@ -34,29 +31,29 @@ Development of a test suite for Curry (a Haskell variant with logic programming)
 ## Education
 
 <pre>
-Master of Science – University of Kiel         2013 → 2015
+Master of Science – University of Kiel           2013 → 2015
 Vertiefende Theoretische Grundlagen
- Combinatorics on Words................................2,0
- Synchrone Sprachen....................................3,7
+ Combinatorics on Words.................................2,0
+ Synchrone Sprachen.....................................3,7
 Vertiefende Informatik-Grundlagen
- Prinzipien von Programmiersprachen....................2,7
- Deklarative Programmiersprachen.......................1,0
- Quantitative Methoden in Human-Computer Studies.......2,3
+ Prinzipien von Programmiersprachen.....................2,7
+ Deklarative Programmiersprachen........................1,0
+ Quantitative Methoden in Human-Computer Studies........2,3
 Informatik der Systeme
- Entscheidungsverfahren................................1,7
- Softwarearchitektur...................................1,7
- Nebenläufige und verteilte Programmierung.............1,7
+ Entscheidungsverfahren.................................1,7
+ Softwarearchitektur....................................1,7
+ Nebenläufige und verteilte Programmierung..............1,7
 Vertiefungsbereich
- Übersetzerbau.........................................1,3
- Masterprojekt Programmierspr. + Programmiersysteme....1,0
- Masterseminar Programmierspr. + Programmiersysteme....1,0
+ Übersetzerbau..........................................1,3
+ Masterprojekt Programmierspr. + Programmiersysteme.....1,0
+ Masterseminar Programmierspr. + Programmiersysteme.....1,0
 Allg. Grundlagen / Anwendungsfach Spanisch
- Wirtschaftsspanisch...................................2,7
- Sprachpraxis 2........................................3,2
- Academic Writing......................................3,0
-Masterarbeit...........................................1,3
+ Wirtschaftsspanisch....................................2,7
+ Sprachpraxis 2.........................................3,2
+ Academic Writing.......................................3,0
+Masterarbeit............................................1,3
 Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs
-Gesamtnote der Masterprüfung...........................1,6
+Gesamtnote der Masterprüfung............................1,6
 
 ----
 
@@ -92,8 +89,8 @@ Durchschnittsnote.......................................1,6
 
 ## Public Artifacts
 
-- [Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs (Oct 2015)](https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf) - *java, xtend, xtext, android, dsls*
-- [Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute (Oct 2013)](http://deklarativ.wordpress.com/) - *c#, f#, scala*
+- [Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs (Oct 2015)](https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf) - *java, xtend, xtext, android, dsls* (german only, english title: Development of platform independant GUI applications with DSLs)
+- [Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute (Oct 2013)](http://deklarativ.wordpress.com/) - *c#, f#, scala* (german only, english title: Declarative, if possible; imperative, if needed - declarative programming style today)
 
 ## Readings
 
@@ -115,14 +112,21 @@ Durchschnittsnote.......................................1,6
 - card games / board games
 - video games
 
-## Prototypes
+## Prototypes/Apps
 
+- [FranticSearch](franticsearch.md) is a fulltext search over all magic cards from 1993-2007 (Amonkhet)
+- [impro-app](impro-app.md) is a random character and story element generator.
 - [MtgGen](mtggen.md) is a random magic card generator.
 - [uRiddle](uriddle.md) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
-- [impro-app](impro-app) is a random character and story element generator.
 - [The Faction Conflict](factions.md) is a scifi-themed trading card game prototype.
 - [Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
 - [GraphTool](graphtool.md) is an editor written in C# using [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) for graph-like structures with SVG export.
+- [Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
+- [MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
+- [TanakaQuest](tanaka-quest.md) is a JRPG (role playing game in the japanese style of Final Fantasy/Pokemon) that features an alchemy system, questlog and day/night cycle.
+
+Flash games from back in the days when I started programming:
+
 - [Vvardenfell](vvardenfell.md) is a multiplayer world exploration flash game with day/night cycle set in the world of [Morrowind](https://en.wikipedia.org/wiki/The_Elder_Scrolls_III:_Morrowind).
 - [Sherlock](sherlock.md) is a flash RPG featuring the main characters from [Sherlock](https://en.wikipedia.org/wiki/Sherlock_(TV_series)).
 - [Jump and Craft](jump-and-craft.md) a flash mining game prototype inspired by [SteamWorld Dig](https://en.wikipedia.org/wiki/SteamWorld_Dig).
@@ -133,7 +137,6 @@ Durchschnittsnote.......................................1,6
 <!--
 ### Ruby programs
 
-[Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
 
 [Ruby shell](ruby-shell.md) is a small ruby programming environment with a [REPL](https://en.wikipedia.org/wiki/REPL) with syntax highlighting and integrated documentation, running in your browser using [Opal](http://opalrb.org).
 
@@ -156,8 +159,6 @@ Durchschnittsnote.......................................1,6
 [Active annotations](active-annotations.md) can be used in Xtend for seamless metaprogramming. Check out that page for details and examples.
 
 [Illium](illium.md) is a console-based text adventure tool written in Scala and set in the [Mass Effect](https://en.wikipedia.org/wiki/Mass_Effect) universe.
-
-[MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
 
 [Puzzle](flash-puzzle.md) is a simple puzzle game with drag and drop.
 
