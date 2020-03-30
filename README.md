@@ -123,8 +123,8 @@ Durchschnittsnote.......................................1,6
 
 ## Apps
 
-- [FranticSearch](franticsearch.md) is a fulltext search over all magic cards from 1993-2007 (Amonkhet)
-- [impro-app](impro-app.md) is a random character and story element generator, useful for improv theatre plays.
+- [FranticSearch](franticsearch) is a fulltext search over all magic cards from 1993-2007 (Amonkhet)
+- [impro-app](impro-app) is a random character and story element generator, useful for improv theatre plays.
 - [MtgGen](mtggen.md) is a random magic card generator.
 - [The Faction Conflict](factions.md) is a scifi-themed trading card game prototype.
 
