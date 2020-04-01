@@ -34,6 +34,8 @@
 - Unit and UI Testing with JUnit and Selenium
 - Database Postgres and Oracle SQL evolutions with Hibernate
 
+<img src="bin/bmfgc.png" width="400" height="250" />
+
 ### Nov 2013 → Dec 2013: Student research assistant – University of Kiel
 *curry, haskell, prolog, web, database*
 
