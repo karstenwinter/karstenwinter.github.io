@@ -3,15 +3,16 @@
 
 - Name: Karsten Winter
 - Born:	18.05.1991, in Mannheim, Germany
-- Mail:	[brox.p@web.de](mailto:brox.p@web.de?body=Hey,%20Karsten!%20I%20just%20saw%20your%20profile%20on%20github.&subject=Job%20offer)
-- I'm available for hire
+- Mail:	[brox.p@web.de](mailto:brox.p@web.de?body=Hey,%20Karsten!%20I%20just%20saw%20your%20profile%20on%20github.&subject=Saying%20Hi)
+- [I'm available for hire](mailto:brox.p@web.de?body=Hey,%20Karsten!%20I%20just%20saw%20your%20profile%20on%20github.&subject=Job%20offer)
 
 ## Core Values
 
 - Readable Code, maintainable and testable Software (Clean Code)
 - High test coverage (UI and Unit Testing)
-- Clear communication and specification, e.g. BPMN as a tool to do so
+- Clear communication and specification (e.g. BPMN as a tool to do so, mock ups to sketch ideas)
 - Transparent working with Github Issues, Task-management tools (e.g. Sunsama/Basecamp)
+- Knowledge transfer with pair programming
 
 ## Experience
 
@@ -22,19 +23,19 @@
 - Unit and UI Testing with ScalaSpecs and Selenium
 - Database MySQL evolutions with Play Evolutions
 
-[![](https://img.youtube.com/vi/nSQ7BPr29fc/0.jpg)](https://www.youtube.com/watch?v=nSQ7BPr29fc)
+<a href="https://www.youtube.com/watch?v=nSQ7BPr29fc" target="_blank" rel="noopener"><img src="https://img.youtube.com/vi/nSQ7BPr29fc/0.jpg" width="480" height="360" /></a>
 
 ### Jan 2016 → Jan 2018: Software Developer – b+m Informatik AG
 *java, xtend, xtext, dsl, junit, selenium, maven, jenkins, sql, hibernate, camunda-bpmn*
 
 - Design and implementation of finance software FGCenter used to process fundings in regional banks in germany
 - Implementation of automated / timer-driven tasks and HTML input forms
-- SAP interop via xml-api for [IB.SH](https://www.ikor.de/ibsh-durchleitungsoptimierung-zur-kfw.html)
+- SAP interop via XML API for [IB.SH](https://www.ikor.de/ibsh-durchleitungsoptimierung-zur-kfw.html)
 - DevOps with Jenkins
 - Unit and UI Testing with JUnit and Selenium
 - Database Postgres and Oracle SQL evolutions with Hibernate
 
-<img src="bin/bmfgc.png" width="400" height="250" />
+<img src="bin/bmfgc.png" width="480" height="360" />
 
 ### Nov 2013 → Dec 2013: Student research assistant – University of Kiel
 *curry, haskell, prolog, web, database*
@@ -141,14 +142,14 @@ Durchschnittsnote.......................................1,6
 
 ### The Box Code - a mobile retro puzzle game
 
-[![](https://img.youtube.com/vi/B9LBSXQ7tCQ/0.jpg)](https://www.youtube.com/watch?v=B9LBSXQ7tCQ)
+<a href="https://www.youtube.com/watch?v=B9LBSXQ7tCQ" target="_blank" rel="noopener"><img src="https://img.youtube.com/vi/B9LBSXQ7tCQ/0.jpg" width="480" height="360" /></a>
 
 - [uRiddle](https://github.com/karstenwinter/uRiddle) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
 - [uRiddleFX](https://github.com/karstenwinter/uRiddleFX) is the level editor for uRiddle written in Java FX.
 
 ### Immortus - a zombie platformer puzzle game
 
-[![](https://img.youtube.com/vi/kG5HW_VXwpc/0.jpg)](https://www.youtube.com/watch?v=kG5HW_VXwpc)
+<a href="https://www.youtube.com/watch?v=kG5HW_VXwpc" target="_blank" rel="noopener"><img src="https://img.youtube.com/vi/kG5HW_VXwpc/0.jpg" width="480" height="360" /></a>
 
 - [Zombie Puzzle Platformer](zombie-puzzle-platformer.md) is a short Unity puzzle game made in a GameJam.
 
@@ -168,36 +169,3 @@ Flash games from back in the days when I started programming:
 - [Block Runner](flash-block-runner.md) is a flash fast top down skyscraper platformer game inspired by [GTA 2](https://en.wikipedia.org/wiki/Grand_Theft_Auto_2) and [Mirror's Edge](https://en.wikipedia.org/wiki/Mirror’s_Edge).
 
 
-<!--
-
-- [MathEd](mathed.md) is a small tool written in Xtend using JavaFX that simplifies input of mathematical symbols.
-
-### Ruby programs
-
-
-[Ruby shell](ruby-shell.md) is a small ruby programming environment with a [REPL](https://en.wikipedia.org/wiki/REPL) with syntax highlighting and integrated documentation, running in your browser using [Opal](http://opalrb.org).
-
-[Match3](ruby-match3.md) is a minimal console based [Bejeweled](https://en.wikipedia.org/wiki/Bejeweled) clone written in ruby, running in your browser using Opal.
-
- .NET programs
-
-[Angry Nerd](angry-nerd.md) is a 2D platformer game written in C# using the Unity engine that features a generated levels and is cross-platform (Desktop, Browser, Mobile).
-
-[Control Mindstorms](control-mindstorms.md) is an F# program that can read sensors of and send commands to the Mindstorms EV3.
-
-[Flatmania](flatmania.md) is a 2D driving game written in C# using [XNA](https://en.wikipedia.org/wiki/Microsoft_XNA) that features a powerful physics engine and externally defined levels.
-
-[Silver City](silver-city.md) is a small editor for [SimCity 2000](https://en.wikipedia.org/wiki/SimCity_2000) cities written in C# using Silverlight.
-
- JVM programs
-
-[Clean stacktrace](clean-stacktrace.md) is a small Xtend program that filters out irrelevant lines of a stacktrace that was previously loaded into the clipboard.
-
-[Active annotations](active-annotations.md) can be used in Xtend for seamless metaprogramming. Check out that page for details and examples.
-
-[Illium](illium.md) is a console-based text adventure tool written in Scala and set in the [Mass Effect](https://en.wikipedia.org/wiki/Mass_Effect) universe.
-
-[Puzzle](flash-puzzle.md) is a simple puzzle game with drag and drop.
-
-[RGB clock](flash-clock.md): Can you read it? Can you explain it? Would you wear it?
--->
