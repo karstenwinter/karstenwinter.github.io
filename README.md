@@ -1,15 +1,19 @@
+
 ## About me
 
 - Name: Karsten Winter
 - Born:	18.05.1991, in Mannheim, Germany
-- Mail:	[brox.p@web.de](mailto:brox.p@web.de)
+- Mail:	[brox.p@web.de](mailto:brox.p@web.de?body=Hey,%20Karsten!%20I%20just%20saw%20your%20profile%20on%20github...!&subject=Job%20offer)
+- I'm available for hire
 
 ## Experience
 
 ### Jan 2018 → May 2020: Lead Software Engineer – snapp.ai 		 		
 *scala, mysql, reactjs, javascript, html, typescript, nextjs, rest*
 
-Design and implementation of MTG Marketplace Magemarket: backend and its web frontend.
+Design and implementation of Magemarket, a Trading Card Marketplace, backend and web frontend.
+
+[![](https://img.youtube.com/vi/nSQ7BPr29fc/0.jpg)](https://www.youtube.com/watch?v=nSQ7BPr29fc)
 
 ### Jan 2016 → Jan 2018: Software Developer – b+m Informatik AG
 *java, xtend, xtext, dsl, junit, selenium, maven, jenkins, sql, hibernate, camunda-bpmn*
@@ -19,7 +23,7 @@ Design and implementation of finance software used to process fundings in region
 ### Nov 2013 → Dec 2013: Student research assistant – University of Kiel
 *curry, haskell, prolog, web, database*
 
-Development of a test suite for Curry (a Haskell variant with logic programming)
+Development of a test suite for Curry (a Haskell variant with logic programming).
 
 ## Languages and Certificates
 
@@ -89,7 +93,7 @@ Durchschnittsnote.......................................1,6
 
 ## Public Artifacts
 
-- [Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs (Oct 2015)](https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf) - *java, xtend, xtext, android, dsls* (german only, english title: Development of platform Independent GUI applications with DSLs)
+- [Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs (Oct 2015)](https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/pietrzyk.pdf) - *java, xtend, xtext, android, dsls* (german only, english title: Development of platform independant GUI applications with DSLs)
 - [Deklarativ, wenn möglich; imperativ, wenn nötig - Deklarativer Programmierstil heute (Oct 2013)](http://deklarativ.wordpress.com/) - *c#, f#, scala* (german only, english title: Declarative, if possible; imperative, if needed - declarative programming style today)
 
 ## Readings
@@ -111,21 +115,32 @@ Durchschnittsnote.......................................1,6
 - [Improv theatre](https://facebook.com/eukalyptussalat)
 - card games / board games / video games
 
-## Games
-
-- [uRiddle](https://github.com/karstenwinter/uRiddle) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
-- [uRiddleFX](https://github.com/karstenwinter/uRiddleFX) is the level editor for uRiddle written in Java FX.
-
-- [Zombie Puzzle Platformer](zombie-puzzle-platformer.md) is a short Unity puzzle game made in a GameJam.
-- [Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
-- [TanakaQuest](tanaka-quest) is a JRPG (role playing game in the japanese style of Final Fantasy/Pokemon) that features an alchemy system, questlog and day/night cycle.
-- [Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
-
-## Apps
+## Mobile Apps
 
 - [FranticSearch](franticsearch) is a fulltext search over all magic cards from 1993-2007 (Amonkhet)
 - [impro-app](impro-app) is a random character and story element generator, useful for improv theatre plays.
 - [MtgGen](mtggen.md) is a random magic card generator.
+
+## Games
+
+### The Box Code - a mobile retro puzzle game
+
+[![](https://img.youtube.com/vi/B9LBSXQ7tCQ/0.jpg)](https://www.youtube.com/watch?v=B9LBSXQ7tCQ)
+
+- [uRiddle](https://github.com/karstenwinter/uRiddle) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
+- [uRiddleFX](https://github.com/karstenwinter/uRiddleFX) is the level editor for uRiddle written in Java FX.
+
+### Immortus - a zombie platformer puzzle game
+
+[![](https://img.youtube.com/vi/kG5HW_VXwpc/0.jpg)](https://www.youtube.com/watch?v=kG5HW_VXwpc)
+
+- [Zombie Puzzle Platformer](zombie-puzzle-platformer.md) is a short Unity puzzle game made in a GameJam.
+
+### Other Games
+
+- [Ca$h Flow](cf.md) is a nerd store simulator inspired by [Adventure Capitalist](https://en.wikipedia.org/wiki/Adventure_Capitalist).
+- [TanakaQuest](tanaka-quest) is a JRPG (role playing game in the japanese style of Final Fantasy/Pokemon) that features an alchemy system, questlog and day/night cycle.
+- [Ruby IDE](ruby-ide.md) is a ruby programming environment with syntax highlighting and context sensitive help, running in your browser using [Opal](http://opalrb.org).
 - [The Faction Conflict](factions.md) is a scifi-themed trading card game prototype.
 
 Flash games from back in the days when I started programming:
