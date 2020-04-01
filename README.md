@@ -3,27 +3,41 @@
 
 - Name: Karsten Winter
 - Born:	18.05.1991, in Mannheim, Germany
-- Mail:	[brox.p@web.de](mailto:brox.p@web.de?body=Hey,%20Karsten!%20I%20just%20saw%20your%20profile%20on%20github...!&subject=Job%20offer)
+- Mail:	[brox.p@web.de](mailto:brox.p@web.de?body=Hey,%20Karsten!%20I%20just%20saw%20your%20profile%20on%20github.&subject=Job%20offer)
 - I'm available for hire
+
+## Core Values
+
+- Readable Code, maintainable and testable Software (Clean Code)
+- High test coverage (UI and Unit Testing)
+- Clear communication and specification, e.g. BPMN as a tool to do so
+- Transparent working with Github Issues, Task-management tools (e.g. Sunsama/Basecamp)
 
 ## Experience
 
 ### Jan 2018 → May 2020: Lead Software Engineer – snapp.ai 		 		
 *scala, mysql, reactjs, javascript, html, typescript, nextjs, rest*
 
-Design and implementation of Magemarket, a Trading Card Marketplace, backend and web frontend.
+- Design and implementation of Magemarket, a Trading Card Marketplace, Scala Play backend and React/NextJS Typescript web frontend.
+- Unit and UI Testing with ScalaSpecs and Selenium
+- Database MySQL evolutions with Play Evolutions
 
 [![](https://img.youtube.com/vi/nSQ7BPr29fc/0.jpg)](https://www.youtube.com/watch?v=nSQ7BPr29fc)
 
 ### Jan 2016 → Jan 2018: Software Developer – b+m Informatik AG
 *java, xtend, xtext, dsl, junit, selenium, maven, jenkins, sql, hibernate, camunda-bpmn*
 
-Design and implementation of finance software used to process fundings in regional banks in germany.
+- Design and implementation of finance software FGCenter used to process fundings in regional banks in germany
+- Implementation of automated / timer-driven tasks and HTML input forms
+- SAP interop via xml-api for [IB.SH](https://www.ikor.de/ibsh-durchleitungsoptimierung-zur-kfw.html)
+- DevOps with Jenkins
+- Unit and UI Testing with JUnit and Selenium
+- Database Postgres and Oracle SQL evolutions with Hibernate
 
 ### Nov 2013 → Dec 2013: Student research assistant – University of Kiel
 *curry, haskell, prolog, web, database*
 
-Development of a test suite for Curry (a Haskell variant with logic programming).
+Development of a test suite with QuickCheck for Curry (a Haskell variant with logic programming).
 
 ## Languages and Certificates
 
