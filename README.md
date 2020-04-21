@@ -29,7 +29,7 @@
 ### Jan 2016 → Jan 2018: Software Developer – b+m Informatik AG
 *java, xtend, xtext, dsl, junit, selenium, maven, jenkins, sql, hibernate, camunda-bpmn*
 
-- Design and implementation of finance software FGCenter used to process fundings in regional banks in germany
+- Maintaining and extending the finance software FGCenter used to process fundings in regional banks in germany
 - Implementation of automated / timer-driven tasks and HTML input forms
 - SAP interop via XML API for [IB.SH](https://www.ikor.de/ibsh-durchleitungsoptimierung-zur-kfw.html)
 - DevOps with Jenkins
@@ -50,8 +50,73 @@ Development of a test suite with QuickCheck for Curry (a Haskell variant with lo
 - Spanish (B2)
 - Camunda Certified Engineer (BPMN)
 
-## Education
+## Hobbies
+- Game Development with Unity
+- Mobile Game Development
+- Mobile App Development
+- Improv Theatre
+- Guitar
+- Writing
 
+## Education
+<pre>
+Master of Science – University of Kiel                      2013 → 2015
+
+In-depth Theoretics
+ Combinatorics on Words............................................ 2.0
+ Synchronous Languages ............................................ 3.7
+In-depth Informatics
+ Principles of programming languages .............................. 2.7
+ Declarative programming languages ................................ 1.0
+ Quantitative methods in human-computer studies ................... 2.3
+Informatics of systems
+ Recursive Functions and Computability ............................ 1.7
+ Software architecture ............................................ 1.7
+ Concurrent and distributed programming ........................... 1.7
+Specialization
+ Compiler construction ............................................ 1.3
+ Master project programming languages + Programming systems ....... 1.0
+ Masters seminar programming languages + Programming systems ...... 1.0
+Application subject Spanish
+ Business Spanish ................................................. 2.7
+ Language Practice 2 .............................................. 3.2
+ Academic Writing ................................................. 3.0
+Master Thesis ..................................................... 1.3
+ (Title: Development of platform-independent GUI applications with DSLs)
+Overall grade of the master's examination ......................... 1.6
+___
+
+Bachelor of Science - University of Hamburg, Germany         2010 → 2013
+
+Software development I - oop ....................................... 1.0
+Software development II - oop ...................................... 1.0
+Software development III - functional programming .................. 1.0
+Software development III - logic programming ....................... 1.0
+Formal basics of computer science I ................................ 1.3
+Formal basics of computer science II ............................... 1.0
+Algorithms and data structures ..................................... 1.7
+Foundations of databases ........................................... 1.0
+Practical project Image processing ................................. 1.0
+Discrete Mathematics for Computer Science Students ................. 2.3
+Analysis and Linear Algebra for Computer Science Students .......... 2.0
+Stochastics for Computer Science Students .......................... 1.0
+Software engineering ............................................... 1.0
+Project management ................................................. 2.0
+Interactive visual computing ....................................... 1.0
+Databases and information systems .................................. 1.0
+Law of the information economy ..................................... 1.7
+Data mining ........................................................ 1.3
+Bachelor thesis B.Sc. IT ........................................... 1.3
+(Title: “Declarative if possible; imperative if needed
+         - Declarative programming style today")
+Average grade ...................................................... 1.37
+___
+
+Abitur, Meinert-Johannsen-Schule Elmshorn, Germany		          2007 → 2010
+Average grade ....................................................... 1.6
+</pre>
+
+<!--
 <pre>
 Master of Science – University of Kiel          2013 → 2015
 Vertiefende Theoretische Grundlagen
@@ -77,7 +142,7 @@ Masterarbeit............................................1,3
 Entwicklung plattformunabhängiger GUI-Anwendungen mit DSLs
 Gesamtnote der Masterprüfung............................1,6
 
-----
+___
 
 Bachelor of Science – University of Hamburg     2010 → 2013
 Softwareentwicklung I...................................1,0
@@ -107,6 +172,7 @@ Abitur, Meinert-Johannsen-Schule Elmshorn       2007 → 2010
 Vertiefungsbereich: Datenverarbeitung, Englisch
 Durchschnittsnote.......................................1,6
 </pre>
+-->
 
 ## Public Artifacts
 
