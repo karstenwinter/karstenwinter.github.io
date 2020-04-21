@@ -22,6 +22,7 @@
 - Design and implementation of Magemarket, a Trading Card Marketplace, Scala Play backend and React/NextJS Typescript web frontend.
 - Unit and UI Testing with ScalaSpecs and Selenium
 - Database MySQL evolutions with Play Evolutions
+- Stripe/PayPal payments via API
 
 <a href="https://www.youtube.com/watch?v=nSQ7BPr29fc" target="_blank" rel="noopener"><img src="https://img.youtube.com/vi/nSQ7BPr29fc/0.jpg" width="480" height="360" /></a>
 
@@ -105,7 +106,6 @@ Durchschnittsnote.......................................1,3
 Abitur, Meinert-Johannsen-Schule Elmshorn       2007 → 2010
 Vertiefungsbereich: Datenverarbeitung, Englisch
 Durchschnittsnote.......................................1,6
-
 </pre>
 
 ## Public Artifacts
