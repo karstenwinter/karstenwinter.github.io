@@ -17,7 +17,7 @@
 ## Experience
 
 ### Jan 2018 → May 2020: Lead Software Engineer – snapp.ai 		 		
-*scala, mysql, reactjs, javascript, html, typescript, nextjs, rest*
+*scala, play, akka, mysql, reactjs, javascript, html, typescript, nextjs, rest*
 
 - Design and implementation of Magemarket, a Trading Card Marketplace, Scala Play backend and React/NextJS Typescript web frontend.
 - Unit and UI Testing with ScalaSpecs and Selenium
