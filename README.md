@@ -86,7 +86,7 @@ Master Thesis ..................................................... 1.3
 Overall grade of the master's examination ......................... 1.6
 ___
 
-Bachelor of Science - University of Hamburg, Germany         2010 → 2013
+Bachelor of Science - University of Hamburg, Germany.        2010 → 2013
 
 Software development I - oop ....................................... 1.0
 Software development II - oop ...................................... 1.0
@@ -112,7 +112,7 @@ Bachelor thesis B.Sc. IT ........................................... 1.3
 Average grade ...................................................... 1.37
 ___
 
-Abitur, Meinert-Johannsen-Schule Elmshorn, Germany		          2007 → 2010
+Abitur, Meinert-Johannsen-Schule Elmshorn, Germany.           2007 → 2010
 Average grade ....................................................... 1.6
 </pre>
 
