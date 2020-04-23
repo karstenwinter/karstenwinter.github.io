@@ -192,11 +192,7 @@ Durchschnittsnote.......................................1,6
 - Learning Android – Marko Gargenta 
 - React Material‑UI Cookbook: Build Captivating User experiences using React and Material-UI
 
-## Hobbies
 
-- [Guitar music](https://soundcloud.com/karstenwinter)
-- [Improv theatre](https://facebook.com/eukalyptussalat)
-- card games / board games / video games
 
 ## Mobile Apps
 
