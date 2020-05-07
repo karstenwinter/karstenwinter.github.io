@@ -35,6 +35,7 @@
 - DevOps with Jenkins
 - Unit and UI Testing with JUnit and Selenium
 - Database: Postgres and Oracle SQL, mapping and evolutions with Hibernate
+- Also coding of smaller subsystems in Vaadin
 
 <img src="bin/bmfgc.png" width="480" height="360" />
 
