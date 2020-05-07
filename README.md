@@ -27,14 +27,14 @@
 <a href="https://www.youtube.com/watch?v=nSQ7BPr29fc" target="_blank" rel="noopener"><img src="https://img.youtube.com/vi/nSQ7BPr29fc/0.jpg" width="480" height="360" /></a>
 
 ### Jan 2016 → Jan 2018: Software Developer – b+m Informatik AG
-*java, xtend, xtext, dsl, junit, selenium, maven, jenkins, sql, hibernate, camunda-bpmn*
+*java, javaee, vaadin, xtend, xtext, dsl, junit, selenium, maven, jenkins, sql, hibernate, camunda-bpmn*
 
 - Maintaining and extending the finance software FGCenter used to process fundings in regional banks in germany
 - Implementation of automated / timer-driven tasks and HTML input forms
 - SAP interop via XML API for [IB.SH](https://www.ikor.de/ibsh-durchleitungsoptimierung-zur-kfw.html)
 - DevOps with Jenkins
 - Unit and UI Testing with JUnit and Selenium
-- Database Postgres and Oracle SQL evolutions with Hibernate
+- Database: Postgres and Oracle SQL, mapping and evolutions with Hibernate
 
 <img src="bin/bmfgc.png" width="480" height="360" />
 
