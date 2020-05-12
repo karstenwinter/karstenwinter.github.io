@@ -207,8 +207,8 @@ Durchschnittsnote.......................................1,6
 
 <a href="https://www.youtube.com/watch?v=B9LBSXQ7tCQ" target="_blank" rel="noopener"><img src="https://img.youtube.com/vi/B9LBSXQ7tCQ/0.jpg" width="480" height="360" /></a>
 
-- [uRiddle](https://github.com/karstenwinter/uRiddle) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
-- [uRiddleFX](https://github.com/karstenwinter/uRiddleFX) is the level editor for uRiddle written in Java FX.
+- [The Box Code](https://github.com/karstenwinter/uRiddle) is a puzzle game written in Java for Android inspired by [Machinarium](https://en.wikipedia.org/wiki/Machinarium).
+- [Box Code Editor](https://github.com/karstenwinter/uRiddleFX) is the level editor for uRiddle written in Java FX.
 
 ### Immortus - a zombie platformer puzzle game
 
