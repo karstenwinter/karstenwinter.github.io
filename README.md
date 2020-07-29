@@ -4,7 +4,8 @@
 - Name: Karsten Winter
 - Born:	18.05.1991, in Mannheim, Germany
 - Mail:	[brox.p@web.de](mailto:brox.p@web.de?body=Hey,%20Karsten!%20I%20just%20saw%20your%20profile%20on%20github.&subject=Saying%20Hi)
-- [I'm available for hire](mailto:brox.p@web.de?body=Hey,%20Karsten!%20I%20just%20saw%20your%20profile%20on%20github.&subject=Job%20offer)
+
+<!-- - [I'm available for hire](mailto:brox.p@web.de?body=Hey,%20Karsten!%20I%20just%20saw%20your%20profile%20on%20github.&subject=Job%20offer) -->
 
 ## Core Values
 
