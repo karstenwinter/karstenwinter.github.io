@@ -1,1 +1,1 @@
-git add . && git commit -m update && git push
+cd C:\Projekte\karstenwinter.github.io && git add . && git commit -m update && git push
