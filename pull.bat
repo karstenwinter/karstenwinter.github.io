@@ -1,0 +1,1 @@
+cd C:\Projects\karstenwinter.github.io && git pull
