@@ -94,7 +94,7 @@
          blockquote:before,blockquote:after,q:before,q:after{ content:''; content:none; }
          table{ border-collapse:collapse; border-spacing:0; }
          body{ -webkit-text-size-adjust:none}mark{ background-color:transparent; color:inherit}input::-moz-focus-inner{ border:0; padding:0}input[type="text"],input[type="email"],select,textarea{ -moz-appearance:none; -webkit-appearance:none; -ms-appearance:none; appearance:none}*, *:before, *:after { box-sizing: border-box; }
-         body { min-width: 320px; min-height: 100vh; line-height: 1.0; overflow-x: hidden; color: #ff0000; }
+         body { min-width: 320px; min-height: 100vh; line-height: 1.0; overflow-x: hidden; color: #fff; }
          u { text-decoration: underline; }
          strong { color: inherit; font-weight: bolder; }
          em { font-style: italic; }
@@ -147,20 +147,20 @@
          #credits a:hover { text-decoration: none !important; opacity: 1; }
          hr { width: 100%; position: relative; padding: 0; border: 0; }
          hr:before { content: ''; display: inline-block; vertical-align: middle; max-width: 100%; }
-         #divider01:not(:first-child) { margin-top: 0.5rem !important; }
-         #divider01:not(:last-child) { margin-bottom: 0.5rem !important; }
-         #divider01:before { width: 5rem; border-top: solid 1px #999; height: 1px; margin-top: -0.5px; }
+         .divider01:not(:first-child) { margin-top: 0.5rem !important; }
+         .divider01:not(:last-child) { margin-bottom: 0.5rem !important; }
+         .divider01:before { width: 5rem; border-top: solid 1px #999; height: 1px; margin-top: -0.5px; }
          .icons { cursor: default; padding: 0; letter-spacing: 0; }
          .icons li { display: inline-block; vertical-align: middle; position: relative; z-index: 1; }
          .icons li a { display: flex; -moz-align-items: center; -webkit-align-items: center; -ms-align-items: center; align-items: center; -moz-justify-content: center; -webkit-justify-content: center; -ms-justify-content: center; justify-content: center; }
          .icons li a svg { display: block; position: relative; -moz-transition: fill 0.25s ease; -webkit-transition: fill 0.25s ease; -ms-transition: fill 0.25s ease; transition: fill 0.25s ease; }
          .icons li a + svg { display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none; pointer-events: none; -moz-transition: fill 0.25s ease, stroke 0.25s ease; -webkit-transition: fill 0.25s ease, stroke 0.25s ease; -ms-transition: fill 0.25s ease, stroke 0.25s ease; transition: fill 0.25s ease, stroke 0.25s ease; }
          .icons li a .label { display: block;  font-size: 20pt;  background: none;  margin-top: 120px;   width: auto; }
-         #icons01 { font-size: 1.5em; width: calc(100% + 1.25rem); margin-left: -0.625rem; }
-         #icons01 li { margin: 0.625rem; }
-         #icons01 li a { border-radius: 100%; width: 2em; height: 2em; }
-         #icons01 li a svg { width: 60%; height: 60%; }
-         #icons01 a { border: solid 1px #FFFFFF; }
+         .icons01 { font-size: 1.5em; width: calc(100% + 1.25rem); margin-left: -0.625rem; }
+         .icons01 li { margin: 0.625rem; }
+         .icons01 li a { border-radius: 100%; width: 2em; height: 2em; }
+         .icons01 li a svg { width: 60%; height: 60%; }
+         .icons01 a { border: solid 1px #FFFFFF; }
       </style>
       <noscript>
          <style>body { overflow: auto !important; }
@@ -217,8 +217,8 @@
             <div class="inner icons">
                <h1 id="text01">Karsten Winter</h1>
                <p class="textPara">is the developer of a Gecko Metroidvania inspired by Hollow Knight and Ghibli Movies called Gecko Knight 🌿</p>
-               <hr id="divider01">
-               <ul id="icons01">
+               <hr class="divider01" />
+               <ul class="icons01">
                   <li>
                      <a class="tooltip n01" href="https://wintr.itch.io/gecko-knight">
                         <svg>
@@ -304,22 +304,32 @@
                </ul>
                <p class="textPara">
                   <a name="more"></a>
+                  Karsten Winter is developing games since his time at school, then studied computer science, and is now an aspiring game developer that uses Unity and loves 2D Action Platformers.
+                  <br />
+                  <br />
+                  <strong>Skills:</strong>
+                  <br />
+                  Unity: Certified Advanced Unity Developer, 5+ years of experience
+                  <br />
+                  Software Engineer: Master of Science (Computer Science) from the University of Kiel
+                  <br />
+                  English C1: currently attending the TELC course
+               </p>
+               <hr class="divider01" />
+               <p class="textPara">
+                  Got an interesting project? I'm for hire, so contact me:
+               </p>
 
-
-              
-               Karsten Winter is developing games since his time at school, then studied computer science, and is now an aspiring game developer that uses Unity and loves 2D Action Platformers.
-               
-<br><br>
-               <strong>Skills:</strong>
-               <br>
-               
-               
-               Unity: Certified Advanced Unity Developer, 5+ years of experience
-               <br>
-               Software Engineer: Master of Science (Computer Science) from the University of Kiel
-               <br>
-               English C1: currently attending the TELC course
-               
+               <ul class="icons01">
+                  <li>
+                     <a class="tooltip n06" href="mailto:brox.p@web.de?body=Hi%20Karsten%0AI%20just%20saw%20your%20profile%20on%20github.io.%0A%0A&subject=Job%20offer">
+                        <svg>
+                           <use xlink:href="#icon-90a"></use>
+                        </svg>
+                        <span class="label tooltiptext">Email</span>
+                     </a>
+                  </li>
+               </ul>
             </div>
          </div>
       </div>
