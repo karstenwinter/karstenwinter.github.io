@@ -23,17 +23,21 @@
 
       <style>
          @media (max-width: 600px) {
-           .textPara { color: #fff; font-size: 0.55em; }
+           .textPara { font-size: 0.55em; }
             #main > .inner {padding: 0.5rem 1rem; }
             #text01 { font-size: 1.4em; }
+            .icons01 li a { width: 1em; height: 1em; }
          }
          @media (min-width: 601px) {
-           .textPara { color: #fff; font-size: 1em; }
+           .textPara { font-size: 1em; }
             #main > .inner {padding: 3.875rem 2rem; }
             #text01 { font-size: 2.5em; }
+            .icons01 li a { width: 2em; height: 2em; }
          }
 
          .below { margin-top: 100px; }
+         .anchor { padding-top: 20px; }
+         
          .gap { margin-top: 10px; }
          .skill { margin-top: 0.2rem !important; margin-bottom: 0.2rem !important; }
 
@@ -176,7 +180,7 @@
          .icons li a .label { display: block;  font-size: 20pt;  background: none;  margin-top: 120px;   width: auto; }
          .icons01 { font-size: 1.5em; width: calc(100% + 1.25rem); margin-left: -0.625rem; }
          .icons01 li { margin: 0.625rem; }
-         .icons01 li a { border-radius: 100%; width: 2em; height: 2em; }
+         .icons01 li a { border-radius: 100%; }
          .icons01 li a svg { width: 60%; height: 60%; }
          .icons01 a { border: solid 1px #FFFFFF; }
       </style>
@@ -304,7 +308,7 @@
                   </li>
                </ul>
                <p class="textPara below">
-                  <a name="more"></a>
+                  <a class="anchor" name="more"></a>
                   Karsten Winter has been developing games since his time at school, then studied computer science, and is now an aspiring game developer that uses Unity and loves 2D Action Platformers.
                </p>
 
