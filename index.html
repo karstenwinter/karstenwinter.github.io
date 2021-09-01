@@ -19,14 +19,16 @@
       <link href="data/style.css" rel="stylesheet" type="text/css">
       <style>
          @media (max-width: 600px) {
-           .textPara { color: #fff; }
-            #main > .inner {padding: 1rem 2rem; }
+           .textPara { color: #fff; font-size: 0.55em; }
+            #main > .inner {padding: 0.5rem 1rem; }
             #text01 { font-size: 1.4em; }
+            .below { margin-top: 100px; }
          }
          @media (min-width: 601px) {
-           .textPara { color: #fff; }
-            #main > .inner {padding: 3.875rem 3.125rem; }
+           .textPara { color: #fff; font-size: 1em; }
+            #main > .inner {padding: 3.875rem 2rem; }
             #text01 { font-size: 2.5em; }
+            .below { margin-top: 100px; }
          }
 
          .fade-in-image { 
@@ -86,8 +88,6 @@
          .tooltip svg { fill: #aaa; }
          .tooltip:hover svg { fill: #fff; }
          
-         .below { margin-top:  100px; }
-         
          html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{ margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline; }
          article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ display:block; }
          body{ line-height:1; }
@@ -134,13 +134,11 @@
          h1 br + br, h2 br + br, h3 br + br, p br + br { display: block; content: ' '; }
          h1 .li, h2 .li, h3 .li, p .li { display: list-item; padding-left: 0.5em; margin: 0.75em 0 0 1em; }
          #text01 br + br { margin-top: 0.705rem; }
-         #text01:not(:first-child) { margin-top: 4rem !important; }
-         #text01:not(:last-child) { margin-bottom: 4rem !important; }
          #text01 { font-variant: small-caps; color: #FFFFFF; font-family: 'Georgia', serif; letter-spacing: 0.65rem; width: calc(100% + 0.65rem); line-height: 1.175; font-weight: 400; }
          #text01 a { text-decoration: underline; }
          #text01 a:hover { text-decoration: none; }
          .textPara br + br { margin-top: 1.005rem; }
-         .textPara { font-family: 'Exo', sans-serif; letter-spacing: 0.05rem; width: calc(100% + 0.05rem); font-size: 1em; line-height: 1.675; font-weight: 100; }
+         .textPara { font-family: 'Exo', sans-serif; letter-spacing: 0.05rem; width: calc(100% + 0.05rem); line-height: 1.675; font-weight: 100; }
          .textPara a { text-decoration: underline; }
          .textPara a:hover { text-decoration: none; }
          #credits br + br { margin-top: 0.9rem; }
@@ -207,16 +205,9 @@
                <path d="M72.8 7.2c-.2 0-.4.1-.5.2-.1.2-.1.4 0 .6l2.4 4.2-3.7 6.7c-.1.2-.1.4 0 .6.1.1.3.2.5.2H75c.5 0 .8-.4 1-.7 0 0 3.7-6.6 3.9-6.8l-2.5-4.3c-.2-.3-.5-.7-1-.7h-3.6z"></path>
             </g>
          </symbol>
-<<<<<<< HEAD
          <symbol id="icon-scroll" viewBox="-53 -5 72 72" >
             <path
      d="m 0,0 c 0,0 -1,0 -2,0 l -15,15 -15,-15 c -0,0 -1,-0 -2,0 -0,0 -0,1 0,2 l 16,16 c 0,0 0,0 1,0 0,0 0,-0 1,-0 l 16,-16 c 0,0 0,-1 0,-2 z" />
-=======
-         <symbol id="icon-scroll" viewBox="-240 -330 880 880" >
-            <path d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
-   c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
-   s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"/>
->>>>>>> 1eef45c14f006441e841d17903f176864cbf2e04
          </symbol>
 
       </svg>
