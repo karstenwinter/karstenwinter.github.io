@@ -237,25 +237,133 @@
             backface-visibility: hidden;
         }
 
-        .flip-card-front img {
+        .flip-card-front img, .flip-card-back img {
             width: 360px;
             height: 503px;
         }
 
         .flip-card-back {
             transform: rotateY(180deg);
-            background-color: #2980b9;
             color: white;
-            padding: 4px;
         }
 
         .flip-card-back pre
         {
+            background-color: #2980b9;
+            padding: 4px;
             text-align: left;
             font-size: 17px;
             font-family: 'Lucida Console', 'Courier New', monospace;
             word-break: break-all;
         }
+
+
+.discord-invite {
+  margin: 0 auto;
+  background-color: rgb(47, 49, 54);
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 110px;
+  padding: 16px;
+  width: 432px;
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.discord-invite-text {
+  block-size: 16px;
+  font-size: 12px;
+  height: 16px;
+  margin-bottom: 12px;
+  margin-top: 0px;
+  text-transform: uppercase;
+  color: rgb(185, 187, 190);
+}
+
+.discord-invite-body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.discord-invite-details {
+  block-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 246.2px;
+}
+
+.discord-invite-name {
+  margin: 0px;
+  color: white;
+  display: flex;
+}
+
+.discord-invite-verified {
+  color: rgb(114, 137, 218);
+  display: flex;
+  margin-right: 8px;
+}
+
+.discord-invite-verified-tick {
+  display: flex;
+  position: absolute;
+}
+
+.discord-invite-verified-tick-svg {
+  color: white;
+}
+
+.discord-invite-image img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.discord-invite-counts {
+  margin: 0px;
+  align-items: center;
+  display: flex;
+  color: rgb(185, 187, 190);
+}
+
+.discord-invite-status-icon {
+  block-size: 8px;
+  border-radius: 50%;
+  inline-size: 8px;
+  margin-right: 4px;
+}
+
+.discord-invite-online-icon {
+  background-color: rgb(67, 181, 129);
+}
+
+.discord-invite-offline-icon {
+  background-color: rgb(116, 127, 141);
+}
+
+.discord-invite-join-button {
+  border-radius: 3px;
+  align-items: center;
+  background-color: rgb(67, 181, 129);
+  block-size: 40px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  inline-size: 77.8px;
+  justify-content: center;
+  margin-left: 10px;
+  padding: 2px 20px;
+  text-decoration: none;
+}
+
+.discord-invite-count {
+  font-size: 12px;
+  margin-right: 8px;
+}
     </style>
     <noscript>
         <style>
@@ -319,53 +427,14 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="https://i.imgur.com/5wutLhx.png" alt="Card 1">
-                    </div>
-                    <div class="flip-card-back">
-                                <pre>{
-  "name":
-    "Judas Iscariot",
-  "src":
-    "https://en.wikipedia.org
-/wiki/Judas_Iscariot"
-}</pre>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
                         <img src="https://i.imgur.com/RvhQJIo.png" alt="Card 2">
                     </div>
                     <div class="flip-card-back">
-                                <pre>{
-  "name":
-    "Thomas Alva Edison",
-  "src":
-    "https://en.wikipedia.org
-/wiki/Thomas_Alva_Edison"
-}</pre>
+                        <img src="https://i.imgur.com/5wutLhx.png" alt="Card 1">
                     </div>
                 </div>
             </div>
 
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="https://i.imgur.com/5wutLhx.png" alt="Card 3">
-                    </div>
-                    <div class="flip-card-back">
-                                <pre>{
-  "name":
-    "Tutankhamun",
-  "src":
-    "https://en.wikipedia.org
-/wiki/Tutankhamun"
-}</pre>
-                    </div>
-                </div>
-            </div>
 
                 </div>
             </p>
@@ -401,34 +470,99 @@
 
             <p class="textPara below">
                 <a class="anchor" name="more"></a>
-                You're about to experience a card game as exciting as<br />
-InstaGib in Unreal Tournament,<br />
--or- Power9 in Magic the Gathering,<br />
--or- No Ban List TCG Formats,<br />
-and be part of a <b>democratic card adjustment system</b>
-to have a healthy competitive environment.<br />
+                You're about to experience an autonomous, evolutionary trading card game, as exciting as Power 9 in Magic the Gathering, or No Ban List TCG Formats.
+Be part of a <strong>democratic card adjustment system</strong> to have a healthy competitive environment.
+<br />
 A digital TCG that's free to play, not pay to win, and has cards with real-world value. We respect the players' needs, made by players for the players.
 <br />
-This not yet another fantasy card game, there are plenty out there, instead we have the <b>full real-world historic person cast</b>, from Aristotle to Nikola Tesla and beyond.
+This not yet another fantasy card game, there are plenty out there, instead we have the <strong>full real-world historic person cast</strong>, from Aristotle to Nikola Tesla and beyond.
             </p>
             <p class="textPara">
-                <strong>Features:</strong>
+                <strong>Evolutionary:</strong>
             </p>
 
             <p class="textPara skill">
-                One historic person can only be owned by one player. <br />
-                Your property is stored on the <b>Ethereum blockchain</b>.
+                Machine learning will use publicly available information to generate playable cards of historic personas and artifacts.<br />
+
+Natural language processing will create and segment flavorful classes such as "Villain", "Priest", "Warrior" or "Leader" and an open-source predefined card game engine will create their stats such as power, toughness and abilities based on their wikipedia page.<br />
+
+Creative common images will be used to create the card images.
+                
+            </p>
+            <p class="textPara">
+                <strong>Autonomous:</strong>
+            </p>
+
+            <p class="textPara skill">
+                Once every quarter the machine learning algorithm will spill out 250 new tokenized cards which the players can obtain by playing or buying on the open marketplace.
+<br />
+To make sure the game (and their cards) stay balanced, every player can vote on too powerful or bad cards to improve them in the first week of the season.
+                
+            </p>
+            <p class="textPara">
+                <strong>Epoches:</strong>
+            </p>
+
+            <p class="textPara skill">
+               
+The game is called Heroes of History, because you play an Epoche from the past.
+<br />
+For example the French Revolution featuring Louis XVI. King of France, Marie Antoinette, Queen of France and Artifacts such as the Guillotine as Weapons in the game.
+                
+            </p>
+            <p class="textPara">
+                <strong>Why:</strong>
+            </p>
+
+            <p class="textPara skill">
+               
+The whole idea is to give players ownership over their items. Ethereum was born because Vitalik wasn't comfortable with how World of Warcraft treated his online assets.
+<br />
+The reason it's autonomous and evolutionary is that there is no single entity controlling the rules of a game. Esports can never be olympic, if there is a centralized profitable company behind it, making the rules.
                 
             </p>
 
             <p class="textPara">
+                <strong>About us:</strong>
+            </p>
+            <p class="textPara">
                 Designed and implemented by long-time TCG and board game players and developers, delivering you an open source game with a democratic view on its card pool and a modular rule system.
+            </p>
+
+            <p class="textPara">
+                <strong>Putting it all together:</strong>
+            </p>
+            <p class="textPara">
+                Heroes of History is the first decentralized, evolutionary and self-creating game, representing the history of humans.
+<br />
+
+The frontends will be open-sourced on Github and will run on all devices.
+<br />
+
+HoH Cards are tokenized and tradable on chain.
+
             </p>
 
             <hr class="divider01" />
             <p class="textPara">
-                Got an idea? <strong>Go ahead, </strong> contact us!
+                Join our Discord server to discuss the project and contribute.
             </p>
+            <div id="join-discord" class="discord-invite">
+            <h5 class="discord-invite-text">You have been invited to join a server</h5>
+            <div class="discord-invite-body">
+                <div class="discord-invite-image">
+                    <img src="discord.svg">
+                </div>
+                <div class="discord-invite-details">
+                    <h3 class="discord-invite-name">
+                        Heroes of History
+                    </h3>
+                </div>
+                <a class="discord-invite-join-button" href="https://discord.gg/RBFJNGrzSf">
+                    Join
+                </a>
+            </div>
+        </div>
         </div>
     </div>
 </div>
