@@ -43,6 +43,10 @@
 
 
     <style>
+        @font-face {
+            font-family: "Mohave";
+            src: url("./Mohave-VariableFont_wght.ttf");
+        }
         @media (max-width: 600px) {
             .textPara { font-size: 0.55em; }
             .main > .inner {padding: 0.5rem 1rem; }
@@ -244,17 +248,18 @@
 
         .flip-card-back {
             transform: rotateY(180deg);
-            background-color: #2980b9;
             color: white;
-            padding: 4px;
         }
 
         .flip-card-back pre
         {
+            background-color: #2980b9;
+            padding: 4px;
             text-align: left;
             font-size: 17px;
             font-family: 'Lucida Console', 'Courier New', monospace;
             word-break: break-all;
+            word-wrap: anywhere;
         }
     </style>
     <noscript>
@@ -315,7 +320,7 @@
 
             <p class="textPara">
                 <div class="images" id="the-cards">
-
+<!--
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
@@ -348,7 +353,7 @@
                     </div>
                 </div>
             </div>
-
+-->
                 </div>
             </p>
 
@@ -384,58 +389,69 @@
     </div>
 </div>
 <script>
-    fetch("./card-template.svg").then(x=>x.text()).then(svg=>{
-        console.log("svg", svg)
-        function makeNode(card)
-        {
-            return "" +
-                "            \n" +
-                "                <div class=\"flip-card-inner\">\n" +
-                "                    <div class=\"flip-card-front\">\n" +
-                "                        \n" +
-                    svg
-                        .replaceAll("width=\"660\"", "width=\"660\"")
-                        .replaceAll("height=\"917\"", "height=\"503\"")
-                        .replaceAll("$B$", card.brain)
-                        .replaceAll("$P$", card.phys)
-                        .replaceAll("$NAME$", card.name)
-                        .replaceAll("$TYPE$", card.type)
-                        .replaceAll("$TEXT$", card.text)
-                        .replaceAll("$COST$", card.cost)
-                        .replaceAll("$IMAGE$", card.image)
-                        .replaceAll("$S$", "A") +
-                "                    </div>\n" +
-                "                    <div class=\"flip-card-back\">\n" +
-                "                      <pre>"+JSON.stringify(card, null, 2)+"</pre>\n" +
-                "                    </div>\n" +
-                "                </div>\n" +
-                "\n"
+    function getCost(costSvg, cost) {
+        return cost;
+    }
 
-        }
-        fetch("./cards.csv").then(x=>x.text()).then(x=>{
-            console.log("CSV", x)
-            var doc = document.getElementById("the-cards")
-            x.split("\n").forEach((x,i)=>{
-                if(i !== 0){
-                    var arr = x.split(",").map(x=>x.replaceAll("\"",""))
-                    var n = document.createElement("div")
-                    n.className ="flip-card"
-                    var obj =
-                        {
-                            image: arr[1],
-                            name: arr[3],
-                            cost: arr[5],
-                            type: arr[6],
-                            text: arr[7],
-                            brain: arr[8]??"",
-                            phys: arr[9]??"",
-                            rarity: arr[10],
-                            flavor: arr[11],
-                            number: arr[12]
-                    }
-                    n.innerHTML = makeNode(obj)
-                    doc.append(n)
+    fetch("./cost.svg").then(x=>x.text()).then(costSvg=>{
+        fetch("./card-template.svg").then(x=>x.text()).then(svg=>{
+            fetch("./card-back.svg").then(x=>x.text()).then(svgBack=>{
+            //console.log("svg", svg)
+                function makeNode(card)
+                {
+                    return "" +
+                        "            \n" +
+                        "                <div class=\"flip-card-inner\">\n" +
+                        "                    <div class=\"flip-card-front\">\n" +
+                        "                        \n" +
+                            svg
+                                .replaceAll("width=\"660\"", "width=\"330\"")
+                                .replaceAll("height=\"917\"", "height=\"503\"")
+                                .replaceAll("$B$", card.brain === "" ? "" : "🧠 " + card.brain)
+                                .replaceAll("$P$", card.phys === "" ? "" : "💪 " + card.phys)
+                                .replaceAll("$NAME$", card.name)
+                                .replaceAll("$TYPE$", card.type)
+                                .replaceAll("$TEXT$", card.text.split("|").join("\n"))
+                                .replaceAll("$COST$", getCost(costSvg, card.cost))
+                                .replaceAll("$IMAGE$", card.image)
+                                .replaceAll("$S$", "A") +
+                        "                    </div>\n" +
+                        "                    <div class=\"flip-card-back\">\n" +
+                        "                      <!--<pre>"+JSON.stringify(card, null, 2)+"</pre>\n-->" +
+                        svgBack
+                            .replaceAll("width=\"660\"", "width=\"330\"")
+                            .replaceAll("height=\"917\"", "height=\"503\"")+
+                        "                    </div>\n" +
+                        "                </div>\n" +
+                        "\n"
+
                 }
+                fetch("./cards.csv").then(x=>x.text()).then(x=>{
+                    console.log("CSV", x)
+                    var doc = document.getElementById("the-cards")
+                    x.split("\n").forEach((x,i)=>{
+                        if(i !== 0){
+                            var arr = x.split(",").map(x=>x.replaceAll("\"",""))
+                            var n = document.createElement("div")
+                            n.className ="flip-card"
+                            var obj =
+                                {
+                                    image: arr[1],
+                                    name: arr[3],
+                                    cost: arr[5],
+                                    type: arr[6],
+                                    text: arr[7],
+                                    brain: arr[8]??"",
+                                    phys: arr[9]??"",
+                                    rarity: arr[10],
+                                    flavor: arr[11],
+                                    number: arr[12]
+                            }
+                            n.innerHTML = makeNode(obj)
+                            doc.append(n)
+                        }
+                    })
+                })
             })
         })
     }).catch(x => console.log("ERR", x))
