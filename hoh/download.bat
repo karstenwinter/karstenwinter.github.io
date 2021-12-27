@@ -1,0 +1,1 @@
+curl "https://docs.google.com/spreadsheets/d/1gqPpHI3cV4aA0acvhNAYBI6V0s4bszM6rajiKpRKg9o/gviz/tq?tqx=out:csv&sheet=Alpha" > cards.csv
