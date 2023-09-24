@@ -196,14 +196,39 @@
          li a:hover * { stroke-dasharray: 554 556; stroke-dashoffset: 555; animation: vivus_draw_1 2010ms ease-in 0ms infinite, vivus_fade 2010ms linear 0ms infinite; } 
          @keyframes vivus_fade { 0% { stroke-opacity: 1; } 90% { stroke-opacity: 1; } 100% { stroke-opacity: 0; } } 
          @keyframes vivus_draw_1 { 5% { stroke-dashoffset:  555} 40% { stroke-dashoffset:  0; } 100% { stroke-dashoffset:  0; } } 
-         
+
       </style>
    </head>
    <body class="fade-in-image">
+      <script>
+         function fetchUrl(url) {
+            console.log("link", url)
+            fetch(url).then(x => x.text()).then(x => console.log("res", x))
+         }
+         document.onclick = function()
+         {
+             const el = window.event.srcElement
+             const id =
+               el?.tagName != "svg" ? ""
+               : el?.firstElementChild?.id
+                 || el?.parentNode?.id
+                 || el?.parentNode?.parentNode?.id
+                 || el?.parentNode?.parentNode?.parentNode?.id;
+             const x =
+               el.href
+               || el?.innerText?.trim()
+               || id;
+
+             if(x)
+               fetchUrl("https://track-kw.vercel.app/api?channel=tWebsiteActions&text=karstenwinter.github.io%20|%20[src]%20|%20clicked%20|%20" + encodeURIComponent(x))
+            //console.log("window.event.srcElement", window.event.srcElement)
+         }
+         console.log("fetchUrl loaded")
+      </script>
       <div class="wrapper">
          <div class="main">
-            <img src="https://track-kw.vercel.app/api?channel=tWebsiteActions&text=karstenwinter.github.io%20visited%20by%20[src]" height="1" width="1" style="opacity: 0" alt="track" />
             <div class="inner icons">
+               <img src="https://track-kw.vercel.app/api?channel=tWebsiteActions&text=karstenwinter.github.io%20|%20[src]%20|%20visited" height="1" width="1" style="display: none" />
                <h1 id="text01">Karsten Winter</h1>
                <p class="textPara">
                   is a Full Stack Game Developer, currently working on a Norse 2D Action Platfomer called Juniper's Path 🦎🏔️
