@@ -1,460 +1,253 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Karsten Winter - Home</title>
+    <title>Karsten Winter | Developer and Actor</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-    <meta name="description" content="Karsten Winter - Home">
-    <meta property="og:description" content="Karsten Winter - Home">
-    <meta property="og:site_name" content="Karsten Winter - Home">
-    <meta property="og:title" content="Karsten Winter - Home">
+    <meta name="description" content="Karsten Winter | Developer and Actor">
+    <meta property="og:description" content="Karsten Winter | Developer and Actor">
+    <meta property="og:site_name" content="Karsten Winter | Developer and Actor">
+    <meta property="og:title" content="Karsten Winter | Developer and Actor">
     <meta property="og:type" content="website">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="og:image:width" content="1280">
-    <meta property="og:image:height" content="800">
-    <meta property="og:url" content="https://karstenwinter.github.io/hub">
-    <meta property="og:image" content="https://karstenwinter.github.io/data/icon.png">
-    <link rel="icon" type="image/png" href="https://karstenwinter.github.io/data/icon.png"/>
-    <link rel="canonical" href="https://karstenwinter.github.io/hub">
+    <meta property="og:image:width" content="467">
+    <meta property="og:image:height" content="524">
+    <meta property="og:url" content="https://karstenwinter.github.io/">
+    <meta property="og:image" content="https://karstenwinter.github.io/data/karsten.png">
+    <link rel="icon" type="image/png" href="https://karstenwinter.github.io/data/karsten.png"/>
+    <link rel="canonical" href="https://karstenwinter.github.io/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karsten Winter | Developer and Actor</title>
     <style>
-        @font-face {
-            font-family: 'Exo';
-            font-style: normal;
-            font-weight: 100;
-            src: url(https://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4lM2OwRmOw.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
-            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        html {
+            background-color: #dcd2bf;
+            background-image: url("data/karsten.png");
+            background-position: 100% 150px;
+            background-repeat: no-repeat;
+            background-size: contain;
         }
 
-        .oneem {
-            line-height: 1em;
+        .all {
+            display: grid;
+            gap: 2%;
+            padding-left: 5%;
         }
 
-        .mtop1 {
-            margin-top: 20px;
-        }
-
-        .wrapper {
-            display: flex;
-            justify-content: center;
-        }
-
-        .main {
-            max-width: 840px;
-            width: 99%
-        }
-
-        .infobutton {
-            background: transparent;
-            color: #ffffff;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 170%;
-            font-weight: bold;
-            border: none;
-            padding: 4px 0 0 4px;
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            height: 1.2em;
-        }
-
-        .closebutton {
-            background: transparent;
-            color: #ffffff;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 150%;
-            border: none;
-            padding: 4px;
-            height: 1.2em;
-            width: 30vw;
-        }
-
-        svg {
-            width: 60px;
-        }
-
-        .nounderline {
+        u {
             text-decoration: none;
-        }
-
-        .onlylinkunderline {
-            text-decoration: none;
-        }
-
-        .onlylinkunderline a {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 800px) {
-            .fade-in-image {
-                font-size: 3.5vw;
-            }
-
-            .hub-icons {
-                font-size: 3.5vw;
-            }
-
-            .contact .ico {
-                font-size: 3.5vw;
-            }
-        }
-
-        @media (min-width: 801px) {
-            .fade-in-image {
-                font-size: 28px;
-            }
-
-            .hub-icons {
-                font-size: 28px;
-            }
-
-            .contact .ico {
-                font-size: 28px;
-            }
-        }
-
-        .fade-in-image {
-            background-color: black;
-            animation: fadeIn 2s;
-        }
-
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
+            border-bottom: 2px dotted #00c420;
         }
 
         * {
             margin: 0;
             padding: 0;
-            color: #fff;
-            font-family: 'Exo', sans-serif;
-            line-height: 1.5;
-            font-weight: 200;
+            box-sizing: border-box;
+            font-family: "Helvetica", sans-serif;
         }
 
-        hr {
-            margin: 14px 0 14px 0;
+        label.logo {
+            color: white;
+            font-size: 35px;
+            line-height: 86px;
+            font-weight: bold;
+
         }
 
-        .ico {
-            background-size: cover;
-            width: 29vw;
-            height: 29vw;
-            max-width: 200px;
-            max-height: 200px;
+        .logo span {
+            color: #00c420;
+        }
+
+        a.active, a:hover {
+            background: #00c420;
+            transition: .5s;
+        }
+
+        .hero-content {
+            max-width: 500px;
+            background: #dcd2bfbb;
+            margin-right: 10%;
+        }
+
+        .hero-content h1 {
+            color: #ffffff;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 60px;
+        }
+
+        .hero-content h2 {
+            color: #00c420;
+            font-size: 34px;
+            font-weight: 600;
+        }
+
+        .hero-content p {
+            font-size: 16px;
+            color: #ffffff;
+            line-height: 26px;
+        }
+
+        .btn-box {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            border-radius: 4%;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            justify-content: space-between;
+            width: 350px;
+            height: 50px;
+            margin-top: 16px;
+        }
+
+        .btn-box a {
             position: relative;
-        }
-
-        #alert {
-            width: 100vw;
-            height: 100vh;
-            display: none;
-            flex-direction: column;
-            gap: 100px;
+            display: inline-flex;
             justify-content: center;
-            background: #000000cc;
             align-items: center;
+            width: 150px;
+            height: 100%;
+            background: #00c420;
+            border: 2px solid #00c420;
+            font-size: 18px;
+            color: #ebebeb;
             text-decoration: none;
-            padding: 4%;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-            right: 0;
-            bottom: 0;
+            letter-spacing: 1px;
+            font-weight: 600;
+            z-index: 1;
+            overflow: hidden;
+            transition: 0.5s;
         }
 
-        #alertContent {
-            width: 55vw;
-        }
-
-        .contact .ico {
-            width: 18vw;
-            height: 18vw;
-            max-width: 140px;
-            max-height: 140px;
-        }
-
-        /* https://angrytools.com/gradient/image */
-        .ico1 {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAADdJREFUGFdjjAmu//+OlZnhHQsTw3tWJgbGPP/a/++hAiAJxgavKiQVzAyMk9wq/4OUgrSAVAAA4aMUgOpCypcAAAAASUVORK5CYII=')
-        }
-
-        .ico2 {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAADJJREFUGFdjzIma+v8fDwfDP24IZswP6P3/j5uT4R83OwNIgrHQpRVVRYllHVjgL1QLABfXFdxKxGGmAAAAAElFTkSuQmCC')
-        }
-
-        .ico3 {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAADNJREFUGFdjTFyo/F+Sk5NBgoODQYKDk4HRc6YUVICTASTBaDBBEFVAopPzvyQHRAtIBQB7XQmUieM4dwAAAABJRU5ErkJggg==')
-        }
-
-        .ico4 {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAADRJREFUGFdj1MpL+v+fkZfhPwMvAwMjLwOjdm7ofxADLAgS0MnxgKhghKrQzbGGqGCACAIAT44QOiZ9yNEAAAAASUVORK5CYII=')
-        }
-
-        .ico5 {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAADZJREFUGFdjzLVT/s/N/puBi+03Azf7HwbGZHMNiAA7VCDCQOc/SAYi8JuB0U/LECIA1vKbAQCkKhOII1/0VAAAAABJRU5ErkJggg==')
-        }
-
-        .ico6 {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAADNJREFUGFdjLORL/f+LkZnhFyMLA4hmrOBNAgv8ZGRh+A0SqOWJ+w9igATAKlq4o1G0AAC7dxOJkBKkYQAAAABJRU5ErkJggg==')
-        }
-
-        .ico7 {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAADFJREFUGFdjdEiU+8/J9puBg/03AwfbbwZGi2hluABIglE/RANVQMNP9z9IKUgLSAUAl0kTOgQam/YAAAAASUVORK5CYII=')
-        }
-
-        .ico8 {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAADBJREFUGFdj9FUv+s/KwsTAxsLEwMrKxMDooVyAKuAkl/cfJANWwcLEwGgrlYMiAAA2DQffN2zoxQAAAABJRU5ErkJggg==')
-        }
-
-        .ico9 {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAD9JREFUGFdjrLyT+p+L+RUDF9MrBm7mVwyM+beq/3Mxv2bgYnrJwM38moEx5frE/yAZkAqQSsboqyv+wzggCQAlmRa46mz8RgAAAABJRU5ErkJggg==')
-        }
-
-        .ico10 {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAD9JREFUGFdjrLyT+p+L+RUDF9MrBm7mVwyM+beq/3Mxv2bgYnrJwM38moEx5frE/yAZkAqQSsboqyv+wzggCQAlmRa46mz8RgAAAABJRU5ErkJggg==')
-        }
-
-        .hub-icons {
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            flex-direction: row;
-            gap: 1vw;
-            flex-wrap: wrap;
-        }
-
-        i {
-            font-style: normal;
-            font-size: 70%;
-            opacity: 0.8;
-        }
-
-        .scroller {
-            z-index: -100;
+        .btn-box a::before {
+            content: '';
             position: absolute;
-            opacity: 0.2;
-            top: 100vh;
-            overflow: hidden;
+            top: 0;
+            right: 0;
+            width: 0;
+            height: 100%;
+            background: #000;
+            z-index: -1;
+            transition: 0.5s;
         }
 
-        #scroll-conscious {
-            z-index: -101;
-            display: block;
-            overflow: hidden;
+        .btn-box a:hover::before {
+            width: 100%;
         }
+
+        .social-icon {
+            width: 100px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2%;
+        }
+
+        .social-icon a {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #00c42030;
+            font-size: 20px;
+            opacity: 0.7;
+            width: 140px;
+            height: 140px;
+            background: transparent;
+            border: 1px solid transparent;
+            text-decoration: none;
+            z-index: 1;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+
+        .social-icon a:hover {
+            color: #ebebeb;
+        }
+
+        .social-icon a::before {
+            content: '';
+            position: absolute;
+            top: 25%;
+            right: 0;
+            width: 0;
+            height: 50%;
+            background-color: #00c420;
+            z-index: -1;
+            transition: 0.5s;
+        }
+
+        .social-icon a:hover:before {
+            width: 100%;
+        }
+
+        u:hover .tooltip {
+            display: block;
+        }
+
+        .tooltip {
+            display: none;
+            background: #00c42090;
+            padding: 8px;
+            position: absolute;
+            z-index: 1000;
+            left: 12%;
+            min-width: 20%;
+            max-width: 70%;
+            min-height: 32px;
+        }
+
+
     </style>
 </head>
-<body class="fade-in-image">
-<script>
-    function fetchUrl(url, cont) {
-        console.log("link", url)
-        fetch(url).then(x => x.text()).then(x => cont ? cont(x) : console.log("res", x))
-    }
-
-    //let lastId = ""
-    window.showInfo = function (text, id) {
-        // alert(text)
-        //if(lastId)
-        //    document.getElementById(lastId).innerHTML = ""
-        console.log("clicked info ", text, id)
-        let el = document.getElementById("alertContent")
-        if (el)
-            el.innerHTML = text
-        let el2 = document.getElementById("alert")
-        if (el2)
-            el2.style.display = text ? "flex" : "none"
-
-        //lastId = id
-        return false
-    }
-
-    document.onclick = function () {
-        const el = window.event.srcElement
-        const x =
-            el.href
-            || el?.innerText?.trim()
-            || (el?.tagName !== "svg" ? ""
-                : el?.firstElementChild?.id
-                || el?.parentNode?.id
-                || el?.parentNode?.parentNode?.id
-                || el?.parentNode?.parentNode?.parentNode?.id)
-
-        if (x)
-            fetchUrl("https://k42.vercel.app/api/hub?event=clicked&d=" + encodeURIComponent(x))
-    }
-    console.log("fetchUrl loaded")
-
-    const csvUrl = id => "https://docs.google.com/spreadsheets/d/" + id + "/gviz/tq?tqx=out:csv"
-    const data = {}
-    const categories = []
-    let isKey = true
-    let key = ""
-    let nextLineType = "data"
-
-    function clean(x) {
-        Object.keys(x).forEach(k => x[k] === "-" ? x[k] = "" : "")
-        return x
-    }
-
-    fetchUrl(csvUrl("1ZGTE9D95mkaAwV_RqZwsWC7qC5_2ffAN7DgNoFnvNH0"), lines => {
-        lines.replace(/\r/g, "").split("\n").forEach((x, i) => {
-            const cols = x.split("\",\"").map(x => x.replace(/\"/g, "")).filter(x => x)
-            const line = cols[0]
-            if (nextLineType === "category") {
-                categories.push({name: line, items: []})
-                nextLineType = "category_item"
-            }
-            if (cols.length !== 1)
-                categories[categories.length - 1]?.items.push(clean({
-                    name: cols[0],
-                    symbol: cols[1],
-                    tags: cols[2],
-                    className: cols[3],
-                    link: cols[4],
-                    note: cols[5]
-                }))
-
-            if (line.startsWith("category"))
-                nextLineType = "category"
-            if (nextLineType === "data") {
-                if (!isKey)
-                    data[key] = line
-                key = line
-                isKey = !isKey
-            }
-            return "<div>#" + i + ": " + line + "</div>"
-        })
-
-        const container = {data, categories}
-        document.getElementById("main").innerHTML = Object.keys(container).map((key, containerIdx) => {
-            const current = container[key]
-            if (key === "data")
-                return "<h1>" + current.title + "</h1>"
-
-            return current.map(current => `
-            <hr class="divider01"/>
-            <h2>${current.name}</h2>
-            <hr class="divider01"/>
-            <div class="hub-icons ${current.name.toLowerCase()}">${
-                current.items.map((x, i) => `
-<${x.link ? "a" : "span"} class="${x.className}" ${x.link ? 'href="' + x.link + '"' : ""}>
-                ${x.symbol}<br/>${x.name} ${
-                    x.tags?.split("|").map(t => `<i>${t}</i>`).join("")
-                }
-            <span class="info${i}"></span>
-            ${x.note ? `<button class='infobutton' id="buttoninfo${i}" onclick="return window.showInfo('${x.note.replace(/'/g, '\\"')}')">&#x2139;</button>` : ""}
-            </${x.link ? "a" : "span"}>
-`).join("")
-            }
-        </div>
-        <div class="info${containerIdx}"></div>
-`).join("")
-        }).join("")
-    })
-    //           🛈
-
-    if (window.location.href?.includes("scroller")) {
-        let lastKnownScrollPosition = 0
-        let lastKnownScrollPosition2 = 0
-        let scrollElem = undefined
-        document.addEventListener("scroll", (x) => {
-            if (window.scrollY === lastKnownScrollPosition || window.scrollY === lastKnownScrollPosition2)
-                return
-
-            const delta = window.scrollY - lastKnownScrollPosition
-            console.log("scroll", x, delta, lastKnownScrollPosition, window.scrollY)
-            lastKnownScrollPosition2 = lastKnownScrollPosition
-            lastKnownScrollPosition = window.scrollY
-            if (!scrollElem) {
-                const el = document.getElementById("scroll-conscious")
-                scrollElem = Array.from(el.children)
-                if (el) el.style.opacity = "1"
-            }
-
-            const perc = 100 * window.scrollY / window.innerHeight
-            scrollElem.forEach((x, i) => {
-                    x.style.top =
-                        8 * (i < 10 ? 20 : i < 20 ? 60 : 90)
-                        + Math.abs(Math.sin(i * 0.4)) * -60
-                        + -perc * (1 + Math.abs(Math.sin(i * 0.7) * -14))
-                        + "vh"
-                    // x.style.opacity = Math.min(0.2, perc / 200)
-                }
-            )
-        })
-    }
-</script>
-<div id="scroll-conscious" style="opacity: 0">
-    <div class="scroller ico ico8" style="left: 5%;"></div>
-    <div class="scroller ico ico8" style="left: 74%;"></div>
-    <div class="scroller ico ico8" style="left: 15%;"></div>
-    <div class="scroller ico ico8" style="left: 23%;"></div>
-    <div class="scroller ico ico8" style="left: 45%;"></div>
-    <div class="scroller ico ico8" style="left: 15%;"></div>
-    <div class="scroller ico ico8" style="left: 23%;"></div>
-    <div class="scroller ico ico8" style="left: 45%;"></div>
-    <div class="scroller ico ico8" style="left: 65%;"></div>
-    <div class="scroller ico ico8" style="left: 44%;"></div>
-    <div class="scroller ico ico8" style="left: 35%;"></div>
-    <div class="scroller ico ico8" style="left: 27%;"></div>
-    <div class="scroller ico ico8" style="left: 35%;"></div>
-    <div class="scroller ico ico8" style="left: 65%;"></div>
-    <div class="scroller ico ico8" style="left: 44%;"></div>
-    <div class="scroller ico ico8" style="left: 35%;"></div>
-    <div class="scroller ico ico8" style="left: 27%;"></div>
-    <div class="scroller ico ico8" style="left: 35%;"></div>
-    <div class="scroller ico ico8" style="left: 65%;"></div>
-    <div class="scroller ico ico8" style="left: 44%;"></div>
-    <div class="scroller ico ico8" style="left: 35%;"></div>
-    <div class="scroller ico ico8" style="left: 27%;"></div>
-    <div class="scroller ico ico8" style="left: 15%;"></div>
-    <div class="scroller ico ico8" style="left: 23%;"></div>
-    <div class="scroller ico ico8" style="left: 45%;"></div>
-    <div class="scroller ico ico8" style="left: 65%;"></div>
-    <div class="scroller ico ico8" style="left: 44%;"></div>
-    <div class="scroller ico ico8" style="left: 35%;"></div>
-    <div class="scroller ico ico8" style="left: 27%;"></div>
-    <div class="scroller ico ico8" style="left: 35%;"></div>
-    <div class="scroller ico ico8" style="left: 19%;"></div>
-</div>
-<div class="wrapper">
-    <img src="https://k42.vercel.app/api/hub?event=visited" height="1" width="1"
-         style="display: none" alt=""/>
-    <div class="alert" id="alert">
-        <div id="alertContent"></div>
-        <button class="closebutton" autofocus onclick="window.showInfo('', '')">OK</button>
+<body>
+<div class="all">
+    <div>
+        <label class="logo"><span>Hi</span> there</label>
     </div>
-    <div class="main" id="main">
-        <h1>Karsten Winter - Home</h1>
-        <hr class="divider01"/>
-        <h2>Contact</h2>
-        <hr class="divider01"/>
-        <div class="hub-icons">
-            Loading...
+
+    <div class="hero">
+        <div class="hero-content2">
+            <div class="hero-content">
+                <h1>I am Karsten Winter</h1>
+                <h2>Full Stack and Game Developer and Actor</h2>
+                <br/>
+                <p>
+                    I play <u>improv theatre <span class="tooltip">in Kiel, Germany</span></u> on stage once a month and
+                    work as a software engineer
+                    on
+                    <u>websites <span class="tooltip">React.js and Material UI</span></u>,
+                    <u>server code <span class="tooltip">Next.js</span> </u> and
+                    <u>video games <span class="tooltip">Unity</span></u> for all platforms
+                </p>
+                <br/>
+                <p>
+                    Also, I'm fond of
+                    <u>nonviolent communication
+                        <span class="tooltip">achieving win/win situations by focusing on needs rather than strategies</span>
+                    </u> and
+                    <u>card games <span class="tooltip">e.g. Rummy and Magic</span></u>
+                </p>
+                <br/>
+            </div>
+            <div class="btn-box">
+                <a href="https://cal.com/karsten/15min?notes=hi+there">Contact</a>
+            </div>
         </div>
-        <!--<hr class="divider01"/>
-        <h2>Something missing? Contact me :)</h2>
-        <hr class="divider01"/>
-        © 2024-->
-        <hr class="divider01"/>
+        <div class="social-icon">
+            <a href="https://instagram.com/bykarstenwinter">
+                <svg viewBox="0 0 40 40" style="fill: #ffffff;">
+                    <path stroke="transparent"
+                          d="M20,7c4.2,0,4.7,0,6.3,0.1c1.5,0.1,2.3,0.3,3,0.5C30,8,30.5,8.3,31.1,8.9c0.5,0.5,0.9,1.1,1.2,1.8c0.2,0.5,0.5,1.4,0.5,3 C33,15.3,33,15.8,33,20s0,4.7-0.1,6.3c-0.1,1.5-0.3,2.3-0.5,3c-0.3,0.7-0.6,1.2-1.2,1.8c-0.5,0.5-1.1,0.9-1.8,1.2 c-0.5,0.2-1.4,0.5-3,0.5C24.7,33,24.2,33,20,33s-4.7,0-6.3-0.1c-1.5-0.1-2.3-0.3-3-0.5C10,32,9.5,31.7,8.9,31.1 C8.4,30.6,8,30,7.7,29.3c-0.2-0.5-0.5-1.4-0.5-3C7,24.7,7,24.2,7,20s0-4.7,0.1-6.3c0.1-1.5,0.3-2.3,0.5-3C8,10,8.3,9.5,8.9,8.9 C9.4,8.4,10,8,10.7,7.7c0.5-0.2,1.4-0.5,3-0.5C15.3,7.1,15.8,7,20,7z M20,4.3c-4.3,0-4.8,0-6.5,0.1c-1.6,0-2.8,0.3-3.8,0.7 C8.7,5.5,7.8,6,6.9,6.9C6,7.8,5.5,8.7,5.1,9.7c-0.4,1-0.6,2.1-0.7,3.8c-0.1,1.7-0.1,2.2-0.1,6.5s0,4.8,0.1,6.5 c0,1.6,0.3,2.8,0.7,3.8c0.4,1,0.9,1.9,1.8,2.8c0.9,0.9,1.7,1.4,2.8,1.8c1,0.4,2.1,0.6,3.8,0.7c1.6,0.1,2.2,0.1,6.5,0.1 s4.8,0,6.5-0.1c1.6-0.1,2.9-0.3,3.8-0.7c1-0.4,1.9-0.9,2.8-1.8c0.9-0.9,1.4-1.7,1.8-2.8c0.4-1,0.6-2.1,0.7-3.8 c0.1-1.6,0.1-2.2,0.1-6.5s0-4.8-0.1-6.5c-0.1-1.6-0.3-2.9-0.7-3.8c-0.4-1-0.9-1.9-1.8-2.8c-0.9-0.9-1.7-1.4-2.8-1.8 c-1-0.4-2.1-0.6-3.8-0.7C24.8,4.3,24.3,4.3,20,4.3L20,4.3L20,4.3z"></path>
+                    <path stroke="transparent"
+                          d="M20,11.9c-4.5,0-8.1,3.7-8.1,8.1s3.7,8.1,8.1,8.1s8.1-3.7,8.1-8.1S24.5,11.9,20,11.9z M20,25.2c-2.9,0-5.2-2.3-5.2-5.2 s2.3-5.2,5.2-5.2s5.2,2.3,5.2,5.2S22.9,25.2,20,25.2z"></path>
+                    <path stroke="transparent"
+                          d="M30.6,11.6c0,1-0.8,1.9-1.9,1.9c-1,0-1.9-0.8-1.9-1.9s0.8-1.9,1.9-1.9C29.8,9.7,30.6,10.5,30.6,11.6z"></path>
+                </svg>
+            </a>
+            <a href="https://linkedin.com/in/karsten-winter-83a7411a5">
+                <svg viewBox="0 0 34 34" style="fill: #ffffff;">
+                    <path stroke="transparent"
+                          d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z"></path>
+                </svg>
+            </a>
+        </div>
     </div>
 </div>
 </body>
-       </html>
+</html>
